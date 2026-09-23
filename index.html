@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DayZ Item Database</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <h1>DayZ Item Database</h1>
+            <p>Item information for our modded DayZ server</p>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <!-- Search -->
+        <section class="search-section">
+
+            <label for="searchInput">Search Items</label>
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search by item name..."
+                autocomplete="off"
+            >
+
+        </section>
+
+
+        <!-- Filters -->
+        <section class="filter-section">
+
+            <div class="filter-group">
+
+                <label for="categoryFilter">
+                    Category
+                </label>
+
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                </select>
+
+            </div>
+
+
+            <div class="filter-group">
+
+                <label for="sourceFilter">
+                    Source
+                </label>
+
+                <select id="sourceFilter">
+                    <option value="">All Sources</option>
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- Results -->
+        <section class="results-section">
+
+            <div class="results-header">
+                <h2>Items</h2>
+
+                <span id="resultCount">
+                    0 items
+                </span>
+            </div>
+
+
+            <div id="itemResults" class="item-grid">
+
+                <!-- Items will be generated here by JavaScript -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <p>
+            Item information is provided for reference.
+        </p>
+
+        <p>
+            Found an incorrect item?
+            <a href="#" id="reportLink">
+                Report an issue
+            </a>
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
