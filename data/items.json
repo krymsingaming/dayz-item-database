@@ -1,0 +1,160 @@
+[
+    {
+        "id": "test-hatchet",
+        "name": "Test Hatchet",
+
+        "category": "Equipment",
+        "subcategory": "Melee",
+
+        "source": {
+            "mod": "Test Data",
+            "vanilla": false
+        },
+
+        "inventory": {
+            "size": "2x3",
+            "stackSize": 1
+        },
+
+        "economy": {
+            "traders": [
+                {
+                    "name": "General Trader",
+                    "buy": 500,
+                    "sell": 250
+                }
+            ]
+        },
+
+        "acquisition": [
+            "world_spawn",
+            "trader"
+        ],
+
+        "tags": [
+            "weapon",
+            "melee",
+            "tool",
+            "gathering",
+            "construction"
+        ],
+
+        "characteristics": {
+            "canBeWorn": false,
+            "canBeHeld": true,
+            "canBePlaced": false,
+            "canBeCrafted": false
+        },
+
+        "description": "Test item demonstrating an item with multiple roles."
+    },
+
+
+    {
+        "id": "test-backpack",
+        "name": "Test Backpack",
+
+        "category": "Gear",
+        "subcategory": "Back",
+
+        "source": {
+            "mod": "Test Data",
+            "vanilla": false
+        },
+
+        "inventory": {
+            "size": "4x5",
+            "stackSize": 1
+        },
+
+        "storage": {
+            "capacity": 42
+        },
+
+        "economy": {
+            "traders": [
+                {
+                    "name": "General Trader",
+                    "buy": 1200,
+                    "sell": 600
+                }
+            ]
+        },
+
+        "acquisition": [
+            "world_spawn",
+            "trader"
+        ],
+
+        "tags": [
+            "wearable",
+            "back",
+            "storage"
+        ],
+
+        "characteristics": {
+            "canBeWorn": true,
+            "canBeHeld": true,
+            "canBePlaced": false,
+            "canBeCrafted": false
+        },
+
+        "gear": {
+            "equipmentSlot": "Back"
+        },
+
+        "description": "Test item demonstrating wearable gear with internal storage."
+    },
+
+
+    {
+        "id": "test-gazebo-kit",
+        "name": "Test Gazebo Kit",
+
+        "category": "Deployables",
+        "subcategory": "Building",
+
+        "source": {
+            "mod": "Test Data",
+            "vanilla": false
+        },
+
+        "inventory": {
+            "size": "2x2",
+            "stackSize": 1
+        },
+
+        "economy": {
+            "traders": [
+                {
+                    "name": "Building Trader",
+                    "buy": 2500,
+                    "sell": 1250
+                }
+            ]
+        },
+
+        "acquisition": [
+            "crafting"
+        ],
+
+        "tags": [
+            "deployable",
+            "building",
+            "crafting"
+        ],
+
+        "characteristics": {
+            "canBeWorn": false,
+            "canBeHeld": true,
+            "canBePlaced": true,
+            "canBeCrafted": true
+        },
+
+        "deployable": {
+            "creates": "Test Gazebo"
+        },
+
+        "description": "Test item demonstrating an inventory item that becomes a world object."
+    }
+]
