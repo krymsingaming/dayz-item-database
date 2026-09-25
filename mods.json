@@ -1,0 +1,338 @@
+[
+    {
+        "id": "cf",
+        "name": "CF",
+        "type": "Framework",
+        "catalogableItems": false,
+        "notes": "Community framework used by other DayZ mods."
+    },
+    {
+        "id": "community-online-tools",
+        "name": "Community-Online-Tools",
+        "type": "Admin",
+        "catalogableItems": false,
+        "notes": "GUI-based administrative tools."
+    },
+    {
+        "id": "builderitems",
+        "name": "BuilderItems",
+        "type": "Building / Map",
+        "catalogableItems": true,
+        "notes": "Provides additional objects for map building and editing."
+    },
+    {
+        "id": "trader",
+        "name": "Trader",
+        "type": "Gameplay / Trading",
+        "catalogableItems": true,
+        "notes": "Adds trader cities, safezones and trading functionality."
+    },
+    {
+        "id": "code-lock",
+        "name": "Code Lock",
+        "type": "Building / Utility",
+        "catalogableItems": true,
+        "notes": "Adds code-lock functionality for base gates and doors."
+    },
+    {
+        "id": "gorez",
+        "name": "GoreZ",
+        "type": "Visual / Gameplay",
+        "catalogableItems": false,
+        "notes": "Adds blood and gore effects."
+    },
+    {
+        "id": "server-information-panel",
+        "name": "Server_Information_Panel",
+        "type": "Utility",
+        "catalogableItems": false,
+        "notes": "Adds an in-game server information panel."
+    },
+    {
+        "id": "usefulbatteries",
+        "name": "UsefulBatteries",
+        "type": "Gameplay",
+        "catalogableItems": false,
+        "notes": "Changes battery charge and spawning behavior."
+    },
+    {
+        "id": "basebuildingplus",
+        "name": "BaseBuildingPlus",
+        "type": "Building",
+        "catalogableItems": true,
+        "notes": "Adds extensive base-building content."
+    },
+    {
+        "id": "munghards-itempack",
+        "name": "MunghardsItempack",
+        "type": "Item Pack",
+        "catalogableItems": true,
+        "notes": "Large item pack containing many new items."
+    },
+    {
+        "id": "no-shoe-damage",
+        "name": "No Shoe Damage",
+        "type": "Gameplay",
+        "catalogableItems": false,
+        "notes": "Changes shoe damage behavior."
+    },
+    {
+        "id": "windstrides-clothing-pack",
+        "name": "WindstridesClothingPack",
+        "type": "Clothing",
+        "catalogableItems": true,
+        "notes": "Adds clothing items."
+    },
+    {
+        "id": "ear-plugs",
+        "name": "Ear-Plugs",
+        "type": "Utility",
+        "catalogableItems": false,
+        "notes": "Adds a player sound-volume control."
+    },
+    {
+        "id": "vpp-admin-tools",
+        "name": "VPPAdminTools",
+        "type": "Admin",
+        "catalogableItems": false,
+        "notes": "Administrative tools."
+    },
+    {
+        "id": "flip-transport",
+        "name": "FlipTransport",
+        "type": "Vehicle Utility",
+        "catalogableItems": false,
+        "notes": "Allows vehicles to be flipped or recovered."
+    },
+    {
+        "id": "erapulsar-zombies",
+        "name": "Erapulsar_Zombies",
+        "type": "Gameplay",
+        "catalogableItems": false,
+        "notes": "Adds or modifies zombie content."
+    },
+    {
+        "id": "morefood",
+        "name": "MoreFood",
+        "type": "Consumables",
+        "catalogableItems": true,
+        "notes": "Adds 100+ food items and additional backpacks."
+    },
+    {
+        "id": "airdrop-upgraded",
+        "name": "Airdrop-Upgraded",
+        "type": "Gameplay / Loot",
+        "catalogableItems": true,
+        "notes": "Adds airdrop loot containers and related items."
+    },
+    {
+        "id": "cannabisplus",
+        "name": "CannabisPlus",
+        "type": "Consumables / Crafting",
+        "catalogableItems": true,
+        "notes": "Adds cannabis production, crafting, drying and related items."
+    },
+    {
+        "id": "modular-vest-system",
+        "name": "Modular Vest System",
+        "type": "Gear",
+        "catalogableItems": true,
+        "notes": "Adds modular vest and attachment-related gear."
+    },
+    {
+        "id": "muchstuffpack",
+        "name": "MuchStuffPack",
+        "type": "Item Pack",
+        "catalogableItems": true,
+        "notes": "Item pack. Workshop description states mod support ended with version 1.26."
+    },
+    {
+        "id": "dieselgear",
+        "name": "DieselGear",
+        "type": "Gear",
+        "catalogableItems": true,
+        "notes": "Adds custom gear content."
+    },
+    {
+        "id": "animal-pack",
+        "name": "Animal-Pack",
+        "type": "Animals",
+        "catalogableItems": false,
+        "notes": "Adds retextured animal and pelt content."
+    },
+    {
+        "id": "cocas-no-vehicle-damage",
+        "name": "COCAs_NoVehicleDamageMOD",
+        "type": "Vehicle Gameplay",
+        "catalogableItems": false,
+        "notes": "Changes vehicle damage behavior."
+    },
+    {
+        "id": "muchcarkey",
+        "name": "MuchCarKey",
+        "type": "Vehicle Utility",
+        "catalogableItems": true,
+        "notes": "Adds vehicle key functionality. Workshop description states support ended with version 1.26."
+    },
+    {
+        "id": "zt-vending-machine",
+        "name": "ZT Vending Machine",
+        "type": "Deployable / Utility",
+        "catalogableItems": true,
+        "notes": "Adds 112 vending machine variants."
+    },
+    {
+        "id": "mortys-weapons",
+        "name": "Mortys Weapons",
+        "type": "Weapons",
+        "catalogableItems": true,
+        "notes": "Adds custom weapons and weapon components."
+    },
+    {
+        "id": "teddys-weapon-pack",
+        "name": "TeddysWeaponPack",
+        "type": "Weapons",
+        "catalogableItems": true,
+        "notes": "Adds custom weapons. Workshop description lists scopes, magazines, suppressors, lights, bayonets and ghillie attachments."
+    },
+    {
+        "id": "basic-map",
+        "name": "Basic Map",
+        "type": "Utility / Map",
+        "catalogableItems": false,
+        "notes": "Adds an in-game map interface."
+    },
+    {
+        "id": "dayz-editor-loader",
+        "name": "DayZ Editor Loader",
+        "type": "Map / Utility",
+        "catalogableItems": false,
+        "notes": "Loads DayZ Editor map modifications."
+    },
+    {
+        "id": "more-drugs-with-effects",
+        "name": "More Drugs With Effects",
+        "type": "Consumables",
+        "catalogableItems": true,
+        "notes": "Adds consumable drug items and effects."
+    },
+    {
+        "id": "carcover",
+        "name": "CarCover",
+        "type": "Vehicle Utility",
+        "catalogableItems": true,
+        "notes": "Adds vehicle-cover functionality and related objects."
+    },
+    {
+        "id": "autorun-mod",
+        "name": "Autorun Mod",
+        "type": "Utility",
+        "catalogableItems": false,
+        "notes": "Adds automatic running functionality."
+    },
+    {
+        "id": "notifications",
+        "name": "Notifications",
+        "type": "Utility",
+        "catalogableItems": false,
+        "notes": "Adds an upgraded notification system."
+    },
+    {
+        "id": "blackouts-baja",
+        "name": "Blackouts Baja",
+        "type": "Vehicles",
+        "catalogableItems": true,
+        "notes": "Adds a custom sand rail, buggy or ATV."
+    },
+    {
+        "id": "basic-territories",
+        "name": "Basic Territories",
+        "type": "Building / Territory",
+        "catalogableItems": true,
+        "notes": "Adds territory and claiming functionality."
+    },
+    {
+        "id": "czl-road-cone-snapping",
+        "name": "CZLRoadConeSnapping",
+        "type": "Vehicle Utility",
+        "catalogableItems": true,
+        "notes": "Adds a road cone that interacts with nearby vehicles."
+    },
+    {
+        "id": "dabs-framework",
+        "name": "Dabs Framework",
+        "type": "Framework",
+        "catalogableItems": false,
+        "notes": "Modding framework used by other mods."
+    },
+    {
+        "id": "collectable-items",
+        "name": "Collectable Items",
+        "type": "Collectibles",
+        "catalogableItems": true,
+        "notes": "Adds collectible item content."
+    },
+    {
+        "id": "gebsfish",
+        "name": "gebsfish",
+        "type": "Fishing",
+        "catalogableItems": true,
+        "notes": "Workshop description lists fish, crustaceans, knives, lures, tackle boxes, tools, insect baits and clothing."
+    },
+    {
+        "id": "bbp-item-pack",
+        "name": "BBPItemPack",
+        "type": "Building",
+        "catalogableItems": true,
+        "notes": "Adds items removed from BaseBuildingPlus and additional items."
+    },
+    {
+        "id": "dbo-surfaces",
+        "name": "dbo_surfaces",
+        "type": "Map / Terrain",
+        "catalogableItems": false,
+        "notes": "Provides additional terrain surfaces."
+    },
+    {
+        "id": "supreme-camo",
+        "name": "Supreme Camo",
+        "type": "Clothing",
+        "catalogableItems": true,
+        "notes": "Adds 160+ pieces of clothing and equipment."
+    },
+    {
+        "id": "rag-baseitems",
+        "name": "RaG_BaseItems",
+        "type": "Building / Storage / Furniture",
+        "catalogableItems": true,
+        "notes": "Adds hundreds of storage objects, furniture, workstations, decorations, utilities and interactive machines."
+    },
+    {
+        "id": "rag-vehicle-pack",
+        "name": "RaG_Vehicle_Pack",
+        "type": "Vehicles",
+        "catalogableItems": true,
+        "notes": "Adds multiple vehicles with varying seats, storage and attachment configurations."
+    },
+    {
+        "id": "custom-containers",
+        "name": "Custom Containers",
+        "type": "Storage",
+        "catalogableItems": true,
+        "notes": "Adds reskinned and expanded wooden crate variants."
+    },
+    {
+        "id": "dukes-dope-tees",
+        "name": "Dukes Dope Tees",
+        "type": "Clothing",
+        "catalogableItems": true,
+        "notes": "Adds reskinned tees and hoodies."
+    },
+    {
+        "id": "drippy-sneakers",
+        "name": "Drippy Sneakers",
+        "type": "Clothing",
+        "catalogableItems": true,
+        "notes": "Adds a collection of sneaker variants."
+    }
+]
