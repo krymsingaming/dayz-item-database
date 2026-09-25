@@ -141,3 +141,17 @@
 
     font-size: 0.75rem;
 }
+
+/* ---------- Mod Information ---------- */
+
+.mod-link {
+    color: #ccc;
+
+    text-decoration: none;
+}
+
+.mod-link:hover {
+    color: #fff;
+
+    text-decoration: underline;
+}
