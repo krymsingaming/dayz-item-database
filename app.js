@@ -3,8 +3,11 @@
 // Main Application
 // ============================================
 
-
 let items = [];
+
+let currentItemId = null;
+
+let navigationStack = [];
 
 
 // ---------- Page Elements ----------
@@ -38,6 +41,19 @@ const modalBackground =
 
 const reportLink =
     document.getElementById("reportLink");
+
+
+// ---------- Quick Preview ----------
+
+const quickPreview =
+    document.createElement("div");
+
+quickPreview.className =
+    "relationship-preview";
+
+document.body.appendChild(
+    quickPreview
+);
 
 
 // ---------- Load Database ----------
@@ -110,18 +126,7 @@ function initializeFilters() {
     const sources = [
         ...new Set(
             items
-                .map(item => {
-
-                    if (!item.source) {
-                        return null;
-                    }
-
-                    if (item.source.vanilla) {
-                        return "Vanilla DayZ";
-                    }
-
-                    return item.source.mod;
-                })
+                .map(item => getSourceName(item))
                 .filter(Boolean)
         )
     ];
@@ -144,7 +149,7 @@ function initializeFilters() {
 }
 
 
-// ---------- Get Source Name ----------
+// ---------- Source ----------
 
 function getSourceName(item) {
 
@@ -160,7 +165,17 @@ function getSourceName(item) {
 }
 
 
-// ---------- Search / Filtering ----------
+// ---------- Find Item ----------
+
+function findItem(id) {
+
+    return items.find(
+        item => item.id === id
+    );
+}
+
+
+// ---------- Search ----------
 
 function getFilteredItems() {
 
@@ -266,8 +281,6 @@ function displayItems() {
             "item-card";
 
 
-        // ---------- Basic Card ----------
-
         const sourceName =
             getSourceName(item);
 
@@ -278,8 +291,6 @@ function displayItems() {
                 : "";
 
 
-        // ---------- Hover Preview ----------
-
         let previewRows = "";
 
 
@@ -288,7 +299,9 @@ function displayItems() {
             previewRows += `
                 <div class="item-preview-row">
                     Inventory:
-                    ${item.inventory.size}
+                    ${escapeHtml(
+                        item.inventory.size
+                    )}
                 </div>
             `;
         }
@@ -299,7 +312,8 @@ function displayItems() {
             previewRows += `
                 <div class="item-preview-row">
                     Storage:
-                    ${item.storage.capacity} slots
+                    ${item.storage.capacity}
+                    slots
                 </div>
             `;
         }
@@ -309,9 +323,8 @@ function displayItems() {
 
             previewRows += `
                 <div class="item-preview-row">
-                    Trader:
+                    Traders:
                     ${item.economy.traders.length}
-                    available
                 </div>
             `;
         }
@@ -325,7 +338,8 @@ function displayItems() {
 
             <p>
                 ${escapeHtml(
-                    item.category || "Uncategorized"
+                    item.category ||
+                    "Uncategorized"
                 )}
                 ${escapeHtml(subcategory)}
             </p>
@@ -333,7 +347,6 @@ function displayItems() {
             <p>
                 ${escapeHtml(sourceName)}
             </p>
-
 
             <div class="item-preview">
 
@@ -352,8 +365,6 @@ function displayItems() {
         `;
 
 
-        // ---------- Click ----------
-
         card.addEventListener(
             "click",
             () => openItemModal(item)
@@ -366,23 +377,428 @@ function displayItems() {
 }
 
 
-// ---------- Open Item Modal ----------
+// ---------- Relationship Labels ----------
 
-function openItemModal(item) {
+const relationshipLabels = {
 
-    const sourceName =
-        getSourceName(item);
+    ammo: "Ammunition",
 
+    magazines: "Magazines",
+
+    attachments: "Attachments",
+
+    compatibleWeapons: "Compatible Weapons",
+
+    compatibleMagazines: "Compatible Magazines",
+
+    vehicles: "Vehicles",
+
+    parts: "Parts",
+
+    unlocks: "Unlocks",
+
+    creates: "Creates",
+
+    requiredFor: "Required For"
+
+};
+
+
+// ---------- Get Reverse Relationships ----------
+
+function getReverseRelationships(
+    targetId
+) {
+
+    const results = [];
+
+
+    items.forEach(item => {
+
+        if (!item.relationships) {
+            return;
+        }
+
+
+        Object.entries(
+            item.relationships
+        ).forEach(
+            ([relationshipType, ids]) => {
+
+                if (!Array.isArray(ids)) {
+                    return;
+                }
+
+
+                if (
+                    ids.includes(targetId)
+                ) {
+
+                    results.push({
+
+                        type:
+                            relationshipType,
+
+                        item:
+                            item
+
+                    });
+
+                }
+
+            }
+        );
+
+    });
+
+
+    return results;
+}
+
+
+// ---------- Relationship Display ----------
+
+function createRelatedItemLink(
+    item
+) {
+
+    const wrapper =
+        document.createElement("span");
+
+    wrapper.className =
+        "related-item-wrapper";
+
+
+    const link =
+        document.createElement("button");
+
+    link.className =
+        "related-item";
+
+    link.type =
+        "button";
+
+    link.textContent =
+        item.name;
+
+
+    link.addEventListener(
+        "click",
+        event => {
+
+            event.stopPropagation();
+
+            hideQuickPreview();
+
+            openItemModal(
+                item,
+                true
+            );
+
+        }
+    );
+
+
+    link.addEventListener(
+        "mouseenter",
+        event => {
+
+            showQuickPreview(
+                item,
+                event
+            );
+
+        }
+    );
+
+
+    link.addEventListener(
+        "mouseleave",
+        hideQuickPreview
+    );
+
+
+    wrapper.appendChild(link);
+
+    return wrapper;
+}
+
+
+// ---------- Show Quick Preview ----------
+
+function showQuickPreview(
+    item,
+    event
+) {
+
+    let html = `
+
+        <div class="relationship-preview-title">
+            ${escapeHtml(item.name)}
+        </div>
+
+        <div class="relationship-preview-row">
+            ${escapeHtml(
+                item.category ||
+                "Uncategorized"
+            )}
+        </div>
+
+        <div class="relationship-preview-row">
+            ${escapeHtml(
+                getSourceName(item)
+            )}
+        </div>
+
+    `;
+
+
+    if (item.inventory?.stackSize) {
+
+        html += `
+            <div class="relationship-preview-row">
+                Stack:
+                ${item.inventory.stackSize}
+            </div>
+        `;
+    }
+
+
+    if (item.storage?.capacity) {
+
+        html += `
+            <div class="relationship-preview-row">
+                Storage:
+                ${item.storage.capacity}
+                slots
+            </div>
+        `;
+    }
+
+
+    if (item.ammo?.boxQuantity) {
+
+        html += `
+            <div class="relationship-preview-row">
+                Box:
+                ${item.ammo.boxQuantity}
+                rounds
+            </div>
+        `;
+    }
+
+
+    if (item.magazine?.capacity) {
+
+        html += `
+            <div class="relationship-preview-row">
+                Capacity:
+                ${item.magazine.capacity}
+                rounds
+            </div>
+        `;
+    }
+
+
+    if (
+        item.economy?.traders?.length
+    ) {
+
+        const trader =
+            item.economy.traders[0];
+
+
+        html += `
+            <div class="relationship-preview-row">
+                Buy:
+                ${formatPrice(trader.buy)}
+                &nbsp; / &nbsp;
+                Sell:
+                ${formatPrice(trader.sell)}
+            </div>
+        `;
+    }
+
+
+    html += `
+        <div class="relationship-preview-hint">
+            Click for full details
+        </div>
+    `;
+
+
+    quickPreview.innerHTML =
+        html;
+
+
+    quickPreview.classList.add(
+        "visible"
+    );
+
+
+    positionQuickPreview(
+        event
+    );
+}
+
+
+// ---------- Position Preview ----------
+
+function positionQuickPreview(
+    event
+) {
+
+    const padding = 12;
+
+    const rect =
+        quickPreview.getBoundingClientRect();
+
+
+    let left =
+        event.clientX + 15;
+
+    let top =
+        event.clientY + 15;
+
+
+    if (
+        left + rect.width >
+        window.innerWidth - padding
+    ) {
+
+        left =
+            event.clientX -
+            rect.width -
+            15;
+    }
+
+
+    if (
+        top + rect.height >
+        window.innerHeight - padding
+    ) {
+
+        top =
+            event.clientY -
+            rect.height -
+            15;
+    }
+
+
+    quickPreview.style.left =
+        `${Math.max(
+            padding,
+            left
+        )}px`;
+
+    quickPreview.style.top =
+        `${Math.max(
+            padding,
+            top
+        )}px`;
+}
+
+
+// ---------- Hide Preview ----------
+
+function hideQuickPreview() {
+
+    quickPreview.classList.remove(
+        "visible"
+    );
+}
+
+
+// ---------- Open Item ----------
+
+function openItemModal(
+    item,
+    addToHistory = false
+) {
+
+    hideQuickPreview();
+
+
+    if (
+        addToHistory &&
+        currentItemId
+    ) {
+
+        navigationStack.push(
+            currentItemId
+        );
+    }
+
+
+    currentItemId =
+        item.id;
+
+
+    modalBody.innerHTML =
+        buildItemDetails(item);
+
+
+    itemModal.classList.add(
+        "visible"
+    );
+
+    itemModal.setAttribute(
+        "aria-hidden",
+        "false"
+    );
+
+    document.body.style.overflow =
+        "hidden";
+
+
+    const backButton =
+        document.getElementById(
+            "modalBack"
+        );
+
+
+    if (backButton) {
+
+        backButton.addEventListener(
+            "click",
+            goBack
+        );
+    }
+}
+
+
+// ---------- Build Details ----------
+
+function buildItemDetails(
+    item
+) {
 
     let html = `
 
         <div class="item-detail-header">
+
+            <div class="modal-navigation">
+
+                <button
+                    id="modalBack"
+                    class="modal-back"
+                    ${
+                        navigationStack.length === 0
+                            ? "disabled"
+                            : ""
+                    }
+                >
+                    ← Back
+                </button>
+
+            </div>
 
             <h2 id="modalItemName">
                 ${escapeHtml(item.name)}
             </h2>
 
             <div class="item-detail-subtitle">
+
                 ${escapeHtml(
                     item.category ||
                     "Uncategorized"
@@ -396,6 +812,7 @@ function openItemModal(item) {
                           )
                         : ""
                 }
+
             </div>
 
         </div>
@@ -420,7 +837,9 @@ function openItemModal(item) {
                 </span>
 
                 <span class="detail-value">
-                    ${escapeHtml(sourceName)}
+                    ${escapeHtml(
+                        getSourceName(item)
+                    )}
                 </span>
 
             </div>
@@ -432,7 +851,9 @@ function openItemModal(item) {
                 </span>
 
                 <span class="detail-value">
-                    ${escapeHtml(item.id || "—")}
+                    ${escapeHtml(
+                        item.id || "—"
+                    )}
                 </span>
 
             </div>
@@ -539,6 +960,177 @@ function openItemModal(item) {
     }
 
 
+    // ---------- Weapon ----------
+
+    if (item.weapon) {
+
+        html += `
+
+            <section class="detail-section">
+
+                <h3>
+                    Weapon
+                </h3>
+
+        `;
+
+
+        if (item.weapon.caliber) {
+
+            html += `
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Caliber
+                    </span>
+
+                    <span class="detail-value">
+                        ${escapeHtml(
+                            item.weapon.caliber
+                        )}
+                    </span>
+
+                </div>
+
+            `;
+        }
+
+
+        html += `
+            </section>
+        `;
+    }
+
+
+    // ---------- Ammo ----------
+
+    if (item.ammo) {
+
+        html += `
+
+            <section class="detail-section">
+
+                <h3>
+                    Ammunition
+                </h3>
+
+        `;
+
+
+        if (item.ammo.caliber) {
+
+            html += `
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Caliber
+                    </span>
+
+                    <span class="detail-value">
+                        ${escapeHtml(
+                            item.ammo.caliber
+                        )}
+                    </span>
+
+                </div>
+
+            `;
+        }
+
+
+        if (item.ammo.boxQuantity) {
+
+            html += `
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Box Quantity
+                    </span>
+
+                    <span class="detail-value">
+                        ${item.ammo.boxQuantity}
+                        rounds
+                    </span>
+
+                </div>
+
+            `;
+        }
+
+
+        html += `
+            </section>
+        `;
+    }
+
+
+    // ---------- Magazine ----------
+
+    if (item.magazine) {
+
+        html += `
+
+            <section class="detail-section">
+
+                <h3>
+                    Magazine
+                </h3>
+
+        `;
+
+
+        if (item.magazine.capacity) {
+
+            html += `
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Capacity
+                    </span>
+
+                    <span class="detail-value">
+                        ${item.magazine.capacity}
+                        rounds
+                    </span>
+
+                </div>
+
+            `;
+        }
+
+
+        if (item.magazine.caliber) {
+
+            html += `
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Caliber
+                    </span>
+
+                    <span class="detail-value">
+                        ${escapeHtml(
+                            item.magazine.caliber
+                        )}
+                    </span>
+
+                </div>
+
+            `;
+        }
+
+
+        html += `
+            </section>
+        `;
+    }
+
+
     // ---------- Gear ----------
 
     if (item.gear) {
@@ -567,49 +1159,6 @@ function openItemModal(item) {
                     <span class="detail-value">
                         ${escapeHtml(
                             item.gear.equipmentSlot
-                        )}
-                    </span>
-
-                </div>
-
-            `;
-        }
-
-
-        html += `
-            </section>
-        `;
-    }
-
-
-    // ---------- Deployable ----------
-
-    if (item.deployable) {
-
-        html += `
-
-            <section class="detail-section">
-
-                <h3>
-                    Deployment
-                </h3>
-
-        `;
-
-
-        if (item.deployable.creates) {
-
-            html += `
-
-                <div class="detail-row">
-
-                    <span class="detail-label">
-                        Creates
-                    </span>
-
-                    <span class="detail-value">
-                        ${escapeHtml(
-                            item.deployable.creates
                         )}
                     </span>
 
@@ -712,6 +1261,7 @@ function openItemModal(item) {
                         )}
                     </span>
                 `;
+
             }
         );
 
@@ -724,6 +1274,22 @@ function openItemModal(item) {
 
         `;
     }
+
+
+    // ---------- Relationships ----------
+
+    html +=
+        buildRelationshipSection(
+            item
+        );
+
+
+    // ---------- Reverse Relationships ----------
+
+    html +=
+        buildReverseRelationshipSection(
+            item
+        );
 
 
     // ---------- Tags ----------
@@ -787,27 +1353,256 @@ function openItemModal(item) {
     }
 
 
-    modalBody.innerHTML =
-        html;
+    return html;
+}
 
 
-    itemModal.classList.add(
-        "visible"
+// ---------- Forward Relationships ----------
+
+function buildRelationshipSection(
+    item
+) {
+
+    if (!item.relationships) {
+        return "";
+    }
+
+
+    let html = "";
+
+
+    Object.entries(
+        item.relationships
+    ).forEach(
+        ([type, ids]) => {
+
+            if (!Array.isArray(ids)) {
+                return;
+            }
+
+
+            const relatedItems =
+                ids
+                    .map(id =>
+                        findItem(id)
+                    )
+                    .filter(Boolean);
+
+
+            if (
+                relatedItems.length === 0
+            ) {
+                return;
+            }
+
+
+            html += `
+
+                <section class="detail-section">
+
+                    <h3>
+                        ${escapeHtml(
+                            relationshipLabels[type] ||
+                            formatLabel(type)
+                        )}
+                    </h3>
+
+                    <div class="related-item-list">
+
+            `;
+
+
+            relatedItems.forEach(
+                relatedItem => {
+
+                    const link =
+                        createRelatedItemLink(
+                            relatedItem
+                        );
+
+
+                    html +=
+                        link.outerHTML;
+
+                }
+            );
+
+
+            html += `
+
+                    </div>
+
+                </section>
+
+            `;
+        }
     );
 
-    itemModal.setAttribute(
-        "aria-hidden",
-        "false"
+
+    return html;
+}
+
+
+// ---------- Reverse Relationships ----------
+
+function buildReverseRelationshipSection(
+    item
+) {
+
+    const reverse =
+        getReverseRelationships(
+            item.id
+        );
+
+
+    if (reverse.length === 0) {
+        return "";
+    }
+
+
+    let html = `
+
+        <section class="detail-section">
+
+            <h3>
+                Related Items
+            </h3>
+
+            <div class="related-item-list">
+
+    `;
+
+
+    reverse.forEach(
+        relationship => {
+
+            const label =
+                getReverseLabel(
+                    relationship.type
+                );
+
+
+            const link =
+                createRelatedItemLink(
+                    relationship.item
+                );
+
+
+            html += `
+
+                <div class="reverse-relationship">
+
+                    <span class="relationship-label">
+                        ${escapeHtml(label)}:
+                    </span>
+
+                    ${link.outerHTML}
+
+                </div>
+
+            `;
+        }
     );
 
-    document.body.style.overflow =
-        "hidden";
+
+    html += `
+
+            </div>
+
+        </section>
+
+    `;
+
+
+    return html;
+}
+
+
+// ---------- Reverse Relationship Labels ----------
+
+function getReverseLabel(
+    type
+) {
+
+    const labels = {
+
+        ammo:
+            "Used By",
+
+        magazines:
+            "Used By",
+
+        attachments:
+            "Compatible With",
+
+        compatibleWeapons:
+            "Used By",
+
+        compatibleMagazines:
+            "Used By",
+
+        vehicles:
+            "Used By",
+
+        parts:
+            "Required By",
+
+        unlocks:
+            "Unlocked By",
+
+        creates:
+            "Created By",
+
+        requiredFor:
+            "Required By"
+
+    };
+
+
+    return (
+        labels[type] ||
+        "Related From"
+    );
+}
+
+
+// ---------- Back Navigation ----------
+
+function goBack() {
+
+    if (
+        navigationStack.length === 0
+    ) {
+        return;
+    }
+
+
+    const previousId =
+        navigationStack.pop();
+
+
+    const previousItem =
+        findItem(previousId);
+
+
+    if (!previousItem) {
+        return;
+    }
+
+
+    openItemModal(
+        previousItem,
+        false
+    );
 }
 
 
 // ---------- Close Modal ----------
 
 function closeItemModal() {
+
+    hideQuickPreview();
+
 
     itemModal.classList.remove(
         "visible"
@@ -818,8 +1613,16 @@ function closeItemModal() {
         "true"
     );
 
+
     document.body.style.overflow =
         "";
+
+
+    currentItemId =
+        null;
+
+    navigationStack =
+        [];
 }
 
 
@@ -839,13 +1642,17 @@ document.addEventListener(
     "keydown",
     event => {
 
-        if (
-            event.key === "Escape" &&
-            itemModal.classList.contains(
-                "visible"
-            )
-        ) {
-            closeItemModal();
+        if (event.key === "Escape") {
+
+            if (
+                itemModal.classList.contains(
+                    "visible"
+                )
+            ) {
+
+                closeItemModal();
+
+            }
         }
 
     }
@@ -931,306 +1738,6 @@ function escapeHtml(value) {
 }
 
 
-// ---------- Start Application ----------
-
-loadItems();// ============================================
-// DayZ Item Database
-// Main Application
-// ============================================
-
-
-// --------------------------------------------
-// Application State
-// --------------------------------------------
-
-let items = [];
-
-
-// --------------------------------------------
-// Page Elements
-// --------------------------------------------
-
-const searchInput = document.getElementById("searchInput");
-const categoryFilter = document.getElementById("categoryFilter");
-const sourceFilter = document.getElementById("sourceFilter");
-const itemResults = document.getElementById("itemResults");
-const resultCount = document.getElementById("resultCount");
-
-
-// --------------------------------------------
-// Load Database
-// --------------------------------------------
-
-async function loadItems() {
-
-    try {
-
-        const response = await fetch("data/items.json");
-
-        if (!response.ok) {
-            throw new Error("Unable to load item database.");
-        }
-
-        items = await response.json();
-
-        initializeFilters();
-        displayItems();
-
-    } catch (error) {
-
-        console.error(error);
-
-        itemResults.innerHTML = `
-            <p>
-                Unable to load the item database.
-            </p>
-        `;
-
-        resultCount.textContent = "Database error";
-    }
-}
-
-
-// --------------------------------------------
-// Initialize Filters
-// --------------------------------------------
-
-function initializeFilters() {
-
-    // Categories
-
-    const categories = [
-        ...new Set(
-            items
-                .map(item => item.category)
-                .filter(Boolean)
-        )
-    ];
-
-    categories.sort();
-
-    categories.forEach(category => {
-
-        const option = document.createElement("option");
-
-        option.value = category;
-        option.textContent = category;
-
-        categoryFilter.appendChild(option);
-
-    });
-
-
-    // Sources
-
-    const sources = [
-        ...new Set(
-            items
-                .map(item => {
-
-                    if (!item.source) {
-                        return null;
-                    }
-
-                    if (item.source.vanilla) {
-                        return "Vanilla DayZ";
-                    }
-
-                    return item.source.mod;
-
-                })
-                .filter(Boolean)
-        )
-    ];
-
-    sources.sort();
-
-    sources.forEach(source => {
-
-        const option = document.createElement("option");
-
-        option.value = source;
-        option.textContent = source;
-
-        sourceFilter.appendChild(option);
-
-    });
-
-}
-
-
-// --------------------------------------------
-// Filter Items
-// --------------------------------------------
-
-function getFilteredItems() {
-
-    const searchTerm =
-        searchInput.value
-            .trim()
-            .toLowerCase();
-
-    const selectedCategory =
-        categoryFilter.value;
-
-    const selectedSource =
-        sourceFilter.value;
-
-
-    return items.filter(item => {
-
-        // Search
-
-        const searchableText = [
-
-            item.name,
-            item.category,
-            item.subcategory,
-            item.description,
-
-            ...(item.tags || [])
-
-        ]
-            .filter(Boolean)
-            .join(" ")
-            .toLowerCase();
-
-
-        const matchesSearch =
-            !searchTerm ||
-            searchableText.includes(searchTerm);
-
-
-        // Category
-
-        const matchesCategory =
-            !selectedCategory ||
-            item.category === selectedCategory;
-
-
-        // Source
-
-        let itemSource = "";
-
-        if (item.source) {
-
-            if (item.source.vanilla) {
-                itemSource = "Vanilla DayZ";
-            } else {
-                itemSource = item.source.mod || "";
-            }
-
-        }
-
-        const matchesSource =
-            !selectedSource ||
-            itemSource === selectedSource;
-
-
-        return (
-            matchesSearch &&
-            matchesCategory &&
-            matchesSource
-        );
-
-    });
-
-}
-
-
-// --------------------------------------------
-// Display Items
-// --------------------------------------------
-
-function displayItems() {
-
-    const filteredItems =
-        getFilteredItems();
-
-
-    itemResults.innerHTML = "";
-
-
-    resultCount.textContent =
-        `${filteredItems.length} ${
-            filteredItems.length === 1
-                ? "item"
-                : "items"
-        }`;
-
-
-    if (filteredItems.length === 0) {
-
-        itemResults.innerHTML = `
-            <p>
-                No items found.
-            </p>
-        `;
-
-        return;
-    }
-
-
-    filteredItems.forEach(item => {
-
-        const card =
-            document.createElement("div");
-
-        card.className = "item-card";
-
-
-        const sourceName =
-            item.source?.vanilla
-                ? "Vanilla DayZ"
-                : item.source?.mod || "Unknown";
-
-
-        card.innerHTML = `
-
-            <h3>${item.name}</h3>
-
-            <p>
-                ${item.category || "Uncategorized"}
-            </p>
-
-            <p>
-                ${sourceName}
-            </p>
-
-        `;
-
-
-        itemResults.appendChild(card);
-
-    });
-
-}
-
-
-// --------------------------------------------
-// Event Listeners
-// --------------------------------------------
-
-searchInput.addEventListener(
-    "input",
-    displayItems
-);
-
-
-categoryFilter.addEventListener(
-    "change",
-    displayItems
-);
-
-
-sourceFilter.addEventListener(
-    "change",
-    displayItems
-);
-
-
-// --------------------------------------------
-// Start Application
-// --------------------------------------------
+// ---------- Start ----------
 
 loadItems();
