@@ -5,6 +5,8 @@
 
 let items = [];
 
+let mods = [];
+
 let currentItemId = null;
 
 let navigationStack = [];
@@ -62,34 +64,65 @@ async function loadItems() {
 
     try {
 
-        const response =
-            await fetch("data/items.json");
+        const [
+            itemsResponse,
+            modsResponse
+        ] = await Promise.all([
 
-        if (!response.ok) {
+            fetch("data/items.json"),
+
+            fetch("data/mods.json")
+
+        ]);
+
+
+        if (!itemsResponse.ok) {
+
             throw new Error(
                 "Unable to load item database."
             );
+
         }
 
+
+        if (!modsResponse.ok) {
+
+            throw new Error(
+                "Unable to load mod database."
+            );
+
+        }
+
+
         items =
-            await response.json();
+            await itemsResponse.json();
+
+        mods =
+            await modsResponse.json();
+
 
         initializeFilters();
 
         displayItems();
 
+
     } catch (error) {
 
         console.error(error);
 
+
         itemResults.innerHTML = `
+
             <p>
-                Unable to load the item database.
+                Unable to load the database.
             </p>
+
         `;
+
 
         resultCount.textContent =
             "Database error";
+
     }
 }
 
@@ -157,11 +190,30 @@ function getSourceName(item) {
         return "Unknown";
     }
 
+
     if (item.source.vanilla) {
         return "Vanilla DayZ";
     }
 
-    return item.source.mod || "Unknown";
+
+    if (item.source.modId) {
+
+        const mod =
+            mods.find(
+                mod =>
+                    mod.id ===
+                    item.source.modId
+            );
+
+
+        if (mod) {
+            return mod.name;
+        }
+
+    }
+
+
+    return "Unknown";
 }
 
 
