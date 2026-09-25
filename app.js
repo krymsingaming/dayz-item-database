@@ -509,67 +509,25 @@ function getReverseRelationships(
 
 // ---------- Relationship Display ----------
 
-function createRelatedItemLink(
-    item
-) {
+function createRelatedItemLink(itemId) {
+    const item = findItem(itemId);
 
-    const wrapper =
-        document.createElement("span");
+    if (!item) {
+        return null;
+    }
 
-    wrapper.className =
-        "related-item-wrapper";
+    const wrapper = document.createElement("div");
 
+    wrapper.className = "related-item-wrapper";
 
-    const link =
-        document.createElement("button");
+    const button = document.createElement("button");
 
-    link.className =
-        "related-item";
+    button.type = "button";
+    button.className = "related-item";
+    button.textContent = item.name;
+    button.dataset.itemId = item.id;
 
-    link.type =
-        "button";
-
-    link.textContent =
-        item.name;
-
-
-    link.addEventListener(
-        "click",
-        event => {
-
-            event.stopPropagation();
-
-            hideQuickPreview();
-
-            openItemModal(
-                item,
-                true
-            );
-
-        }
-    );
-
-
-    link.addEventListener(
-        "mouseenter",
-        event => {
-
-            showQuickPreview(
-                item,
-                event
-            );
-
-        }
-    );
-
-
-    link.addEventListener(
-        "mouseleave",
-        hideQuickPreview
-    );
-
-
-    wrapper.appendChild(link);
+    wrapper.appendChild(button);
 
     return wrapper;
 }
@@ -1728,6 +1686,25 @@ modalClose.addEventListener(
     closeItemModal
 );
 
+modalBody.addEventListener("click", function (event) {
+    const button = event.target.closest(".related-item");
+
+    if (!button) {
+        return;
+    }
+
+    const itemId = button.dataset.itemId;
+
+    if (!itemId) {
+        return;
+    }
+
+    const relatedItem = findItem(itemId);
+
+    if (relatedItem) {
+        openItemModal(relatedItem, true);
+}
+});
 
 modalBackground.addEventListener(
     "click",
