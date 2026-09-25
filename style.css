@@ -155,3 +155,17 @@
 
     text-decoration: underline;
 }
+
+/* ---------- Related Item Indicators ---------- */
+
+.related-item::after {
+    content: " →";
+
+    color: #777;
+
+    font-size: 0.8em;
+}
+
+.related-item:hover::after {
+    color: #bbb;
+}
