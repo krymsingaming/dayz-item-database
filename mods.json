@@ -335,4 +335,20 @@
         "catalogableItems": true,
         "notes": "Adds a collection of sneaker variants."
     }
+        },
+    {
+        "id": "test-data",
+        "name": "Test Data",
+        "type": "Testing",
+        "catalogableItems": true,
+        "notes": "Temporary fictional data used during database development."
+    },
+    {
+        "id": "test-weapon-mod",
+        "name": "Test Weapon Mod",
+        "type": "Testing",
+        "catalogableItems": true,
+        "notes": "Temporary fictional weapon data used during database development."
+    }
+]
 ]
