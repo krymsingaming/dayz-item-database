@@ -216,7 +216,6 @@ function getSourceName(item) {
     return "Unknown";
 }
 
-
 // ---------- Find Item ----------
 
 function findItem(id) {
@@ -874,7 +873,7 @@ function buildItemDetails(
 
     // ---------- Basic Information ----------
 
-    html += `
+html += `
 
         <section class="detail-section">
 
@@ -895,6 +894,8 @@ function buildItemDetails(
                 </span>
 
             </div>
+
+            ${buildModInformation(item)}
 
             <div class="detail-row">
 
@@ -1408,6 +1409,50 @@ function buildItemDetails(
     return html;
 }
 
+function buildModInformation(item) {
+
+    if (
+        !item.source ||
+        item.source.vanilla ||
+        !item.source.modId
+    ) {
+
+        return "";
+
+    }
+
+
+    const mod =
+        mods.find(
+            mod =>
+                mod.id ===
+                item.source.modId
+        );
+
+
+    if (!mod) {
+        return "";
+    }
+
+
+    return `
+
+        <div class="detail-row">
+
+            <span class="detail-label">
+                Mod Type
+            </span>
+
+            <span class="detail-value">
+                ${escapeHtml(
+                    mod.type
+                )}
+            </span>
+
+        </div>
+
+    `;
+}
 
 // ---------- Forward Relationships ----------
 
