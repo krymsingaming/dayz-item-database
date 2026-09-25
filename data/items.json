@@ -2,20 +2,16 @@
     {
         "id": "test-hatchet",
         "name": "Test Hatchet",
-
         "category": "Equipment",
         "subcategory": "Melee",
-
         "source": {
             "mod": "Test Data",
             "vanilla": false
         },
-
         "inventory": {
             "size": "2x3",
             "stackSize": 1
         },
-
         "economy": {
             "traders": [
                 {
@@ -25,12 +21,10 @@
                 }
             ]
         },
-
         "acquisition": [
             "world_spawn",
             "trader"
         ],
-
         "tags": [
             "weapon",
             "melee",
@@ -38,39 +32,30 @@
             "gathering",
             "construction"
         ],
-
         "characteristics": {
             "canBeWorn": false,
             "canBeHeld": true,
             "canBePlaced": false,
             "canBeCrafted": false
         },
-
         "description": "Test item demonstrating an item with multiple roles."
     },
-
-
     {
         "id": "test-backpack",
         "name": "Test Backpack",
-
         "category": "Gear",
         "subcategory": "Back",
-
         "source": {
             "mod": "Test Data",
             "vanilla": false
         },
-
         "inventory": {
             "size": "4x5",
             "stackSize": 1
         },
-
         "storage": {
             "capacity": 42
         },
-
         "economy": {
             "traders": [
                 {
@@ -80,50 +65,39 @@
                 }
             ]
         },
-
         "acquisition": [
             "world_spawn",
             "trader"
         ],
-
         "tags": [
             "wearable",
             "back",
             "storage"
         ],
-
         "characteristics": {
             "canBeWorn": true,
             "canBeHeld": true,
             "canBePlaced": false,
             "canBeCrafted": false
         },
-
         "gear": {
             "equipmentSlot": "Back"
         },
-
         "description": "Test item demonstrating wearable gear with internal storage."
     },
-
-
     {
         "id": "test-gazebo-kit",
         "name": "Test Gazebo Kit",
-
         "category": "Deployables",
         "subcategory": "Building",
-
         "source": {
             "mod": "Test Data",
             "vanilla": false
         },
-
         "inventory": {
             "size": "2x2",
             "stackSize": 1
         },
-
         "economy": {
             "traders": [
                 {
@@ -133,28 +107,161 @@
                 }
             ]
         },
-
         "acquisition": [
             "crafting"
         ],
-
         "tags": [
             "deployable",
             "building",
             "crafting"
         ],
-
         "characteristics": {
             "canBeWorn": false,
             "canBeHeld": true,
             "canBePlaced": true,
             "canBeCrafted": true
         },
-
         "deployable": {
             "creates": "Test Gazebo"
         },
-
         "description": "Test item demonstrating an inventory item that becomes a world object."
+    },
+    {
+        "id": "test-glock17",
+        "name": "Test Glock 17",
+        "category": "Equipment",
+        "subcategory": "Sidearm",
+        "source": {
+            "mod": "Test Weapon Mod",
+            "vanilla": false
+        },
+        "inventory": {
+            "size": "2x3",
+            "stackSize": 1
+        },
+        "economy": {
+            "traders": [
+                {
+                    "name": "Weapon Trader",
+                    "buy": 3500,
+                    "sell": 1750
+                }
+            ]
+        },
+        "acquisition": [
+            "trader"
+        ],
+        "tags": [
+            "weapon",
+            "pistol",
+            "sidearm"
+        ],
+        "characteristics": {
+            "canBeWorn": false,
+            "canBeHeld": true,
+            "canBePlaced": false,
+            "canBeCrafted": false
+        },
+        "weapon": {
+            "caliber": "9x19mm"
+        },
+        "relationships": {
+            "ammo": [
+                "test-ammo-9mm"
+            ],
+            "magazines": [
+                "test-glock-magazine"
+            ]
+        },
+        "description": "Test weapon demonstrating linked ammunition and magazine relationships."
+    },
+    {
+        "id": "test-ammo-9mm",
+        "name": "Test 9×19mm Ammunition",
+        "category": "Ammunition",
+        "subcategory": "Pistol",
+        "source": {
+            "vanilla": true
+        },
+        "inventory": {
+            "size": "1x1",
+            "stackSize": 20
+        },
+        "economy": {
+            "traders": [
+                {
+                    "name": "Ammunition Trader",
+                    "buy": 50,
+                    "sell": 25
+                }
+            ]
+        },
+        "acquisition": [
+            "world_spawn",
+            "trader"
+        ],
+        "tags": [
+            "ammo",
+            "9x19mm",
+            "pistol"
+        ],
+        "characteristics": {
+            "canBeWorn": false,
+            "canBeHeld": true,
+            "canBePlaced": false,
+            "canBeCrafted": false
+        },
+        "ammo": {
+            "caliber": "9x19mm",
+            "boxQuantity": 25
+        },
+        "description": "Test ammunition demonstrating a linked relationship to a weapon."
+    },
+    {
+        "id": "test-glock-magazine",
+        "name": "Test Glock 17 Magazine",
+        "category": "Attachments",
+        "subcategory": "Magazine",
+        "source": {
+            "mod": "Test Weapon Mod",
+            "vanilla": false
+        },
+        "inventory": {
+            "size": "1x2",
+            "stackSize": 1
+        },
+        "economy": {
+            "traders": [
+                {
+                    "name": "Weapon Trader",
+                    "buy": 800,
+                    "sell": 400
+                }
+            ]
+        },
+        "acquisition": [
+            "trader"
+        ],
+        "tags": [
+            "magazine",
+            "9x19mm",
+            "pistol"
+        ],
+        "characteristics": {
+            "canBeWorn": false,
+            "canBeHeld": true,
+            "canBePlaced": false,
+            "canBeCrafted": false
+        },
+        "magazine": {
+            "capacity": 17,
+            "caliber": "9x19mm"
+        },
+        "relationships": {
+            "ammo": [
+                "test-ammo-9mm"
+            ]
+        },
+        "description": "Test magazine demonstrating a relationship to ammunition."
     }
 ]
