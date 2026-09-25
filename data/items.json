@@ -4,9 +4,10 @@
         "name": "Test Hatchet",
         "category": "Equipment",
         "subcategory": "Melee",
-        "source": {
-            "mod": "Test Data",
-            "vanilla": false
+       "source": {
+          "modId": "test-data",
+          "vanilla": false
+},
         },
         "inventory": {
             "size": "2x3",
@@ -131,9 +132,10 @@
         "name": "Test Glock 17",
         "category": "Equipment",
         "subcategory": "Sidearm",
-        "source": {
-            "mod": "Test Weapon Mod",
-            "vanilla": false
+            "source": {
+                "modId": "test-weapon-mod",
+                "vanilla": false
+},
         },
         "inventory": {
             "size": "2x3",
