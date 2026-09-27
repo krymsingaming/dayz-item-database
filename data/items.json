@@ -7,7 +7,6 @@
        "source": {
           "modId": "test-data",
           "vanilla": false
-},
         },
         "inventory": {
             "size": "2x3",
@@ -47,7 +46,7 @@
         "category": "Gear",
         "subcategory": "Back",
         "source": {
-            "mod": "Test Data",
+            "modId": "test-data",
             "vanilla": false
         },
         "inventory": {
@@ -135,7 +134,6 @@
             "source": {
                 "modId": "test-weapon-mod",
                 "vanilla": false
-},
         },
         "inventory": {
             "size": "2x3",
@@ -183,7 +181,8 @@
         "category": "Ammunition",
         "subcategory": "Pistol",
         "source": {
-            "vanilla": true
+            "modId": "test-weapon-mod",
+            "vanilla": false
         },
         "inventory": {
             "size": "1x1",
