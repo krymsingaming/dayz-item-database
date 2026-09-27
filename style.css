@@ -1,8 +1,516 @@
+/* ============================================
+   DayZ Item Database
+   Main Styles
+   ============================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #151515;
+    color: #ddd;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height: 1.5;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    padding: 30px 20px 25px;
+
+    background: #1d1d1d;
+
+    border-bottom: 1px solid #333;
+
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 6px;
+
+    color: #fff;
+
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0;
+
+    color: #999;
+}
+
+
+/* ---------- Main Content ---------- */
+
+main {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 25px 20px 40px;
+}
+
+
+/* ---------- Database Notice ---------- */
+
+.database-notice {
+    margin-bottom: 20px;
+
+    padding: 12px 15px;
+
+    background: #202020;
+
+    border: 1px solid #3d3d3d;
+    border-radius: 6px;
+
+    color: #aaa;
+
+    font-size: 0.9rem;
+}
+
+
+/* ---------- Search ---------- */
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    background: #202020;
+
+    border: 1px solid #444;
+    border-radius: 6px;
+
+    color: #fff;
+
+    font: inherit;
+
+    outline: none;
+}
+
+#searchInput:focus {
+    border-color: #777;
+}
+
+#searchInput::placeholder {
+    color: #777;
+}
+
+
+/* ---------- Filters ---------- */
+
+.filters {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.filters select {
+    min-width: 180px;
+
+    padding: 9px 12px;
+
+    background: #202020;
+
+    border: 1px solid #444;
+    border-radius: 5px;
+
+    color: #ddd;
+
+    font: inherit;
+}
+
+.filters select:focus {
+    outline: none;
+
+    border-color: #777;
+}
+
+
+/* ---------- Result Header ---------- */
+
+.results-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.results-header h2 {
+    margin: 0;
+
+    color: #fff;
+
+    font-size: 1.2rem;
+}
+
+#resultCount {
+    color: #888;
+
+    font-size: 0.9rem;
+}
+
+
+/* ---------- Results Grid ---------- */
+
+#itemResults {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fill,
+            minmax(220px, 1fr)
+        );
+
+    gap: 15px;
+}
+
+
+/* ---------- Item Cards ---------- */
+
+.item-card {
+    position: relative;
+
+    min-height: 150px;
+
+    padding: 16px;
+
+    background: #202020;
+
+    border: 1px solid #383838;
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.15s ease,
+        border-color 0.15s ease,
+        transform 0.15s ease;
+}
+
+.item-card:hover {
+    background: #262626;
+
+    border-color: #666;
+
+    transform: translateY(-2px);
+}
+
+.item-card h3 {
+    margin: 0 0 8px;
+
+    color: #fff;
+
+    font-size: 1.05rem;
+}
+
+.item-card p {
+    margin: 4px 0;
+
+    color: #999;
+
+    font-size: 0.85rem;
+}
+
+
+/* ---------- Item Hover Preview ---------- */
+
+.item-preview {
+    position: absolute;
+
+    left: 50%;
+
+    bottom: calc(100% + 10px);
+
+    z-index: 1000;
+
+    width: 230px;
+
+    padding: 12px;
+
+    background: #242424;
+
+    border: 1px solid #555;
+    border-radius: 6px;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transform:
+        translateX(-50%)
+        translateY(5px);
+
+    transition:
+        opacity 0.15s ease,
+        transform 0.15s ease;
+}
+
+.item-card:hover .item-preview {
+    opacity: 1;
+
+    transform:
+        translateX(-50%)
+        translateY(0);
+}
+
+.item-preview-title {
+    margin-bottom: 8px;
+
+    color: #fff;
+
+    font-weight: bold;
+}
+
+.item-preview-row {
+    margin: 4px 0;
+
+    color: #bbb;
+
+    font-size: 0.8rem;
+}
+
+.item-preview-hint {
+    margin-top: 10px;
+
+    padding-top: 8px;
+
+    border-top: 1px solid #444;
+
+    color: #888;
+
+    font-size: 0.75rem;
+}
+
+
+/* ---------- Modal ---------- */
+
+#itemModal {
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 1500;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+#itemModal.visible {
+    display: flex;
+}
+
+#modalBackground {
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+    position: relative;
+
+    z-index: 1;
+
+    width: 100%;
+    max-width: 800px;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    padding: 25px;
+
+    background: #1e1e1e;
+
+    border: 1px solid #444;
+    border-radius: 8px;
+
+    box-shadow:
+        0 15px 50px
+        rgba(0, 0, 0, 0.7);
+}
+
+#modalClose {
+    position: absolute;
+
+    top: 12px;
+    right: 15px;
+
+    width: 32px;
+    height: 32px;
+
+    padding: 0;
+
+    background: transparent;
+
+    border: 0;
+
+    color: #888;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+}
+
+#modalClose:hover {
+    color: #fff;
+}
+
+
+/* ---------- Modal Navigation ---------- */
+
+.modal-navigation {
+    margin-bottom: 12px;
+}
+
+.modal-back {
+    padding: 6px 10px;
+
+    background: #242424;
+
+    border: 1px solid #444;
+    border-radius: 5px;
+
+    color: #aaa;
+
+    cursor: pointer;
+}
+
+.modal-back:hover:not(:disabled) {
+    border-color: #777;
+
+    color: #fff;
+}
+
+.modal-back:disabled {
+    opacity: 0.35;
+
+    cursor: default;
+}
+
+
+/* ---------- Detail Sections ---------- */
+
+.detail-section {
+    margin-top: 20px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #333;
+}
+
+.detail-section h3 {
+    margin: 0 0 12px;
+
+    color: #fff;
+
+    font-size: 1rem;
+}
+
+
+/* ---------- Detail Rows ---------- */
+
+.detail-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 7px 0;
+
+    border-bottom: 1px solid #292929;
+}
+
+.detail-label {
+    color: #999;
+}
+
+.detail-value {
+    color: #ddd;
+
+    text-align: right;
+}
+
+
+/* ---------- Tags ---------- */
+
+.tag-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+}
+
+.tag {
+    display: inline-block;
+
+    padding: 4px 8px;
+
+    background: #292929;
+
+    border: 1px solid #444;
+    border-radius: 4px;
+
+    color: #aaa;
+
+    font-size: 0.8rem;
+}
+
+
+/* ---------- Description ---------- */
+
+.description {
+    color: #bbb;
+
+    white-space: pre-wrap;
+}
+
+
 /* ---------- Related Items ---------- */
 
 .related-item-list {
     display: flex;
+
     flex-wrap: wrap;
+
     gap: 8px;
 }
 
@@ -13,11 +521,10 @@
 .related-item {
     padding: 7px 11px;
 
-    border: 1px solid #555;
-
-    border-radius: 5px;
-
     background: #252525;
+
+    border: 1px solid #555;
+    border-radius: 5px;
 
     color: #ddd;
 
@@ -51,39 +558,6 @@
 }
 
 
-/* ---------- Modal Navigation ---------- */
-
-.modal-navigation {
-    margin-bottom: 12px;
-}
-
-.modal-back {
-    padding: 6px 10px;
-
-    border: 1px solid #444;
-
-    border-radius: 5px;
-
-    background: #242424;
-
-    color: #aaa;
-
-    cursor: pointer;
-}
-
-.modal-back:hover:not(:disabled) {
-    border-color: #777;
-
-    color: #fff;
-}
-
-.modal-back:disabled {
-    opacity: 0.35;
-
-    cursor: default;
-}
-
-
 /* ---------- Relationship Hover Preview ---------- */
 
 .relationship-preview {
@@ -100,7 +574,6 @@
     background: #242424;
 
     border: 1px solid #555;
-
     border-radius: 6px;
 
     box-shadow:
@@ -142,6 +615,7 @@
     font-size: 0.75rem;
 }
 
+
 /* ---------- Mod Information ---------- */
 
 .mod-link {
@@ -156,6 +630,7 @@
     text-decoration: underline;
 }
 
+
 /* ---------- Related Item Indicators ---------- */
 
 .related-item::after {
@@ -168,4 +643,76 @@
 
 .related-item:hover::after {
     color: #bbb;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    padding: 20px;
+
+    border-top: 1px solid #333;
+
+    color: #777;
+
+    text-align: center;
+
+    font-size: 0.85rem;
+}
+
+footer a {
+    color: #aaa;
+
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+
+    text-decoration: underline;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding:
+            20px 12px 30px;
+    }
+
+    #itemResults {
+        grid-template-columns:
+            1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filters select {
+        width: 100%;
+    }
+
+    .modal-content {
+        max-height: 95vh;
+
+        padding: 20px;
+    }
+
+    .detail-row {
+        flex-direction: column;
+
+        gap: 3px;
+    }
+
+    .detail-value {
+        text-align: left;
+    }
+
 }
