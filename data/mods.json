@@ -334,8 +334,7 @@
         "type": "Clothing",
         "catalogableItems": true,
         "notes": "Adds a collection of sneaker variants."
-    }
-        },
+    },
     {
         "id": "test-data",
         "name": "Test Data",
@@ -350,5 +349,4 @@
         "catalogableItems": true,
         "notes": "Temporary fictional weapon data used during database development."
     }
-]
 ]
