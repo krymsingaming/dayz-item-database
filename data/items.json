@@ -91,7 +91,7 @@
         "category": "Deployables",
         "subcategory": "Building",
         "source": {
-            "mod": "Test Data",
+            "modId": "Test Data",
             "vanilla": false
         },
         "inventory": {
@@ -224,7 +224,7 @@
         "category": "Attachments",
         "subcategory": "Magazine",
         "source": {
-            "mod": "Test Weapon Mod",
+            "modId": "Test Weapon Mod",
             "vanilla": false
         },
         "inventory": {
