@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "0.1-alpha",
+  "defaults": {
+    "source": "vanilla",
+    "inventory.maxStack": 1,
+    "availability.trader": true,
+    "availability.worldSpawn": true
+  },
+  "categories": [
+    "Ammunition",
+    "Armor",
+    "Backpack",
+    "Belt",
+    "Clothing",
+    "Container",
+    "Currency",
+    "Firearm",
+    "Firearm Component",
+    "Food",
+    "Gear",
+    "Magazine",
+    "Melee Weapon",
+    "Pouch",
+    "Tool",
+    "Fishing",
+    "Fishing Component",
+    "Other"
+  ],
+  "equipmentSlots": [
+    "Weapon",
+    "Melee",
+    "Vest",
+    "Body",
+    "Belt",
+    "Legs",
+    "Back",
+    "Headgear",
+    "Face",
+    "Eyes",
+    "Gloves",
+    "Feet",
+    "Armband"
+  ],
+  "uses": [
+    "Melee Damage",
+    "Hammer",
+    "Axe",
+    "Saw",
+    "Cutting",
+    "Digging",
+    "Can Opener",
+    "Fishing",
+    "Liquid Container",
+    "Storage"
+  ],
+  "interactionMethods": [
+    "activate",
+    "combine",
+    "toolOnTarget",
+    "assemble",
+    "disassemble",
+    "construct"
+  ],
+  "relationshipTypes": [
+    "usesAmmo",
+    "usesMagazine",
+    "acceptsAttachment",
+    "fitsEquipmentSlot",
+    "produces",
+    "craftedFrom",
+    "soldBy",
+    "fitsInto"
+  ],
+  "reliabilityStates": {
+    "confirmed": {
+      "display": "No marker",
+      "icon": "",
+      "description": "Information is currently accepted."
+    },
+    "missing": {
+      "display": "Missing",
+      "icon": "🛈",
+      "description": "This information may exist, but it has not been entered or confirmed."
+    },
+    "underReview": {
+      "display": "Correction under review",
+      "icon": "✓",
+      "description": "A correction has been reported but has not yet been accepted."
+    },
+    "incorrect": {
+      "display": "Confirmed incorrect",
+      "icon": "⚠︎",
+      "description": "The current value is known or strongly established to be incorrect."
+    },
+    "notApplicable": {
+      "display": "Does not exist / does not apply",
+      "icon": "—",
+      "description": "The information does not exist or does not apply to this item."
+    }
+  },
+  "sourcePriority": [
+    {
+      "id": "user_observation",
+      "name": "Direct server observation",
+      "priority": 1
+    },
+    {
+      "id": "server_spreadsheet",
+      "name": "Server spreadsheet",
+      "priority": 2
+    },
+    {
+      "id": "external_reference",
+      "name": "External reference",
+      "priority": 3
+    },
+    {
+      "id": "player_report",
+      "name": "Player report",
+      "priority": 4
+    }
+  ]
+}

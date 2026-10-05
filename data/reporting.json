@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "provider": "google-form",
+  "formUrl": "",
+  "notes": "Set formUrl when the final Google Form exists. Reports target individual data paths, relationships, or trader listings."
+}

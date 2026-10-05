@@ -1,0 +1,1091 @@
+{
+  "locations": [
+    {
+      "id": "altar",
+      "name": "Altar"
+    },
+    {
+      "id": "green-mountain",
+      "name": "Green Mountain"
+    },
+    {
+      "id": "black-market",
+      "name": "Black Market"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "altar-weapon-trader",
+      "name": "Weapon Trader",
+      "type": "Human NPC",
+      "locations": [
+        "altar",
+        "green-mountain"
+      ]
+    },
+    {
+      "id": "altar-weapon-supplies",
+      "name": "Weapon Supplies",
+      "type": "Human NPC",
+      "locations": [
+        "altar",
+        "green-mountain"
+      ]
+    },
+    {
+      "id": "altar-hunting-fishing",
+      "name": "Hunting and Fishing",
+      "type": "Vending Machine",
+      "locations": [
+        "altar"
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "id": "wt-brass-knuckles",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Melee",
+      "itemId": "canned-bacon",
+      "displayName": "Brass Knuckles",
+      "buy": 500,
+      "sell": 200
+    },
+    {
+      "id": "wt-scythe",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Melee",
+      "itemId": "m4a1-bayonet",
+      "displayName": "Scythe",
+      "buy": 10000,
+      "sell": 2000
+    },
+    {
+      "id": "wt-signal-pistol",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Sidearms",
+      "itemId": "glock17",
+      "displayName": "Signal Pistol",
+      "buy": 1000,
+      "sell": 300
+    },
+    {
+      "id": "wt-derringer",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Sidearms",
+      "itemId": "glock17",
+      "displayName": "Derringer",
+      "sell": 800
+    },
+    {
+      "id": "wt-bk133",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Shotguns",
+      "itemId": "glock17",
+      "displayName": "BK-133",
+      "buy": 1500,
+      "sell": 400
+    },
+    {
+      "id": "wt-r12",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Shotguns",
+      "itemId": "glock17",
+      "displayName": "R12",
+      "buy": 2000,
+      "sell": 600
+    },
+    {
+      "id": "wt-skorpion",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Submachine Guns",
+      "itemId": "glock17",
+      "displayName": "CR-61 Skorpion",
+      "buy": 2000,
+      "sell": 500
+    },
+    {
+      "id": "wt-bizon",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Submachine Guns",
+      "itemId": "glock17",
+      "displayName": "Bizon",
+      "buy": 3000,
+      "sell": 800
+    },
+    {
+      "id": "wt-sporter22",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Rifles",
+      "itemId": "glock17",
+      "displayName": "Sporter 22",
+      "buy": 1000,
+      "sell": 500
+    },
+    {
+      "id": "wt-sg550-1",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Rifles",
+      "itemId": "sg550-01",
+      "displayName": "SG 550",
+      "sell": 1400
+    },
+    {
+      "id": "wt-sg550-2",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Rifles",
+      "itemId": "sg550-02",
+      "displayName": "SG 550",
+      "sell": 1400
+    },
+    {
+      "id": "wt-sg550-3",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Rifles",
+      "itemId": "sg550-03",
+      "displayName": "SG 550",
+      "sell": 3000
+    },
+    {
+      "id": "wt-vss",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Sniper Rifles",
+      "itemId": "sr3",
+      "sell": 8000
+    },
+    {
+      "id": "wt-blaze",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Sniper Rifles",
+      "itemId": "glock17",
+      "buy": 2800,
+      "sell": 1200
+    },
+    {
+      "id": "wt-m79",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Grenades",
+      "itemId": "glock17",
+      "sell": 1300
+    },
+    {
+      "id": "wt-m4flash",
+      "vendorId": "altar-weapon-trader",
+      "menuCategory": "Grenades",
+      "itemId": "glock17",
+      "buy": 300,
+      "sell": 150
+    },
+    {
+      "id": "ws-flare",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Ammunition",
+      "itemId": "9x19",
+      "buy": 200,
+      "sell": 100,
+      "notes": [
+        "Trader sells loose flare ammunition in stacks of 5; prototype item mapping is temporary."
+      ]
+    },
+    {
+      "id": "ws-box-9x19",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Ammunition",
+      "itemId": "box-9x19",
+      "buy": 150,
+      "sell": 50
+    },
+    {
+      "id": "ws-box-9x39",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Ammunition",
+      "itemId": "box-9x39",
+      "buy": 150,
+      "sell": 50
+    },
+    {
+      "id": "ws-box-762",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Ammunition",
+      "itemId": "box-762x54",
+      "buy": 300,
+      "sell": 100
+    },
+    {
+      "id": "ws-box-762tracer",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Ammunition",
+      "itemId": "box-762x54-tracer",
+      "buy": 400,
+      "sell": 200
+    },
+    {
+      "id": "ws-bizonmag",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Magazines",
+      "itemId": "sr3-mag-30",
+      "buy": 1500,
+      "sell": 500
+    },
+    {
+      "id": "ws-vssmag",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Magazines",
+      "itemId": "glock17-mag",
+      "buy": 10000,
+      "sell": 1000
+    },
+    {
+      "id": "ws-ka-handguard-1",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Handguards",
+      "itemId": "mak39-54-handguard",
+      "buy": 150,
+      "sell": 75
+    },
+    {
+      "id": "ws-ka-handguard-2",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Handguards",
+      "itemId": "mak39-54-handguard",
+      "buy": 200,
+      "sell": 100
+    },
+    {
+      "id": "ws-m4-handguard",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Handguards",
+      "itemId": "mak39-54-handguard",
+      "buy": 200,
+      "sell": 100
+    },
+    {
+      "id": "ws-sgstock",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Buttstocks",
+      "itemId": "mak39-54-buttstock",
+      "buy": 400,
+      "sell": 200
+    },
+    {
+      "id": "ws-bizonstock",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Buttstocks",
+      "itemId": "mak39-54-buttstock",
+      "buy": 400,
+      "sell": 200
+    },
+    {
+      "id": "ws-handgun-scope",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Optics",
+      "itemId": "elcan-optic",
+      "buy": 200,
+      "sell": 100,
+      "notes": [
+        "Observed not to fit MAK-54 or Glock18; description says large-caliber handguns/pistols. Exact compatible firearms unverified."
+      ]
+    },
+    {
+      "id": "ws-marksman-scope",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Optics",
+      "itemId": "elcan-optic",
+      "buy": 500,
+      "sell": 200,
+      "notes": [
+        "Observed to fit MAK-54 and not Glock18."
+      ]
+    },
+    {
+      "id": "ws-pistol-suppressor",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Suppressors",
+      "itemId": "universal-suppressor-black",
+      "buy": 300,
+      "sell": 150
+    },
+    {
+      "id": "ws-standard-suppressor",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Suppressors",
+      "itemId": "universal-suppressor-black",
+      "buy": 500,
+      "sell": 250
+    },
+    {
+      "id": "ws-mosin-bayonet",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Bayonets",
+      "itemId": "m4a1-bayonet",
+      "buy": 500,
+      "sell": 250
+    },
+    {
+      "id": "ws-m4-bayonet",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Bayonets",
+      "itemId": "m4a1-bayonet",
+      "buy": 500,
+      "sell": 250
+    },
+    {
+      "id": "ws-universal-flashlight",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Lights",
+      "itemId": "flashlight-hand",
+      "buy": 500,
+      "sell": 200
+    },
+    {
+      "id": "ws-pistol-flashlight",
+      "vendorId": "altar-weapon-supplies",
+      "menuCategory": "Lights",
+      "itemId": "flashlight-hand",
+      "buy": 800,
+      "sell": 400
+    },
+    {
+      "id": "hf-beef-steak-8-pack",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-beef-steak-8-pack",
+      "sell": 350.0
+    },
+    {
+      "id": "hf-venison-steak-8-pack",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-venison-steak-8-pack",
+      "sell": 400.0
+    },
+    {
+      "id": "hf-boar-steak-8-pack",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-boar-steak-8-pack",
+      "sell": 400.0
+    },
+    {
+      "id": "hf-pig-steak-8-pack",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-pig-steak-8-pack",
+      "sell": 400.0
+    },
+    {
+      "id": "hf-wolf-steak-8-pack",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-wolf-steak-8-pack",
+      "sell": 550.0
+    },
+    {
+      "id": "hf-bear-steak-4-pack",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bear-steak-4-pack",
+      "sell": 400.0
+    },
+    {
+      "id": "hf-bone",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bone",
+      "sell": 50.0
+    },
+    {
+      "id": "hf-fat",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-fat",
+      "sell": 225.0
+    },
+    {
+      "id": "hf-guts",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-guts",
+      "sell": 200.0
+    },
+    {
+      "id": "hf-smallguts",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-smallguts",
+      "sell": 200.0
+    },
+    {
+      "id": "hf-bearhead",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bearhead",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-bluegill",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bluegill",
+      "sell": 100.0
+    },
+    {
+      "id": "hf-white-bass",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-white-bass",
+      "sell": 125.0
+    },
+    {
+      "id": "hf-sauger",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-sauger",
+      "sell": 150.0
+    },
+    {
+      "id": "hf-bowfin",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bowfin",
+      "sell": 175.0
+    },
+    {
+      "id": "hf-yellow-perch",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-yellow-perch",
+      "sell": 225.0
+    },
+    {
+      "id": "hf-great-white-shark",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-great-white-shark",
+      "sell": 5000.0
+    },
+    {
+      "id": "hf-leopard-shark",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-leopard-shark",
+      "sell": 3500.0
+    },
+    {
+      "id": "hf-steelhead-trout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-steelhead-trout",
+      "sell": 250.0
+    },
+    {
+      "id": "hf-brown-trout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-brown-trout",
+      "sell": 275.0
+    },
+    {
+      "id": "hf-brook-trout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-brook-trout",
+      "sell": 275.0
+    },
+    {
+      "id": "hf-cutthroat-trout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-cutthroat-trout",
+      "sell": 300.0
+    },
+    {
+      "id": "hf-rainbow-trout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-rainbow-trout",
+      "sell": 275.0
+    },
+    {
+      "id": "hf-lake-trout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-lake-trout",
+      "sell": 325.0
+    },
+    {
+      "id": "hf-carp",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-carp",
+      "sell": 350.0
+    },
+    {
+      "id": "hf-stealheadtrout",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-stealheadtrout",
+      "sell": 350.0
+    },
+    {
+      "id": "hf-walleye-pollock",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-walleye-pollock",
+      "sell": 350.0
+    },
+    {
+      "id": "hf-walleye",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-walleye",
+      "sell": 350.0
+    },
+    {
+      "id": "hf-sunfish",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-sunfish",
+      "sell": 350.0
+    },
+    {
+      "id": "hf-black-bass",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-bass",
+      "sell": 375.0
+    },
+    {
+      "id": "hf-largemout-bass",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-largemout-bass",
+      "sell": 375.0
+    },
+    {
+      "id": "hf-smallmouth-bass",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-smallmouth-bass",
+      "sell": 375.0
+    },
+    {
+      "id": "hf-northern-pike",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-northern-pike",
+      "sell": 450.0
+    },
+    {
+      "id": "hf-angel-shark",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-angel-shark",
+      "sell": 3000.0
+    },
+    {
+      "id": "hf-mahi-mahi",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-mahi-mahi",
+      "sell": 3000.0
+    },
+    {
+      "id": "hf-atlantic-blue-marlin",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-atlantic-blue-marlin",
+      "sell": 2500.0
+    },
+    {
+      "id": "hf-yellowfin-tuna",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-yellowfin-tuna",
+      "sell": 2200.0
+    },
+    {
+      "id": "hf-mackerel",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-mackerel",
+      "sell": 2000.0
+    },
+    {
+      "id": "hf-severum",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-severum",
+      "sell": 900.0
+    },
+    {
+      "id": "hf-humphead-wrasse",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-humphead-wrasse",
+      "sell": 850.0
+    },
+    {
+      "id": "hf-blue-tang",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-blue-tang",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-readhead-cichlid",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-readhead-cichlid",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-rougheye-rock",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-rougheye-rock",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-king-crab",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-king-crab",
+      "sell": 750.0
+    },
+    {
+      "id": "hf-american-lobster",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-american-lobster",
+      "sell": 750.0
+    },
+    {
+      "id": "hf-siamese-tigerfish",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-siamese-tigerfish",
+      "sell": 700.0
+    },
+    {
+      "id": "hf-angelfish",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-angelfish",
+      "sell": 700.0
+    },
+    {
+      "id": "hf-bonita",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bonita",
+      "sell": 675.0
+    },
+    {
+      "id": "hf-pacific-cod",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-pacific-cod",
+      "sell": 650.0
+    },
+    {
+      "id": "hf-cherry-salmon",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-cherry-salmon",
+      "sell": 650.0
+    },
+    {
+      "id": "hf-asian-seabass",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-asian-seabass",
+      "sell": 625.0
+    },
+    {
+      "id": "hf-atlantic-sailfish",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-atlantic-sailfish",
+      "sell": 600.0
+    },
+    {
+      "id": "hf-flathead-mullet",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-flathead-mullet",
+      "sell": 600.0
+    },
+    {
+      "id": "hf-largehead-hairtail",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-largehead-hairtail",
+      "sell": 550.0
+    },
+    {
+      "id": "hf-geb-jellyfish",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-geb-jellyfish",
+      "sell": 500.0
+    },
+    {
+      "id": "hf-geb-shrimp",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-geb-shrimp",
+      "sell": 450.0
+    },
+    {
+      "id": "hf-starfish",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-starfish",
+      "sell": 400.0
+    },
+    {
+      "id": "hf-chinook-salmon",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-chinook-salmon",
+      "sell": 225.0
+    },
+    {
+      "id": "hf-sockeye-salmon",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-sockeye-salmon",
+      "sell": 225.0
+    },
+    {
+      "id": "hf-blood-clam",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-blood-clam",
+      "sell": 150.0
+    },
+    {
+      "id": "hf-hare-leg",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-hare-leg",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-chicken-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-chicken-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-fox-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-fox-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-chevon-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-chevon-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-pork-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-pork-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-boar-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-boar-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-wolf-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-wolf-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-venison-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-venison-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-beef-steak",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-beef-steak",
+      "sell": 30.0
+    },
+    {
+      "id": "hf-sardines",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-sardines",
+      "sell": 50.0
+    },
+    {
+      "id": "hf-black-devil-snail",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-devil-snail",
+      "sell": 50.0
+    },
+    {
+      "id": "hf-mussel",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-mussel",
+      "sell": 50.0
+    },
+    {
+      "id": "hf-slimy-sculpin",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-slimy-sculpin",
+      "sell": 75.0
+    },
+    {
+      "id": "hf-hare-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-hare-pelt",
+      "sell": 700.0
+    },
+    {
+      "id": "hf-goat-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-goat-pelt",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-sheep-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-sheep-pelt",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-cow-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-cow-pelt",
+      "sell": 550.0
+    },
+    {
+      "id": "hf-pig-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-pig-pelt",
+      "sell": 600.0
+    },
+    {
+      "id": "hf-boar-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-boar-pelt",
+      "sell": 800.0
+    },
+    {
+      "id": "hf-headdress",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-headdress",
+      "sell": 500.0
+    },
+    {
+      "id": "hf-fox-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-fox-pelt",
+      "sell": 900.0
+    },
+    {
+      "id": "hf-fox-pelt--2",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-fox-pelt--2",
+      "sell": 1000.0
+    },
+    {
+      "id": "hf-deer-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-deer-pelt",
+      "sell": 2200.0
+    },
+    {
+      "id": "hf-wolf-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-wolf-pelt",
+      "sell": 1500.0
+    },
+    {
+      "id": "hf-brown-wolf-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-brown-wolf-pelt",
+      "sell": 1300.0
+    },
+    {
+      "id": "hf-black-wolf-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-wolf-pelt",
+      "sell": 1700.0
+    },
+    {
+      "id": "hf-hyena-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-hyena-pelt",
+      "sell": 1900.0
+    },
+    {
+      "id": "hf-tuff-wolf-pelt--1-4",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-tuff-wolf-pelt--1-4",
+      "sell": 2750.0
+    },
+    {
+      "id": "hf-bear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bear-pelt",
+      "sell": 3000.0
+    },
+    {
+      "id": "hf-black-bear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-bear-pelt",
+      "sell": 3500.0
+    },
+    {
+      "id": "hf-bloody-bear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-bloody-bear-pelt",
+      "sell": 3600.0
+    },
+    {
+      "id": "hf-polar-bear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-polar-bear-pelt",
+      "sell": 3800.0
+    },
+    {
+      "id": "hf-black-smallbear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-smallbear-pelt",
+      "sell": 3700.0
+    },
+    {
+      "id": "hf-nightcrawler-smallbear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-nightcrawler-smallbear-pelt",
+      "sell": 5000.0
+    },
+    {
+      "id": "hf-brown-smallbear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-brown-smallbear-pelt",
+      "sell": 3700.0
+    },
+    {
+      "id": "hf-lightbrown-smallbear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-lightbrown-smallbear-pelt",
+      "sell": 3700.0
+    },
+    {
+      "id": "hf-black-mediumbear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-mediumbear-pelt",
+      "sell": 4200.0
+    },
+    {
+      "id": "hf-nightcrawler-mediumbear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-nightcrawler-mediumbear-pelt",
+      "sell": 5500.0
+    },
+    {
+      "id": "hf-black-largebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-largebear-pelt",
+      "sell": 4200.0
+    },
+    {
+      "id": "hf-nightcrawler-largebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-nightcrawler-largebear-pelt",
+      "sell": 4200.0
+    },
+    {
+      "id": "hf-brown-largebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-brown-largebear-pelt",
+      "sell": 5500.0
+    },
+    {
+      "id": "hf-lightbrown-largebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-lightbrown-largebear-pelt",
+      "sell": 6500.0
+    },
+    {
+      "id": "hf-black-littlebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-black-littlebear-pelt",
+      "sell": 4750.0
+    },
+    {
+      "id": "hf-nightcrawler-littlebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-nightcrawler-littlebear-pelt",
+      "sell": 5600.0
+    },
+    {
+      "id": "hf-brown-littlebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-brown-littlebear-pelt",
+      "sell": 4750.0
+    },
+    {
+      "id": "hf-lightbrown-littlebear-pelt",
+      "vendorId": "altar-hunting-fishing",
+      "menuCategory": "Uncategorized",
+      "itemId": "hf-lightbrown-littlebear-pelt",
+      "sell": 4750.0
+    }
+  ]
+}

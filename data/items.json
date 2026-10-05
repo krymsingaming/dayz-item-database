@@ -1,268 +1,3003 @@
 [
-    {
-        "id": "test-hatchet",
-        "name": "Test Hatchet",
-        "category": "Equipment",
-        "subcategory": "Melee",
-       "source": {
-          "modId": "test-data",
-          "vanilla": false
-        },
-        "inventory": {
-            "size": "2x3",
-            "stackSize": 1
-        },
-        "economy": {
-            "traders": [
-                {
-                    "name": "General Trader",
-                    "buy": 500,
-                    "sell": 250
-                }
-            ]
-        },
-        "acquisition": [
-            "world_spawn",
-            "trader"
-        ],
-        "tags": [
-            "weapon",
-            "melee",
-            "tool",
-            "gathering",
-            "construction"
-        ],
-        "characteristics": {
-            "canBeWorn": false,
-            "canBeHeld": true,
-            "canBePlaced": false,
-            "canBeCrafted": false
-        },
-        "description": "Test item demonstrating an item with multiple roles."
+  {
+    "id": "sg550-01",
+    "name": "SG 550",
+    "category": "Firearm",
+    "source": {
+      "modId": "vanilla"
     },
-    {
-        "id": "test-backpack",
-        "name": "Test Backpack",
-        "category": "Gear",
-        "subcategory": "Back",
-        "source": {
-            "modId": "test-data",
-            "vanilla": false
-        },
-        "inventory": {
-            "size": "4x5",
-            "stackSize": 1
-        },
-        "storage": {
-            "capacity": 42
-        },
-        "economy": {
-            "traders": [
-                {
-                    "name": "General Trader",
-                    "buy": 1200,
-                    "sell": 600
-                }
-            ]
-        },
-        "acquisition": [
-            "world_spawn",
-            "trader"
-        ],
-        "tags": [
-            "wearable",
-            "back",
-            "storage"
-        ],
-        "characteristics": {
-            "canBeWorn": true,
-            "canBeHeld": true,
-            "canBePlaced": false,
-            "canBeCrafted": false
-        },
-        "gear": {
-            "equipmentSlot": "Back"
-        },
-        "description": "Test item demonstrating wearable gear with internal storage."
+    "inventory": {
+      "dimensions": "8x3"
     },
-    {
-        "id": "test-gazebo-kit",
-        "name": "Test Gazebo Kit",
-        "category": "Deployables",
-        "subcategory": "Building",
-        "source": {
-            "modId": "Test Data",
-            "vanilla": false
-        },
-        "inventory": {
-            "size": "2x2",
-            "stackSize": 1
-        },
-        "economy": {
-            "traders": [
-                {
-                    "name": "Building Trader",
-                    "buy": 2500,
-                    "sell": 1250
-                }
-            ]
-        },
-        "acquisition": [
-            "crafting"
-        ],
-        "tags": [
-            "deployable",
-            "building",
-            "crafting"
-        ],
-        "characteristics": {
-            "canBeWorn": false,
-            "canBeHeld": true,
-            "canBePlaced": true,
-            "canBeCrafted": true
-        },
-        "deployable": {
-            "creates": "Test Gazebo"
-        },
-        "description": "Test item demonstrating an inventory item that becomes a world object."
+    "availability": {
+      "trader": true
     },
-    {
-        "id": "test-glock17",
-        "name": "Test Glock 17",
-        "category": "Equipment",
-        "subcategory": "Sidearm",
-            "source": {
-                "modId": "test-weapon-mod",
-                "vanilla": false
-        },
-        "inventory": {
-            "size": "2x3",
-            "stackSize": 1
-        },
-        "economy": {
-            "traders": [
-                {
-                    "name": "Weapon Trader",
-                    "buy": 3500,
-                    "sell": 1750
-                }
-            ]
-        },
-        "acquisition": [
-            "trader"
-        ],
-        "tags": [
-            "weapon",
-            "pistol",
-            "sidearm"
-        ],
-        "characteristics": {
-            "canBeWorn": false,
-            "canBeHeld": true,
-            "canBePlaced": false,
-            "canBeCrafted": false
-        },
-        "weapon": {
-            "caliber": "9x19mm"
-        },
-        "relationships": {
-            "ammo": [
-                "test-ammo-9mm"
-            ],
-            "magazines": [
-                "test-glock-magazine"
-            ]
-        },
-        "description": "Test weapon demonstrating linked ammunition and magazine relationships."
+    "equipment": {
+      "slots": [
+        "Weapon",
+        "Melee"
+      ]
     },
-    {
-        "id": "test-ammo-9mm",
-        "name": "Test 9×19mm Ammunition",
-        "category": "Ammunition",
-        "subcategory": "Pistol",
-        "source": {
-            "modId": "test-weapon-mod",
-            "vanilla": false
-        },
-        "inventory": {
-            "size": "1x1",
-            "stackSize": 20
-        },
-        "economy": {
-            "traders": [
-                {
-                    "name": "Ammunition Trader",
-                    "buy": 50,
-                    "sell": 25
-                }
-            ]
-        },
-        "acquisition": [
-            "world_spawn",
-            "trader"
-        ],
-        "tags": [
-            "ammo",
-            "9x19mm",
-            "pistol"
-        ],
-        "characteristics": {
-            "canBeWorn": false,
-            "canBeHeld": true,
-            "canBePlaced": false,
-            "canBeCrafted": false
-        },
-        "ammo": {
-            "caliber": "9x19mm",
-            "boxQuantity": 25
-        },
-        "description": "Test ammunition demonstrating a linked relationship to a weapon."
+    "firearm": {
+      "caliber": "7.62x39mm"
     },
-    {
-        "id": "test-glock-magazine",
-        "name": "Test Glock 17 Magazine",
-        "category": "Attachments",
-        "subcategory": "Magazine",
-        "source": {
-            "modId": "Test Weapon Mod",
-            "vanilla": false
-        },
-        "inventory": {
-            "size": "1x2",
-            "stackSize": 1
-        },
-        "economy": {
-            "traders": [
-                {
-                    "name": "Weapon Trader",
-                    "buy": 800,
-                    "sell": 400
-                }
-            ]
-        },
-        "acquisition": [
-            "trader"
-        ],
-        "tags": [
-            "magazine",
-            "9x19mm",
-            "pistol"
-        ],
-        "characteristics": {
-            "canBeWorn": false,
-            "canBeHeld": true,
-            "canBePlaced": false,
-            "canBeCrafted": false
-        },
-        "magazine": {
-            "capacity": 17,
-            "caliber": "9x19mm"
-        },
-        "relationships": {
-            "ammo": [
-                "test-ammo-9mm"
-            ]
-        },
-        "description": "Test magazine demonstrating a relationship to ammunition."
+    "notes": [
+      "Cosmetic furniture differs between same-name trader listings; attachment points have not been confirmed."
+    ]
+  },
+  {
+    "id": "sg550-02",
+    "name": "SG 550",
+    "category": "Firearm",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "8x3"
+    },
+    "availability": {
+      "trader": true
+    },
+    "equipment": {
+      "slots": [
+        "Weapon",
+        "Melee"
+      ]
+    },
+    "firearm": {
+      "caliber": "7.62x39mm"
+    },
+    "notes": [
+      "Cosmetic furniture differs from other same-name listings."
+    ]
+  },
+  {
+    "id": "sg550-03",
+    "name": "SG 550",
+    "category": "Firearm",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "8x3"
+    },
+    "availability": {
+      "trader": true
+    },
+    "equipment": {
+      "slots": [
+        "Weapon",
+        "Melee"
+      ]
+    },
+    "firearm": {
+      "caliber": "7.62x39mm"
+    },
+    "notes": [
+      "Cosmetic furniture differs from other same-name listings."
+    ]
+  },
+  {
+    "id": "mak-frame",
+    "name": "MAK Frame",
+    "category": "Firearm Component",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "3x2"
     }
+  },
+  {
+    "id": "mak54-barrel",
+    "name": "MAK-54 Barrel",
+    "category": "Firearm Component",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "4x1"
+    }
+  },
+  {
+    "id": "mak39-barrel",
+    "name": "MAK-39 Barrel",
+    "category": "Firearm Component",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "4x1"
+    }
+  },
+  {
+    "id": "mak54",
+    "name": "MAK-54",
+    "category": "Firearm",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "8x3"
+    },
+    "equipment": {
+      "slots": [
+        "Weapon",
+        "Melee"
+      ]
+    },
+    "firearm": {
+      "caliber": "7.62x54mmR",
+      "validMagazines": [
+        "mak54-drum"
+      ]
+    },
+    "attachmentPoints": [
+      {
+        "id": "buttstock",
+        "name": "Buttstock",
+        "accepts": {
+          "itemIds": [
+            "mak39-54-buttstock"
+          ]
+        }
+      },
+      {
+        "id": "optics",
+        "name": "Optics",
+        "accepts": {
+          "itemIds": [
+            "elcan-optic"
+          ]
+        }
+      },
+      {
+        "id": "handguard",
+        "name": "Handguard",
+        "accepts": {
+          "itemIds": [
+            "mak39-54-handguard"
+          ]
+        }
+      },
+      {
+        "id": "flashlight",
+        "name": "Flashlight",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "mak-afg",
+        "name": "MAK Angled Foregrip",
+        "accepts": {
+          "itemIds": [
+            "mak-afg"
+          ]
+        }
+      },
+      {
+        "id": "ghilli-wrap",
+        "name": "Ghilli Wrap",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "supressor",
+        "name": "Supressor",
+        "accepts": {
+          "itemIds": [
+            "universal-suppressor-black"
+          ]
+        }
+      },
+      {
+        "id": "magazine",
+        "name": "Magazine",
+        "accepts": {
+          "itemIds": [
+            "mak54-drum"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "mak39",
+    "name": "MAK-39",
+    "category": "Firearm",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "8x3"
+    },
+    "equipment": {
+      "slots": [
+        "Weapon",
+        "Melee"
+      ]
+    },
+    "firearm": {
+      "caliber": "7.62x39mm"
+    }
+  },
+  {
+    "id": "mak54-drum",
+    "name": "MAK-54 Drum",
+    "category": "Magazine",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "3x3"
+    },
+    "magazine": {
+      "capacity": 65,
+      "validAmmo": [
+        "762x54",
+        "762x54-tracer"
+      ]
+    }
+  },
+  {
+    "id": "762x54",
+    "name": "7.62x54mmR",
+    "category": "Ammunition",
+    "subcategory": "Loose",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "maxStack": 100
+    },
+    "ammo": {
+      "caliber": "7.62x54mmR"
+    }
+  },
+  {
+    "id": "762x54-tracer",
+    "name": "7.62x54mmR Tracer",
+    "category": "Ammunition",
+    "subcategory": "Loose",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "maxStack": 100
+    },
+    "ammo": {
+      "caliber": "7.62x54mmR",
+      "tracer": true
+    }
+  },
+  {
+    "id": "box-762x54",
+    "name": "Boxed 7.62x54mmR Rounds",
+    "category": "Ammunition",
+    "subcategory": "Boxed",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    },
+    "ammoBox": {
+      "opensTo": "762x54",
+      "quantity": 20
+    }
+  },
+  {
+    "id": "box-762x54-tracer",
+    "name": "Boxed 7.62x54mmR Tracer Rounds",
+    "category": "Ammunition",
+    "subcategory": "Boxed",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    },
+    "ammoBox": {
+      "opensTo": "762x54-tracer",
+      "quantity": 20
+    }
+  },
+  {
+    "id": "9x19",
+    "name": "9x19mm",
+    "category": "Ammunition",
+    "subcategory": "Loose",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "maxStack": 100
+    },
+    "ammo": {
+      "caliber": "9x19mm"
+    }
+  },
+  {
+    "id": "box-9x19",
+    "name": "Boxed 9x19mm Rounds",
+    "category": "Ammunition",
+    "subcategory": "Boxed",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    },
+    "ammoBox": {
+      "opensTo": "9x19",
+      "quantity": 25
+    }
+  },
+  {
+    "id": "9x39",
+    "name": "9x39",
+    "category": "Ammunition",
+    "subcategory": "Loose",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "maxStack": 100
+    },
+    "ammo": {
+      "caliber": "9x39"
+    }
+  },
+  {
+    "id": "9x39-ap",
+    "name": "9x39 Armor Piercing",
+    "category": "Ammunition",
+    "subcategory": "Loose",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "maxStack": 100
+    },
+    "ammo": {
+      "caliber": "9x39",
+      "armorPiercing": true
+    }
+  },
+  {
+    "id": "box-9x39",
+    "name": "Boxed 9x39mm Rounds",
+    "category": "Ammunition",
+    "subcategory": "Boxed",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    },
+    "ammoBox": {
+      "opensTo": "9x39",
+      "quantity": 20
+    }
+  },
+  {
+    "id": "glock17-mag",
+    "name": "Glock 17 Magazine",
+    "category": "Magazine",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "magazine": {
+      "capacity": 17,
+      "validAmmo": [
+        "9x19"
+      ]
+    }
+  },
+  {
+    "id": "glock17",
+    "name": "Glock 17",
+    "category": "Firearm",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2"
+    },
+    "equipment": {
+      "slots": [
+        "Pistol Holster"
+      ]
+    },
+    "firearm": {
+      "caliber": "9x19mm",
+      "validMagazines": [
+        "glock17-mag"
+      ]
+    }
+  },
+  {
+    "id": "sr3",
+    "name": "SR-3",
+    "category": "Firearm",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "8x3"
+    },
+    "equipment": {
+      "slots": [
+        "Weapon"
+      ]
+    },
+    "firearm": {
+      "caliber": "9x39",
+      "validMagazines": [
+        "sr3-mag-30"
+      ]
+    },
+    "attachmentPoints": [
+      {
+        "id": "optics",
+        "name": "Optics",
+        "accepts": {
+          "itemIds": [
+            "eotech-vudu"
+          ]
+        }
+      },
+      {
+        "id": "supressor",
+        "name": "Supressor",
+        "accepts": {
+          "itemIds": [
+            "universal-suppressor-black"
+          ]
+        }
+      },
+      {
+        "id": "twp-cosmetic",
+        "name": "TWP_Cosmetic",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "magazine",
+        "name": "Magazine",
+        "accepts": {
+          "itemIds": [
+            "sr3-mag-30"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sr3-mag-30",
+    "name": "SR-3_mag_30Rnd",
+    "category": "Magazine",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "2x2"
+    },
+    "magazine": {
+      "capacity": 30,
+      "validAmmo": [
+        "9x39-ap",
+        "9x39"
+      ]
+    }
+  },
+  {
+    "id": "universal-suppressor-black",
+    "name": "Universal Suppressor Black",
+    "category": "Gear",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "3x1"
+    }
+  },
+  {
+    "id": "eotech-vudu",
+    "name": "EOTech Vudu",
+    "category": "Gear",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "2x1"
+    }
+  },
+  {
+    "id": "mak39-54-buttstock",
+    "name": "MAK39/54 Buttstock",
+    "category": "Firearm Component",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    }
+  },
+  {
+    "id": "elcan-optic",
+    "name": "Elcan Optic",
+    "category": "Gear",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "2x1"
+    }
+  },
+  {
+    "id": "mak39-54-handguard",
+    "name": "MAK39/54 Handguard",
+    "category": "Firearm Component",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "2x1"
+    }
+  },
+  {
+    "id": "mak-afg",
+    "name": "MAK AFG",
+    "category": "Firearm Component",
+    "source": {
+      "modId": "dieselgear"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    }
+  },
+  {
+    "id": "munghards-backpack",
+    "name": "Munghards Hiking Backpack",
+    "category": "Backpack",
+    "source": {
+      "modId": "munghards"
+    },
+    "inventory": {
+      "dimensions": "5x7",
+      "size": "10x8"
+    },
+    "clothing": {
+      "slot": "Back",
+      "insulation": "Worst"
+    },
+    "attachmentPoints": [
+      {
+        "id": "firstaidkit",
+        "name": "FirstaidKit",
+        "accepts": {
+          "itemIds": [
+            "first-aid-pouch"
+          ]
+        }
+      },
+      {
+        "id": "binocular",
+        "name": "Binocular",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "gascooker",
+        "name": "GasCooker",
+        "accepts": {
+          "itemIds": [
+            "drysack"
+          ]
+        }
+      },
+      {
+        "id": "cookware",
+        "name": "Cookware",
+        "accepts": {
+          "itemIds": [
+            "drysack"
+          ]
+        }
+      },
+      {
+        "id": "canteen",
+        "name": "Canteen",
+        "accepts": {
+          "itemIds": [
+            "canteen"
+          ]
+        }
+      },
+      {
+        "id": "compass",
+        "name": "Compass",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "mediumtent",
+        "name": "MediumTent",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "radio",
+        "name": "Radio",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "flashlight",
+        "name": "Flashlight",
+        "accepts": {
+          "itemIds": [
+            "flashlight-hand"
+          ]
+        }
+      },
+      {
+        "id": "waterproofbag",
+        "name": "WaterproofBag",
+        "accepts": {
+          "itemIds": [
+            "drysack"
+          ]
+        }
+      },
+      {
+        "id": "tripod",
+        "name": "Tripod",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "strap",
+        "name": "Strap",
+        "accepts": {
+          "itemIds": [
+            "plastic-bottle"
+          ]
+        }
+      },
+      {
+        "id": "weapon",
+        "name": "Weapon",
+        "accepts": {
+          "itemIds": [
+            "sr3"
+          ]
+        }
+      },
+      {
+        "id": "fishing-rod",
+        "name": "Fishing Rod",
+        "accepts": {
+          "itemIds": [
+            "red-fishing-rod"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "first-aid-pouch",
+    "name": "First Aid Pouch",
+    "category": "Pouch",
+    "source": {
+      "modId": "munghards"
+    },
+    "inventory": {
+      "dimensions": "3x3",
+      "size": "3x3"
+    }
+  },
+  {
+    "id": "drysack",
+    "name": "Drysack",
+    "category": "Container",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "4x5",
+      "size": "5x5"
+    }
+  },
+  {
+    "id": "canteen",
+    "name": "Canteen",
+    "category": "Container",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2"
+    },
+    "container": {
+      "capacity": "1L"
+    }
+  },
+  {
+    "id": "flashlight-hand",
+    "name": "Flashlight",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "3x1"
+    },
+    "attachmentPoints": [
+      {
+        "id": "9v-battery",
+        "name": "9V Battery",
+        "accepts": {
+          "itemIds": [
+            "9v-battery"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "9v-battery",
+    "name": "9V Battery",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    }
+  },
+  {
+    "id": "plastic-bottle",
+    "name": "Plastic Bottle",
+    "category": "Container",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x3"
+    },
+    "container": {
+      "liquid": true
+    }
+  },
+  {
+    "id": "red-fishing-rod",
+    "name": "Red Fishing Rod",
+    "category": "Fishing",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x5"
+    },
+    "attachmentPoints": [
+      {
+        "id": "hook",
+        "name": "Hook",
+        "accepts": {
+          "itemIds": [
+            "jig"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "jig",
+    "name": "Jig",
+    "category": "Fishing Component",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    }
+  },
+  {
+    "id": "attack-vest-medic",
+    "name": "AttackVest Medic",
+    "category": "Armor",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "3x2",
+      "size": "8x6"
+    },
+    "clothing": {
+      "slot": "Vest",
+      "insulation": "High"
+    },
+    "attachmentPoints": [
+      {
+        "id": "grenade-1",
+        "name": "Grenade",
+        "accepts": {
+          "itemIds": [
+            "canned-bacon"
+          ]
+        }
+      },
+      {
+        "id": "grenade-2",
+        "name": "Grenade",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "grenade-3",
+        "name": "Grenade",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "grenade-4",
+        "name": "Grenade",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "face",
+        "name": "Face",
+        "accepts": {
+          "itemIds": [
+            "mvs-facemask-black"
+          ]
+        }
+      },
+      {
+        "id": "gloves",
+        "name": "Gloves",
+        "accepts": {
+          "itemIds": [
+            "ortcamo-tactical-gloves"
+          ]
+        }
+      },
+      {
+        "id": "pistol-holster",
+        "name": "Pistol Holster",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "pouches",
+        "name": "Pouches",
+        "accepts": {
+          "itemIds": [
+            "mvs-raid-pouch-black"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "mvs-facemask-black",
+    "name": "MVS Facemask - Black",
+    "category": "Clothing",
+    "source": {
+      "modId": "mvs"
+    },
+    "clothing": {
+      "slot": "Face",
+      "insulation": "Best"
+    },
+    "inventory": {
+      "dimensions": "2x2"
+    }
+  },
+  {
+    "id": "mvs-comtacs-tan",
+    "name": "MVS COMTACS - TAN",
+    "category": "Gear",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "2x2"
+    }
+  },
+  {
+    "id": "ortcamo-tactical-gloves",
+    "name": "ORTCamo Tactical Gloves",
+    "category": "Clothing",
+    "source": {
+      "modId": "mvs"
+    },
+    "clothing": {
+      "slot": "Gloves",
+      "insulation": "Medium"
+    },
+    "inventory": {
+      "dimensions": "2x2"
+    }
+  },
+  {
+    "id": "canned-bacon",
+    "name": "Canned Bacon",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x1"
+    },
+    "uses": [
+      "Can Opener"
+    ]
+  },
+  {
+    "id": "mvs-raid-pouch-black",
+    "name": "MVS Raid Pouch - Black",
+    "category": "Pouch",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "4x3",
+      "size": "6x4"
+    },
+    "attachmentPoints": [
+      {
+        "id": "magazine-4",
+        "name": "Magazine Slot4",
+        "accepts": {
+          "rule": "magazineOrLooseAmmunition"
+        }
+      },
+      {
+        "id": "magazine-5",
+        "name": "Magazine Slot5",
+        "accepts": {
+          "rule": "magazineOrLooseAmmunition"
+        }
+      },
+      {
+        "id": "magazine-7",
+        "name": "Magazine Slot7",
+        "accepts": {
+          "rule": "magazineOrLooseAmmunition"
+        }
+      },
+      {
+        "id": "mvs-screwdriver",
+        "name": "MVS_Screwdriver",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "mvs-pliers",
+        "name": "MVS_Pliers",
+        "accepts": {
+          "itemIds": []
+        }
+      },
+      {
+        "id": "screwdriver",
+        "name": "Screwdriver",
+        "accepts": {
+          "itemIds": [
+            "screwdriver"
+          ]
+        }
+      },
+      {
+        "id": "pliers",
+        "name": "Pliers",
+        "accepts": {
+          "itemIds": [
+            "pliers"
+          ]
+        }
+      },
+      {
+        "id": "mvs-lockpick",
+        "name": "MVS_Lockpick",
+        "accepts": {
+          "itemIds": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "screwdriver",
+    "name": "Screwdriver",
+    "category": "Tool",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "uses": [
+      "Cutting"
+    ]
+  },
+  {
+    "id": "pliers",
+    "name": "Pliers",
+    "category": "Tool",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    }
+  },
+  {
+    "id": "mvs-combat-belt",
+    "name": "MVS Combat Belt - Multicam Black",
+    "category": "Belt",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "4x2"
+    },
+    "clothing": {
+      "slot": "Belt"
+    },
+    "attachmentPoints": [
+      {
+        "id": "strap",
+        "name": "Strap",
+        "accepts": {
+          "itemIds": [
+            "plastic-bottle"
+          ]
+        }
+      },
+      {
+        "id": "modular-pouch-2",
+        "name": "Modular_Pouch_2",
+        "accepts": {
+          "itemIds": [
+            "mvs-raid-pouch-tan",
+            "mvs-magazine-pouch-od"
+          ]
+        }
+      },
+      {
+        "id": "pouches",
+        "name": "Pouches",
+        "accepts": {
+          "itemIds": [
+            "mvs-magazine-pouch-od",
+            "mvs-raid-pouch-tan"
+          ]
+        },
+        "notes": [
+          "MVS Magazine Pouch - OD was observed to need to be attached after the Raid Pouch."
+        ]
+      },
+      {
+        "id": "knife-holster",
+        "name": "Knife Holster",
+        "accepts": {
+          "itemIds": [
+            "sheath"
+          ]
+        }
+      },
+      {
+        "id": "modular-pouch-10",
+        "name": "Modular_Pouch_10",
+        "accepts": {
+          "itemIds": [
+            "mvs-admin-pouch-tan"
+          ]
+        }
+      },
+      {
+        "id": "pistol-holster",
+        "name": "Pistol Holster",
+        "accepts": {
+          "itemIds": [
+            "holster"
+          ]
+        }
+      },
+      {
+        "id": "radio",
+        "name": "Radio",
+        "accepts": {
+          "itemIds": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "mvs-raid-pouch-tan",
+    "name": "MVS Raid Pouch - Tan",
+    "category": "Pouch",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "4x3",
+      "size": "6x4"
+    },
+    "attachmentPoints": [
+      {
+        "id": "magazine-4",
+        "name": "Magazine Slot4",
+        "accepts": {
+          "rule": "magazineOrLooseAmmunition"
+        }
+      },
+      {
+        "id": "magazine-5",
+        "name": "Magazine Slot5",
+        "accepts": {
+          "rule": "magazineOrLooseAmmunition"
+        }
+      },
+      {
+        "id": "magazine-7",
+        "name": "Magazine Slot7",
+        "accepts": {
+          "rule": "magazineOrLooseAmmunition"
+        }
+      },
+      {
+        "id": "screwdriver",
+        "name": "Screwdriver",
+        "accepts": {
+          "itemIds": [
+            "screwdriver"
+          ]
+        }
+      },
+      {
+        "id": "pliers",
+        "name": "Pliers",
+        "accepts": {
+          "itemIds": [
+            "pliers"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "mvs-magazine-pouch-od",
+    "name": "MVS Magazine Pouch - OD",
+    "category": "Pouch",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "4x3",
+      "size": "6x4"
+    }
+  },
+  {
+    "id": "mvs-admin-pouch-tan",
+    "name": "MVS Admin Pouch - Tan",
+    "category": "Pouch",
+    "source": {
+      "modId": "mvs"
+    },
+    "inventory": {
+      "dimensions": "2x3",
+      "size": "3x4"
+    }
+  },
+  {
+    "id": "sheath",
+    "name": "Sheath",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "attachmentPoints": [
+      {
+        "id": "knife",
+        "name": "Knife",
+        "accepts": {
+          "itemIds": [
+            "m4a1-bayonet",
+            "military-knife"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "m4a1-bayonet",
+    "name": "M4-A1 Bayonet",
+    "category": "Melee Weapon",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    }
+  },
+  {
+    "id": "military-knife",
+    "name": "Military Knife",
+    "category": "Melee Weapon",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "equipment": {
+      "slots": []
+    }
+  },
+  {
+    "id": "holster",
+    "name": "Holster",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    }
+  },
+  {
+    "id": "100-ruble-note",
+    "name": "100 Ruble Note",
+    "category": "Currency",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2",
+      "maxStack": 500
+    },
+    "currency": {
+      "value": 100
+    }
+  },
+  {
+    "id": "50-ruble-note",
+    "name": "50 Ruble Note",
+    "category": "Currency",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "currency": {
+      "value": 50
+    }
+  },
+  {
+    "id": "25-ruble-note",
+    "name": "25 Ruble Note",
+    "category": "Currency",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "currency": {
+      "value": 25
+    }
+  },
+  {
+    "id": "10-ruble-note",
+    "name": "10 Ruble Note",
+    "category": "Currency",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "currency": {
+      "value": 10
+    }
+  },
+  {
+    "id": "1-ruble-note",
+    "name": "1 Ruble Note",
+    "category": "Currency",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "1x2"
+    },
+    "currency": {
+      "value": 1
+    }
+  },
+  {
+    "id": "hf-beef-steak-8-pack",
+    "name": "Beef Steak 8 Pack",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 1
+    },
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": true
+    }
+  },
+  {
+    "id": "hf-venison-steak-8-pack",
+    "name": "Venison Steak 8 Pack",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 1
+    },
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": true
+    }
+  },
+  {
+    "id": "hf-boar-steak-8-pack",
+    "name": "Boar Steak 8 Pack",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 1
+    },
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": true
+    }
+  },
+  {
+    "id": "hf-pig-steak-8-pack",
+    "name": "Pig Steak 8 Pack",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 1
+    },
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": true
+    }
+  },
+  {
+    "id": "hf-wolf-steak-8-pack",
+    "name": "Wolf Steak 8 Pack",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 1
+    },
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": true
+    }
+  },
+  {
+    "id": "hf-bear-steak-4-pack",
+    "name": "Bear Steak 4 Pack",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 1
+    },
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": true
+    }
+  },
+  {
+    "id": "hf-bone",
+    "name": "Bone",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {
+      "dimensions": "2x2",
+      "maxStack": 10
+    },
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-fat",
+    "name": "Fat",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-guts",
+    "name": "Guts",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-smallguts",
+    "name": "SmallGuts",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-bearhead",
+    "name": "Bearhead",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-bluegill",
+    "name": "Bluegill",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 15.0
+    }
+  },
+  {
+    "id": "hf-white-bass",
+    "name": "White Bass",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 35.0
+    }
+  },
+  {
+    "id": "hf-sauger",
+    "name": "Sauger",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-bowfin",
+    "name": "Bowfin",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-yellow-perch",
+    "name": "Yellow Perch",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-great-white-shark",
+    "name": "Great White Shark",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 400.0
+    }
+  },
+  {
+    "id": "hf-leopard-shark",
+    "name": "Leopard Shark",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 400.0
+    }
+  },
+  {
+    "id": "hf-steelhead-trout",
+    "name": "Steelhead Trout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": true,
+      "filletSell": 35.0
+    }
+  },
+  {
+    "id": "hf-brown-trout",
+    "name": "Brown Trout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 30.0
+    }
+  },
+  {
+    "id": "hf-brook-trout",
+    "name": "Brook Trout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 30.0
+    }
+  },
+  {
+    "id": "hf-cutthroat-trout",
+    "name": "Cutthroat Trout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 30.0
+    }
+  },
+  {
+    "id": "hf-rainbow-trout",
+    "name": "Rainbow Trout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-lake-trout",
+    "name": "Lake Trout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 30.0
+    }
+  },
+  {
+    "id": "hf-carp",
+    "name": "Carp",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": "X"
+    }
+  },
+  {
+    "id": "hf-stealheadtrout",
+    "name": "StealheadTrout",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": "X"
+    }
+  },
+  {
+    "id": "hf-walleye-pollock",
+    "name": "Walleye Pollock",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": "X"
+    }
+  },
+  {
+    "id": "hf-walleye",
+    "name": "Walleye",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 35.0
+    }
+  },
+  {
+    "id": "hf-sunfish",
+    "name": "Sunfish",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 15.0
+    }
+  },
+  {
+    "id": "hf-black-bass",
+    "name": "Black Bass",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 35.0
+    }
+  },
+  {
+    "id": "hf-largemout-bass",
+    "name": "Largemout Bass",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 40.0
+    }
+  },
+  {
+    "id": "hf-smallmouth-bass",
+    "name": "Smallmouth Bass",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 40.0
+    }
+  },
+  {
+    "id": "hf-northern-pike",
+    "name": "Northern Pike",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false,
+      "filletSell": 40.0
+    }
+  },
+  {
+    "id": "hf-angel-shark",
+    "name": "Angel Shark",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 450.0
+    }
+  },
+  {
+    "id": "hf-mahi-mahi",
+    "name": "Mahi Mahi",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 300.0
+    }
+  },
+  {
+    "id": "hf-atlantic-blue-marlin",
+    "name": "Atlantic Blue Marlin",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 350.0
+    }
+  },
+  {
+    "id": "hf-yellowfin-tuna",
+    "name": "Yellowfin Tuna",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 500.0
+    }
+  },
+  {
+    "id": "hf-mackerel",
+    "name": "Mackerel",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-severum",
+    "name": "Severum",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-humphead-wrasse",
+    "name": "Humphead Wrasse",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-blue-tang",
+    "name": "Blue Tang",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-readhead-cichlid",
+    "name": "Readhead Cichlid",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-rougheye-rock",
+    "name": "Rougheye Rock",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-king-crab",
+    "name": "King Crab",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": true,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-american-lobster",
+    "name": "American Lobster",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-siamese-tigerfish",
+    "name": "Siamese Tigerfish",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-angelfish",
+    "name": "Angelfish",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-bonita",
+    "name": "Bonita",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-pacific-cod",
+    "name": "Pacific Cod",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-cherry-salmon",
+    "name": "Cherry Salmon",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-asian-seabass",
+    "name": "Asian Seabass",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-atlantic-sailfish",
+    "name": "Atlantic Sailfish",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 350.0
+    }
+  },
+  {
+    "id": "hf-flathead-mullet",
+    "name": "Flathead Mullet",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-largehead-hairtail",
+    "name": "Largehead Hairtail",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 50.0
+    }
+  },
+  {
+    "id": "hf-geb-jellyfish",
+    "name": "geb_Jellyfish",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-geb-shrimp",
+    "name": "geb_Shrimp",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-starfish",
+    "name": "Starfish",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-chinook-salmon",
+    "name": "Chinook Salmon",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-sockeye-salmon",
+    "name": "Sockeye Salmon",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 25.0
+    }
+  },
+  {
+    "id": "hf-blood-clam",
+    "name": "Blood Clam",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": true,
+      "crafted": false,
+      "filletSell": 0.0
+    }
+  },
+  {
+    "id": "hf-hare-leg",
+    "name": "Hare Leg",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-chicken-steak",
+    "name": "Chicken Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-fox-steak",
+    "name": "Fox Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-chevon-steak",
+    "name": "Chevon Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-pork-steak",
+    "name": "Pork Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-boar-steak",
+    "name": "Boar Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-wolf-steak",
+    "name": "Wolf Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-venison-steak",
+    "name": "Venison Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-beef-steak",
+    "name": "Beef Steak",
+    "category": "Food",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-sardines",
+    "name": "Sardines",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-devil-snail",
+    "name": "Black Devil Snail",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-mussel",
+    "name": "Mussel",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-slimy-sculpin",
+    "name": "Slimy Sculpin",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": true,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-hare-pelt",
+    "name": "Hare Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": true,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-goat-pelt",
+    "name": "Goat Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-sheep-pelt",
+    "name": "Sheep Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-cow-pelt",
+    "name": "Cow Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-pig-pelt",
+    "name": "Pig Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-boar-pelt",
+    "name": "Boar Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-headdress",
+    "name": "Headdress",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-fox-pelt",
+    "name": "Fox Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-fox-pelt--2",
+    "name": "Fox Pelt (2)",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-deer-pelt",
+    "name": "Deer Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-wolf-pelt",
+    "name": "Wolf Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-brown-wolf-pelt",
+    "name": "Brown Wolf Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-wolf-pelt",
+    "name": "Black Wolf Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-hyena-pelt",
+    "name": "Hyena Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-tuff-wolf-pelt--1-4",
+    "name": "Tuff Wolf Pelt (1-4)",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-bear-pelt",
+    "name": "Bear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-bear-pelt",
+    "name": "Black Bear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-bloody-bear-pelt",
+    "name": "Bloody Bear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-polar-bear-pelt",
+    "name": "Polar Bear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-smallbear-pelt",
+    "name": "black SmallBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-nightcrawler-smallbear-pelt",
+    "name": "NightCrawler SmallBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-brown-smallbear-pelt",
+    "name": "Brown SmallBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-lightbrown-smallbear-pelt",
+    "name": "LightBrown SmallBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-mediumbear-pelt",
+    "name": "Black MediumBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-nightcrawler-mediumbear-pelt",
+    "name": "NightCrawler mediumBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-largebear-pelt",
+    "name": "Black LargeBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-nightcrawler-largebear-pelt",
+    "name": "NightCrawler LargeBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-brown-largebear-pelt",
+    "name": "Brown LargeBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-lightbrown-largebear-pelt",
+    "name": "LightBrown LargeBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-black-littlebear-pelt",
+    "name": "Black LittleBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-nightcrawler-littlebear-pelt",
+    "name": "NightCrawler LittleBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-brown-littlebear-pelt",
+    "name": "Brown LittleBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  },
+  {
+    "id": "hf-lightbrown-littlebear-pelt",
+    "name": "LightBrown LittleBear Pelt",
+    "category": "Gear",
+    "source": {
+      "modId": "vanilla"
+    },
+    "inventory": {},
+    "huntingFishing": {
+      "land": false,
+      "freshWater": false,
+      "ocean": false,
+      "crafted": false
+    }
+  }
 ]

@@ -1,0 +1,1766 @@
+[
+  {
+    "entityType": "item",
+    "entityId": "100-ruble-note",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "100-ruble-note",
+    "dataPath": "inventory.dimensions",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "100-ruble-note",
+    "dataPath": "inventory.maxStack",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "50-ruble-note",
+    "dataPath": "inventory.maxStack",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "25-ruble-note",
+    "dataPath": "inventory.maxStack",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "10-ruble-note",
+    "dataPath": "inventory.maxStack",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "1-ruble-note",
+    "dataPath": "inventory.maxStack",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "mak54",
+    "dataPath": "firearm.validMagazines",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "mak54-drum",
+    "dataPath": "magazine.validAmmo",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "attack-vest-medic",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "munghards-backpack",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-sg550-1",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-sg550-2",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-sg550-3",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-9x19",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-9x19",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-9x39",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-9x39",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-762",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-762",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-762tracer",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "ws-box-762tracer",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-beef",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-venison",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pig",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bear",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-derringer",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-sg550-1",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-sg550-2",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-sg550-3",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-vss",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "wt-m79",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-beef",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-venison",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pig",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bear",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-beef-steak-8-pack",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-beef-steak-8-pack",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-venison-steak-8-pack",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-venison-steak-8-pack",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar-steak-8-pack",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar-steak-8-pack",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pig-steak-8-pack",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pig-steak-8-pack",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf-steak-8-pack",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf-steak-8-pack",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bear-steak-4-pack",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bear-steak-4-pack",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bone",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bone",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fat",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fat",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-guts",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-guts",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-smallguts",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-smallguts",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bearhead",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bearhead",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bluegill",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bluegill",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-white-bass",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-white-bass",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sauger",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sauger",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bowfin",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bowfin",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-yellow-perch",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-yellow-perch",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-great-white-shark",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-great-white-shark",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-leopard-shark",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-leopard-shark",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-steelhead-trout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-steelhead-trout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-trout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-trout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brook-trout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brook-trout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-cutthroat-trout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-cutthroat-trout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-rainbow-trout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-rainbow-trout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lake-trout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lake-trout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-carp",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-carp",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-stealheadtrout",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-stealheadtrout",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-walleye-pollock",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-walleye-pollock",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-walleye",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-walleye",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sunfish",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sunfish",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-bass",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-bass",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-largemout-bass",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-largemout-bass",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-smallmouth-bass",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-smallmouth-bass",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-northern-pike",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-northern-pike",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-angel-shark",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-angel-shark",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-mahi-mahi",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-mahi-mahi",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-atlantic-blue-marlin",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-atlantic-blue-marlin",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-yellowfin-tuna",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-yellowfin-tuna",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-mackerel",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-mackerel",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-severum",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-severum",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-humphead-wrasse",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-humphead-wrasse",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-blue-tang",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-blue-tang",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-readhead-cichlid",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-readhead-cichlid",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-rougheye-rock",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-rougheye-rock",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-king-crab",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-king-crab",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-american-lobster",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-american-lobster",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-siamese-tigerfish",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-siamese-tigerfish",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-angelfish",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-angelfish",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bonita",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bonita",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pacific-cod",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pacific-cod",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-cherry-salmon",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-cherry-salmon",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-asian-seabass",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-asian-seabass",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-atlantic-sailfish",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-atlantic-sailfish",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-flathead-mullet",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-flathead-mullet",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-largehead-hairtail",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-largehead-hairtail",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-geb-jellyfish",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-geb-jellyfish",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-geb-shrimp",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-geb-shrimp",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-starfish",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-starfish",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-chinook-salmon",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-chinook-salmon",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sockeye-salmon",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sockeye-salmon",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-blood-clam",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-blood-clam",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-hare-leg",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-hare-leg",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-chicken-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-chicken-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fox-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fox-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-chevon-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-chevon-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pork-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pork-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-venison-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-venison-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-beef-steak",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-beef-steak",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sardines",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sardines",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-devil-snail",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-devil-snail",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-mussel",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-mussel",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-slimy-sculpin",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-slimy-sculpin",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-hare-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-hare-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-goat-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-goat-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sheep-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-sheep-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-cow-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-cow-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pig-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-pig-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-boar-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-headdress",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-headdress",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fox-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fox-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fox-pelt--2",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-fox-pelt--2",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-deer-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-deer-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-wolf-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-wolf-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-wolf-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-wolf-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-wolf-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-hyena-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-hyena-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-tuff-wolf-pelt--1-4",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-tuff-wolf-pelt--1-4",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-bear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-bear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bloody-bear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-bloody-bear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-polar-bear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-polar-bear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-smallbear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-smallbear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-smallbear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-smallbear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-smallbear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-smallbear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lightbrown-smallbear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lightbrown-smallbear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-mediumbear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-mediumbear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-mediumbear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-mediumbear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-largebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-largebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-largebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-largebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-largebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-largebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lightbrown-largebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lightbrown-largebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-littlebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-black-littlebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-littlebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-nightcrawler-littlebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-littlebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-brown-littlebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lightbrown-littlebear-pelt",
+    "dataPath": "sell",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "traderListing",
+    "entityId": "hf-lightbrown-littlebear-pelt",
+    "dataPath": "buy",
+    "state": "notApplicable",
+    "source": "server_spreadsheet"
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "open-box-9x19",
+    "method": "activate",
+    "inputs": [
+      {
+        "itemId": "box-9x19",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "9x19",
+        "quantity": 25
+      }
+    ]
+  },
+  {
+    "id": "open-box-9x39",
+    "method": "activate",
+    "inputs": [
+      {
+        "itemId": "box-9x39",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "9x39",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "id": "open-box-762",
+    "method": "activate",
+    "inputs": [
+      {
+        "itemId": "box-762x54",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "762x54",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "id": "open-box-762tracer",
+    "method": "activate",
+    "inputs": [
+      {
+        "itemId": "box-762x54-tracer",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "762x54-tracer",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "id": "assemble-mak54",
+    "method": "assemble",
+    "inputs": [
+      {
+        "itemId": "mak-frame",
+        "quantity": 1
+      },
+      {
+        "itemId": "mak54-barrel",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "mak54",
+        "quantity": 1
+      }
+    ],
+    "verification": "reported-or-observed-architecture; exact server process still to be tested"
+  },
+  {
+    "id": "assemble-mak39",
+    "method": "assemble",
+    "inputs": [
+      {
+        "itemId": "mak-frame",
+        "quantity": 1
+      },
+      {
+        "itemId": "mak39-barrel",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "mak39",
+        "quantity": 1
+      }
+    ],
+    "verification": "reported-or-observed-architecture; exact server process still to be tested"
+  },
+  {
+    "id": "disassemble-mak54",
+    "method": "disassemble",
+    "inputs": [
+      {
+        "itemId": "mak54",
+        "quantity": 1
+      },
+      {
+        "itemId": "tool:wrench",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "mak-frame",
+        "quantity": 1
+      },
+      {
+        "itemId": "mak54-barrel",
+        "quantity": 1
+      }
+    ],
+    "verification": "tool/process needs direct confirmation"
+  },
+  {
+    "id": "disassemble-mak39",
+    "method": "disassemble",
+    "inputs": [
+      {
+        "itemId": "mak39",
+        "quantity": 1
+      },
+      {
+        "itemId": "tool:wrench",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "itemId": "mak-frame",
+        "quantity": 1
+      },
+      {
+        "itemId": "mak39-barrel",
+        "quantity": 1
+      }
+    ],
+    "verification": "tool/process needs direct confirmation"
+  }
+]
