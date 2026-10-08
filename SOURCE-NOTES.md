@@ -1,6 +1,6 @@
-# Source Notes — Alpha 9
+# Source Notes — Beta 1.0.0
 
-Alpha 9 carries forward the Alpha 5 data import and vehicle enrichment. The primary change in this release is UI/navigation architecture.
+Beta 1.0.0 carries forward the Alpha 5 data import and vehicle enrichment. The primary change in this release is UI/navigation architecture.
 
 ## Trader/item crossover
 
@@ -28,7 +28,7 @@ Where trader evidence and the existing spreadsheet vehicle data identify the sam
 
 Vehicle part listings can be used to infer temporary attachment-point names. Such inferred names remain explicitly provisional and should be corrected when stronger evidence becomes available.
 
-## Alpha 9 data/UI refinement
+## Beta 1.0.0 data/UI refinement
 - Replaced browser-clipped CSS-only hover tooltips with a short-delay global tooltip (~120 ms) so markers work inside horizontally clipped item rows.
 - Confirmed unavailable trader actions use ❌; missing/unverified information uses ⚠; inferred/review information uses ⓘ.
 - Item and trader category browsers use the same hierarchical navigation pattern; root headings reset to the full view.

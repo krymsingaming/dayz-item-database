@@ -42719,5 +42719,1154 @@
     "ammo": {
       "caliber": "12 Gauge"
     }
+  },
+  {
+    "id": "vehicle-key-vehicle-key",
+    "name": "Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-blue",
+    "name": "Blue Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-green",
+    "name": "Green Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-white",
+    "name": "White Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-yellow",
+    "name": "Yellow Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-red",
+    "name": "Red Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-purple",
+    "name": "Purple Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-pink",
+    "name": "Pink Vehicle Key",
+    "category": "Key",
+    "subcategory": "Vehicle Keys",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key",
+      "Assigns to an unlocked vehicle",
+      "Has one Key Tag attachment point"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "attachmentPoints": [
+      {
+        "id": "key-tag",
+        "name": "Key Tag",
+        "quantity": 1,
+        "accepts": {
+          "itemIds": [
+            "vehicle-key-tag-vehicle-key",
+            "vehicle-key-tag-olga-24-black",
+            "vehicle-key-tag-olga-24-white",
+            "vehicle-key-tag-olga-24-wine",
+            "vehicle-key-tag-ada-4x4-blue",
+            "vehicle-key-tag-ada-4x4-white",
+            "vehicle-key-tag-ada-4x4-green",
+            "vehicle-key-tag-gunter-2-blue",
+            "vehicle-key-tag-gunter-2-black",
+            "vehicle-key-tag-gunter-2-red",
+            "vehicle-key-tag-sarka-120-grey",
+            "vehicle-key-tag-sarka-120-red",
+            "vehicle-key-tag-sarka-120-yellow",
+            "vehicle-key-tag-black",
+            "vehicle-key-tag-blue",
+            "vehicle-key-tag-green",
+            "vehicle-key-tag-grey",
+            "vehicle-key-tag-red",
+            "vehicle-key-tag-white",
+            "vehicle-key-tag-yellow"
+          ],
+          "rule": "Vehicle Key Tags"
+        }
+      }
+    ],
+    "notes": [
+      "Buying and assigning a key does not reveal which vehicle it was assigned to. The key remains identified by its color/name and shows only that it has been assigned. Key Tags provide a visual distinction for otherwise identical keys."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-vehicle-key",
+    "name": "Vehicle Key Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys",
+      "Generic key tag"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-olga-24-black",
+    "name": "Olga 24 Black Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-olga-24-white",
+    "name": "Olga 24 White Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-olga-24-wine",
+    "name": "Olga 24 Wine Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-ada-4x4-blue",
+    "name": "Ada 4x4 Blue Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-ada-4x4-white",
+    "name": "Ada 4x4 White Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-ada-4x4-green",
+    "name": "Ada 4x4 Green Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-gunter-2-blue",
+    "name": "Gunter 2 Blue Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-gunter-2-black",
+    "name": "Gunter 2 Black Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-gunter-2-red",
+    "name": "Gunter 2 Red Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-sarka-120-grey",
+    "name": "Sarka 120 Grey Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-sarka-120-red",
+    "name": "Sarka 120 Red Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-sarka-120-yellow",
+    "name": "Sarka 120 Yellow Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-black",
+    "name": "Black Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-blue",
+    "name": "Blue Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-green",
+    "name": "Green Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-grey",
+    "name": "Grey Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-red",
+    "name": "Red Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-white",
+    "name": "White Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
+  },
+  {
+    "id": "vehicle-key-tag-yellow",
+    "name": "Yellow Tag",
+    "category": "Attachment",
+    "subcategory": "Key Tags",
+    "source": {
+      "modId": "unknown"
+    },
+    "availability": {
+      "trader": true,
+      "worldSpawn": null
+    },
+    "properties": [
+      "Vehicle Key Tag",
+      "Attaches to Vehicle Keys"
+    ],
+    "inventory": {
+      "maxStack": 1
+    },
+    "relationships": {
+      "fitsInto": [
+        "vehicle-key-vehicle-key",
+        "vehicle-key-blue",
+        "vehicle-key-green",
+        "vehicle-key-white",
+        "vehicle-key-yellow",
+        "vehicle-key-red",
+        "vehicle-key-purple",
+        "vehicle-key-pink"
+      ]
+    },
+    "notes": [
+      "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
+    ]
   }
 ]

@@ -36,7 +36,10 @@
     "Eyes",
     "Armband",
     "Holster",
-    "Throwable"
+    "Throwable",
+    "Vehicle",
+    "Vehicle Part",
+    "Key"
   ],
   "equipmentSlots": [
     "Weapon",
@@ -403,6 +406,19 @@
               "Pouch"
             ]
           }
+        },
+        {
+          "id": "attachment-key-tags",
+          "label": "Key Tags",
+          "match": {
+            "categories": [
+              "Attachment"
+            ],
+            "subcategories": [
+              "Key Tags"
+            ]
+          },
+          "children": []
         }
       ]
     },

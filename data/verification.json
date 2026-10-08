@@ -2518,5 +2518,1769 @@
     "dataPath": "ballistics.damage",
     "state": "inferred",
     "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-vehicle-key",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-blue",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-green",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-white",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-yellow",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-red",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-purple",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "attachmentPoints",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-pink",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-vehicle-key",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-black",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-white",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-olga-24-wine",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-blue",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-white",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-ada-4x4-green",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-blue",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-black",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-gunter-2-red",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-grey",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-red",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-sarka-120-yellow",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-black",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-blue",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-green",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-grey",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-red",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-white",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "name",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "category",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "subcategory",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "availability.trader",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "relationships.fitsInto",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "properties",
+    "state": "confirmed",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vehicle-key-tag-yellow",
+    "dataPath": "source.modId",
+    "state": "missing",
+    "source": null
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-blue-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-blue-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-green-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-green-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-white-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-white-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-yellow-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-yellow-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-red-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-red-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-purple-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-purple-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-pink-vehicle-key",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-keys-pink-vehicle-key",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-vehicle-key-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-vehicle-key-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-olga-24-black-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-olga-24-black-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-olga-24-white-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-olga-24-white-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-olga-24-wine-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-olga-24-wine-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-ada-4x4-blue-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-ada-4x4-blue-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-ada-4x4-white-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-ada-4x4-white-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-ada-4x4-green-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-ada-4x4-green-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-gunter-2-blue-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-gunter-2-blue-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-gunter-2-black-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-gunter-2-black-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-gunter-2-red-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-gunter-2-red-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-sarka-120-grey-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-sarka-120-grey-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-sarka-120-red-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-sarka-120-red-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-sarka-120-yellow-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-sarka-120-yellow-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-black-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-black-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-blue-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-blue-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-green-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-green-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-grey-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-grey-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-red-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-red-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-white-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-white-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-yellow-tag",
+    "dataPath": "buy",
+    "state": "confirmed",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "trader",
+    "entityId": "altar-vehicle-key-tags-yellow-tag",
+    "dataPath": "sell",
+    "state": "notApplicable",
+    "source": "user_observation"
   }
 ]

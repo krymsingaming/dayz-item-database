@@ -8534,198 +8534,6 @@
       "sell": 100
     },
     {
-      "id": "altar5-2839b8d1d33a30",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1089-2013bc34",
-      "buy": 24,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-af2f91bda38963",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1090-2013bc34",
-      "buy": 24,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-f37e67afd2738d",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1091-2013bc34",
-      "buy": 24,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-bf3d19aff169a9",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1092-e7ec3e96",
-      "buy": 4,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-e2c50a9462b18f",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1093-e7ec3e96",
-      "buy": 4,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-f1c1d80ba637af",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1094-e7ec3e96",
-      "buy": 4,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-ed750ee9377355",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1095-f9d6e19c",
-      "buy": 2,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-3d2871fe763ab5",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1096-f9d6e19c",
-      "buy": 2,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-4f2e364932913b",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1097-f9d6e19c",
-      "buy": 2,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-a6fa259dbe0590",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1098-7e1f8744",
-      "buy": 120,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-0eae2575720d5c",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1099-7e1f8744",
-      "buy": 120,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-2a04a4560fbfd3",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-137-1100-7e1f8744",
-      "buy": 120,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-02c049af7755ae",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1101-2013bc34",
-      "buy": 24,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-6525f5b230ef74",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1102-2013bc34",
-      "buy": 24,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-5154962a8ca845",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1103-2013bc34",
-      "buy": 24,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-e783c8e95112e8",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1104-e7ec3e96",
-      "buy": 4,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-91735e20c5873f",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1105-e7ec3e96",
-      "buy": 4,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-e3b59b110596aa",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1106-e7ec3e96",
-      "buy": 4,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-28c43f12116361",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1107-f9d6e19c",
-      "buy": 2,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-3377641539e183",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1108-f9d6e19c",
-      "buy": 2,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-32c1efe68c657a",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1109-f9d6e19c",
-      "buy": 2,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-f53bb841253310",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1110-7e1f8744",
-      "buy": 120,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-4281309a1df511",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1111-7e1f8744",
-      "buy": 120,
-      "sell": 1500
-    },
-    {
-      "id": "altar5-924025277ab68e",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Vehicle Keys",
-      "itemId": "altar-138-1112-7e1f8744",
-      "buy": 120,
-      "sell": 1500
-    },
-    {
       "id": "altar5-a38d748427a63b",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Vehicle Parts",
@@ -21461,6 +21269,230 @@
       "itemId": "flare",
       "buy": 200,
       "sell": 100
+    },
+    {
+      "id": "altar-vehicle-keys-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-vehicle-key",
+      "displayName": "Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-blue-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-blue",
+      "displayName": "Blue Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-green-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-green",
+      "displayName": "Green Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-white-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-white",
+      "displayName": "White Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-yellow-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-yellow",
+      "displayName": "Yellow Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-red-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-red",
+      "displayName": "Red Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-purple-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-purple",
+      "displayName": "Purple Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-keys-pink-vehicle-key",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-pink",
+      "displayName": "Pink Vehicle Key",
+      "buy": 5000
+    },
+    {
+      "id": "altar-vehicle-key-tags-vehicle-key-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-vehicle-key",
+      "displayName": "Vehicle Key Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-olga-24-black-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-olga-24-black",
+      "displayName": "Olga 24 Black Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-olga-24-white-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-olga-24-white",
+      "displayName": "Olga 24 White Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-olga-24-wine-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-olga-24-wine",
+      "displayName": "Olga 24 Wine Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-ada-4x4-blue-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-ada-4x4-blue",
+      "displayName": "Ada 4x4 Blue Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-ada-4x4-white-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-ada-4x4-white",
+      "displayName": "Ada 4x4 White Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-ada-4x4-green-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-ada-4x4-green",
+      "displayName": "Ada 4x4 Green Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-gunter-2-blue-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-gunter-2-blue",
+      "displayName": "Gunter 2 Blue Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-gunter-2-black-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-gunter-2-black",
+      "displayName": "Gunter 2 Black Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-gunter-2-red-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-gunter-2-red",
+      "displayName": "Gunter 2 Red Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-sarka-120-grey-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-sarka-120-grey",
+      "displayName": "Sarka 120 Grey Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-sarka-120-red-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-sarka-120-red",
+      "displayName": "Sarka 120 Red Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-sarka-120-yellow-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-sarka-120-yellow",
+      "displayName": "Sarka 120 Yellow Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-black-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-black",
+      "displayName": "Black Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-blue-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-blue",
+      "displayName": "Blue Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-green-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-green",
+      "displayName": "Green Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-grey-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-grey",
+      "displayName": "Grey Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-red-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-red",
+      "displayName": "Red Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-white-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-white",
+      "displayName": "White Tag",
+      "buy": 1500
+    },
+    {
+      "id": "altar-vehicle-key-tags-yellow-tag",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicle Keys",
+      "itemId": "vehicle-key-tag-yellow",
+      "displayName": "Yellow Tag",
+      "buy": 1500
     }
   ]
 }

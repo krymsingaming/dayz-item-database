@@ -1,6 +1,6 @@
-# Noobs Only — DayZ Item Database Alpha 9
+# Noobs Only — DayZ Item Database Beta 1.0.0
 
-Alpha 9 is a UI architecture revision of the Alpha 5 database build.
+Beta 1.0.0 is a UI architecture revision of the Alpha 5 database build.
 
 ## Major UI changes
 
@@ -19,7 +19,7 @@ Alpha 9 is a UI architecture revision of the Alpha 5 database build.
 
 ## Data
 
-Alpha 9 retains the Alpha 5 merged data set, including screenshot-imported Altar trader data and the vehicle enrichment work. This release changes presentation/navigation only unless noted in the source notes.
+Beta 1.0.0 retains the Alpha 5 merged data set, including screenshot-imported Altar trader data and the vehicle enrichment work. This release changes presentation/navigation only unless noted in the source notes.
 
-## Alpha 9 data review
-Alpha 9 includes a `DATA-REVIEW.md` file documenting confirmed OCR corrections, source-backed ammunition/ballistics enrichment, and remaining suspicious entries that were deliberately left unresolved rather than guessed.
+## Beta 1.0.0 data review
+Beta 1.0.0 includes a `DATA-REVIEW.md` file documenting confirmed OCR corrections, source-backed ammunition/ballistics enrichment, and remaining suspicious entries that were deliberately left unresolved rather than guessed.
