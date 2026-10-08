@@ -1,30 +1,42 @@
 {
-  "schemaVersion": "0.1-alpha",
+  "schemaVersion": "0.3-alpha",
   "defaults": {
     "source": "vanilla",
     "inventory.maxStack": 1,
     "availability.trader": true,
-    "availability.worldSpawn": true
+    "availability.worldSpawn": null
   },
   "categories": [
     "Ammunition",
-    "Armor",
+    "Attachment",
     "Backpack",
+    "Bag",
     "Belt",
     "Clothing",
     "Container",
+    "Crafting Material",
     "Currency",
+    "Face",
+    "Feet",
+    "Fishing",
     "Firearm",
     "Firearm Component",
     "Food",
-    "Gear",
+    "Gloves",
+    "Headgear",
     "Magazine",
     "Melee Weapon",
+    "Other",
     "Pouch",
+    "Storage",
     "Tool",
-    "Fishing",
-    "Fishing Component",
-    "Other"
+    "Vest",
+    "Body",
+    "Legs",
+    "Eyes",
+    "Armband",
+    "Holster",
+    "Throwable"
   ],
   "equipmentSlots": [
     "Weapon",
@@ -73,29 +85,49 @@
   ],
   "reliabilityStates": {
     "confirmed": {
-      "display": "No marker",
+      "display": "Confirmed information",
       "icon": "",
-      "description": "Information is currently accepted."
+      "description": "Information has been confirmed through direct observation or sufficiently strong evidence."
+    },
+    "inferred": {
+      "display": "Inferred information",
+      "icon": "ⓘ",
+      "description": "This information was inferred from related evidence such as trader listings, spreadsheet data, or other documented relationships. It may be useful but has not been directly confirmed."
     },
     "missing": {
-      "display": "Missing",
-      "icon": "🛈",
-      "description": "This information may exist, but it has not been entered or confirmed."
-    },
-    "underReview": {
-      "display": "Correction under review",
-      "icon": "✓",
-      "description": "A correction has been reported but has not yet been accepted."
+      "display": "Information not found yet",
+      "icon": "⚠",
+      "description": "This information has not been found or documented yet. If you can supply it, please report it so the database can be improved."
     },
     "incorrect": {
-      "display": "Confirmed incorrect",
-      "icon": "⚠︎",
-      "description": "The current value is known or strongly established to be incorrect."
+      "display": "Reported incorrect",
+      "icon": "⚠",
+      "description": "This information has been reported as incorrect and needs correction or verification."
+    },
+    "underReview": {
+      "display": "Under review",
+      "icon": "ⓘ",
+      "description": "This information is being reviewed or has conflicting evidence."
+    },
+    "knownBug": {
+      "display": "Known bug / limitation",
+      "icon": "⚠",
+      "description": "The information reflects a known server or mod limitation, bug, or other actionable issue."
     },
     "notApplicable": {
-      "display": "Does not exist / does not apply",
-      "icon": "—",
-      "description": "The information does not exist or does not apply to this item."
+      "display": "Confirmed unavailable / not applicable",
+      "icon": "❌",
+      "description": "This information does not exist or does not apply here. For trader prices, this means the trader does not perform that action."
+    },
+    "warning": {
+      "display": "Reported incorrect",
+      "icon": "⚠",
+      "description": "This information has been reported as incorrect and needs correction or verification."
+    },
+    "informational": {
+      "display": "Inferred information",
+      "icon": "ⓘ",
+      "description": "This information was inferred from related evidence such as trader listings, spreadsheet data, or other documented relationships. It may be useful but has not been directly confirmed."
     }
   },
   "sourcePriority": [
@@ -118,6 +150,831 @@
       "id": "player_report",
       "name": "Player report",
       "priority": 4
+    }
+  ],
+  "propertyModel": {
+    "category": "broad item class",
+    "subcategory": "optional specific form/type",
+    "properties": "single searchable/descriptive property collection; use booleans or values when appropriate",
+    "rule": "Do not create separate tags, forms, or type fields when the same concept can be represented here."
+  },
+  "traderAvailabilityRules": {
+    "sellOnly": "A listing with a sell price but no buy price means the trader is not a source of the item. The item must be obtained by some other route, such as world spawn and/or crafting. This does not by itself prove which route applies.",
+    "buyAndSell": "A listing with both a buy and sell price means the trader is a source of the item and also accepts it for sale. This does not prove whether the item also spawns in the world.",
+    "invalidBuyOnly": "A buy price without a sell price is not an expected trader state in the current server data. Treat it as a data inconsistency that needs review, not as an acquisition category.",
+    "mixed": "If different trader listings for the same displayed item have different states, preserve each listing and show the combined state as mixed."
+  },
+  "traderStateLabels": {
+    "sellOnly": {
+      "label": "Sell Only",
+      "description": "The trader accepts this item but does not sell it. Obtain the item elsewhere, such as through world spawn and/or crafting."
+    },
+    "buyAndSell": {
+      "label": "Buy & Sell",
+      "description": "The trader is a source of this item and also accepts it for sale. World-spawn status is not established by trader data alone."
+    },
+    "invalidBuyOnly": {
+      "label": "Buy Without Sell",
+      "description": "Unexpected trader state: a buy price exists without a sell price."
+    }
+  },
+  "browseTaxonomy": [
+    {
+      "id": "weapon",
+      "label": "Weapon",
+      "children": [
+        {
+          "id": "weapon-firearms",
+          "label": "Firearms",
+          "match": {
+            "categories": [
+              "Firearm"
+            ]
+          },
+          "children": [
+            {
+              "id": "weapon-firearms-rifles",
+              "label": "Rifles",
+              "match": {
+                "categories": [
+                  "Firearm"
+                ],
+                "subcategories": [
+                  "Rifles"
+                ]
+              }
+            },
+            {
+              "id": "weapon-firearms-sidearms",
+              "label": "Sidearms",
+              "match": {
+                "categories": [
+                  "Firearm"
+                ],
+                "subcategories": [
+                  "Sidearms",
+                  "Pistol"
+                ]
+              }
+            },
+            {
+              "id": "weapon-firearms-smg",
+              "label": "Submachine Guns",
+              "match": {
+                "categories": [
+                  "Firearm"
+                ],
+                "subcategories": [
+                  "Submachine Guns"
+                ]
+              }
+            },
+            {
+              "id": "weapon-firearms-shotguns",
+              "label": "Shotguns",
+              "match": {
+                "categories": [
+                  "Firearm"
+                ],
+                "subcategories": [
+                  "Shotguns"
+                ]
+              }
+            },
+            {
+              "id": "weapon-firearms-sniper",
+              "label": "Sniper Rifles",
+              "match": {
+                "categories": [
+                  "Firearm"
+                ],
+                "subcategories": [
+                  "Sniper Rifles"
+                ]
+              }
+            },
+            {
+              "id": "weapon-firearms-other",
+              "label": "Other Firearms",
+              "match": {
+                "categories": [
+                  "Firearm"
+                ],
+                "excludeSubcategories": [
+                  "Rifles",
+                  "Sidearms",
+                  "Pistol",
+                  "Submachine Guns",
+                  "Shotguns",
+                  "Sniper Rifles"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "weapon-magazines",
+          "label": "Magazines",
+          "match": {
+            "categories": [
+              "Magazine"
+            ]
+          }
+        },
+        {
+          "id": "weapon-melee",
+          "label": "Melee Weapons",
+          "match": {
+            "categories": [
+              "Melee Weapon"
+            ]
+          }
+        },
+        {
+          "id": "weapon-throwables",
+          "label": "Throwables",
+          "match": {
+            "categories": [
+              "Throwable"
+            ]
+          }
+        },
+        {
+          "id": "weapon-components",
+          "label": "Firearm Components",
+          "match": {
+            "categories": [
+              "Firearm Component"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ammunition",
+      "label": "Ammunition",
+      "children": [
+        {
+          "id": "ammo-boxed",
+          "label": "Boxed Ammunition",
+          "match": {
+            "categories": [
+              "Ammunition"
+            ],
+            "subcategories": [
+              "Boxed"
+            ]
+          }
+        },
+        {
+          "id": "ammo-loose",
+          "label": "Loose Ammunition",
+          "match": {
+            "categories": [
+              "Ammunition"
+            ],
+            "subcategories": [
+              "Loose"
+            ]
+          }
+        },
+        {
+          "id": "ammo-other",
+          "label": "Other Ammunition",
+          "match": {
+            "categories": [
+              "Ammunition"
+            ],
+            "subcategories": [
+              "Ammunition"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "attachment",
+      "label": "Attachment",
+      "children": [
+        {
+          "id": "attachment-items",
+          "label": "Attachments",
+          "match": {
+            "categories": [
+              "Attachment"
+            ]
+          }
+        },
+        {
+          "id": "attachment-magazines",
+          "label": "Magazines",
+          "match": {
+            "categories": [
+              "Magazine"
+            ]
+          }
+        },
+        {
+          "id": "attachment-holsters",
+          "label": "Holsters",
+          "match": {
+            "categories": [
+              "Holster"
+            ]
+          }
+        },
+        {
+          "id": "attachment-sheaths",
+          "label": "Sheaths",
+          "match": {
+            "categories": [
+              "Attachment"
+            ],
+            "nameIncludes": [
+              "Sheath"
+            ]
+          }
+        },
+        {
+          "id": "attachment-pouches",
+          "label": "Pouches",
+          "match": {
+            "categories": [
+              "Pouch"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "label": "Storage",
+      "children": [
+        {
+          "id": "storage-bags",
+          "label": "Bags",
+          "match": {
+            "categories": [
+              "Bag"
+            ]
+          }
+        },
+        {
+          "id": "storage-backpacks",
+          "label": "Backpacks",
+          "match": {
+            "categories": [
+              "Backpack"
+            ]
+          }
+        },
+        {
+          "id": "storage-pouches",
+          "label": "Pouches",
+          "match": {
+            "categories": [
+              "Pouch"
+            ]
+          }
+        },
+        {
+          "id": "storage-containers",
+          "label": "Containers",
+          "match": {
+            "categories": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "id": "storage-base",
+          "label": "Base Storage",
+          "match": {
+            "categories": [
+              "Placeable / Building"
+            ],
+            "subcategories": [
+              "Barrels",
+              "Food Storage",
+              "Hawk Drysacks",
+              "BananaFritas Custom Barrels"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "Body",
+      "children": [
+        {
+          "id": "body-vests",
+          "label": "Vests",
+          "match": {
+            "categories": [
+              "Vest"
+            ]
+          }
+        },
+        {
+          "id": "body-shirts",
+          "label": "Shirts",
+          "match": {
+            "categories": [
+              "Body"
+            ],
+            "subcategories": [
+              "Shirt",
+              "Shirts"
+            ]
+          }
+        },
+        {
+          "id": "body-jackets",
+          "label": "Jackets & Coats",
+          "match": {
+            "categories": [
+              "Body"
+            ],
+            "subcategories": [
+              "Jacket / Coat",
+              "Jackets & Coats"
+            ]
+          }
+        },
+        {
+          "id": "body-hoodies",
+          "label": "Hoodies & Sweaters",
+          "match": {
+            "categories": [
+              "Body"
+            ],
+            "subcategories": [
+              "Hoodie / Sweater",
+              "Hoodies & Sweater"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "belt",
+      "label": "Belt",
+      "children": [
+        {
+          "id": "belt-items",
+          "label": "Belts",
+          "match": {
+            "categories": [
+              "Belt"
+            ]
+          }
+        },
+        {
+          "id": "belt-pouches",
+          "label": "Pouches",
+          "match": {
+            "categories": [
+              "Pouch"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "children": [
+        {
+          "id": "backpacks",
+          "label": "Backpacks",
+          "match": {
+            "categories": [
+              "Backpack"
+            ],
+            "slots": [
+              "Back"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "children": [
+        {
+          "id": "headgear-hats",
+          "label": "Hats & Caps",
+          "match": {
+            "categories": [
+              "Headgear"
+            ],
+            "subcategories": [
+              "Hat / Cap",
+              "Hats & Caps"
+            ]
+          }
+        },
+        {
+          "id": "headgear-helmets",
+          "label": "Helmets",
+          "match": {
+            "categories": [
+              "Headgear"
+            ],
+            "subcategories": [
+              "Helmet",
+              "Helmets"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "label": "Face",
+      "children": [
+        {
+          "id": "face-masks",
+          "label": "Masks",
+          "match": {
+            "categories": [
+              "Face"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "label": "Eyes",
+      "children": [
+        {
+          "id": "eyes-glasses",
+          "label": "Glasses",
+          "match": {
+            "categories": [
+              "Eyes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gloves",
+      "label": "Gloves",
+      "children": [
+        {
+          "id": "gloves-items",
+          "label": "Gloves",
+          "match": {
+            "categories": [
+              "Gloves"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "feet",
+      "label": "Feet",
+      "children": [
+        {
+          "id": "feet-shoes",
+          "label": "Shoes & Boots",
+          "match": {
+            "categories": [
+              "Feet"
+            ],
+            "subcategories": [
+              "Shoes & Boots",
+              "Shoes / Boots"
+            ]
+          }
+        },
+        {
+          "id": "feet-sneakers",
+          "label": "Sneakers",
+          "match": {
+            "categories": [
+              "Feet"
+            ],
+            "subcategories": [
+              "Drippy Sneakers",
+              "Sneakers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "legs",
+      "label": "Legs",
+      "children": [
+        {
+          "id": "legs-pants",
+          "label": "Pants",
+          "match": {
+            "categories": [
+              "Legs"
+            ],
+            "subcategories": [
+              "Pants"
+            ]
+          }
+        },
+        {
+          "id": "legs-dresses",
+          "label": "Skirts & Dresses",
+          "match": {
+            "categories": [
+              "Legs"
+            ],
+            "subcategories": [
+              "Skirts & Dresses"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "armband",
+      "label": "Armband",
+      "children": [
+        {
+          "id": "armband-items",
+          "label": "Armbands",
+          "match": {
+            "categories": [
+              "Armband"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "consumable",
+      "label": "Consumable",
+      "children": [
+        {
+          "id": "consumable-food",
+          "label": "Food",
+          "match": {
+            "categories": [
+              "Food"
+            ]
+          }
+        },
+        {
+          "id": "consumable-drink",
+          "label": "Drink",
+          "match": {
+            "categories": [
+              "Drink"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "crafting",
+      "label": "Crafting",
+      "children": [
+        {
+          "id": "crafting-materials",
+          "label": "Crafting Materials",
+          "match": {
+            "categories": [
+              "Crafting Material"
+            ]
+          }
+        },
+        {
+          "id": "crafting-building",
+          "label": "Placeables & Building",
+          "match": {
+            "categories": [
+              "Placeable / Building"
+            ]
+          }
+        },
+        {
+          "id": "crafting-tools",
+          "label": "Tools",
+          "match": {
+            "categories": [
+              "Tool"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fishing",
+      "label": "Fishing",
+      "children": [
+        {
+          "id": "fishing-fresh",
+          "label": "Fresh Water Fish",
+          "match": {
+            "categories": [
+              "Fishing"
+            ],
+            "subcategories": [
+              "Fresh Water Fish"
+            ]
+          }
+        },
+        {
+          "id": "fishing-salt",
+          "label": "Salt Water Fish",
+          "match": {
+            "categories": [
+              "Fishing"
+            ],
+            "subcategories": [
+              "Salt Water Fish"
+            ]
+          }
+        },
+        {
+          "id": "fishing-gear",
+          "label": "Fishing Gear",
+          "match": {
+            "categories": [
+              "Fishing"
+            ],
+            "subcategories": [
+              "Tackle and Knifes",
+              "Fish",
+              "Animal"
+            ]
+          }
+        },
+        {
+          "id": "fishing-tools",
+          "label": "Fishing Tools",
+          "match": {
+            "categories": [
+              "Fishing"
+            ],
+            "nameIncludes": [
+              "Fishing Rod",
+              "Jig"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gardening",
+      "label": "Gardening",
+      "children": [
+        {
+          "id": "gardening-cannabis",
+          "label": "Cannabis",
+          "match": {
+            "categories": [
+              "Consumable"
+            ],
+            "subcategories": [
+              "Cannabis"
+            ]
+          }
+        },
+        {
+          "id": "gardening-supplies",
+          "label": "Cannabis Supplies",
+          "match": {
+            "categories": [
+              "Consumable"
+            ],
+            "subcategories": [
+              "Cannabis Misc"
+            ]
+          }
+        },
+        {
+          "id": "gardening-general",
+          "label": "Gardening Supplies",
+          "match": {
+            "categories": [
+              "Other"
+            ],
+            "subcategories": [
+              "Gardening"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vehicle",
+      "label": "Vehicle",
+      "children": [
+        {
+          "id": "vehicle-complete",
+          "label": "Vehicles",
+          "match": {
+            "categories": [
+              "Vehicle"
+            ]
+          }
+        },
+        {
+          "id": "vehicle-parts",
+          "label": "Vehicle Parts",
+          "match": {
+            "categories": [
+              "Vehicle Part"
+            ]
+          }
+        },
+        {
+          "id": "vehicle-keys",
+          "label": "Vehicle Keys",
+          "match": {
+            "categories": [
+              "Key"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "misc",
+      "label": "Misc",
+      "children": [
+        {
+          "id": "misc-currency",
+          "label": "Currency",
+          "match": {
+            "categories": [
+              "Currency"
+            ]
+          }
+        },
+        {
+          "id": "misc-other",
+          "label": "Other Items",
+          "match": {
+            "categories": [
+              "Other"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "label": "Medical",
+      "children": [
+        {
+          "id": "medical-medications",
+          "label": "Medications",
+          "match": {
+            "categories": [
+              "Medication",
+              "Medical"
+            ]
+          }
+        },
+        {
+          "id": "medical-supplies",
+          "label": "Medical Supplies",
+          "match": {
+            "categories": [
+              "Medical Supply",
+              "Medical Supplies"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "drugs",
+      "label": "Drugs",
+      "children": [
+        {
+          "id": "drugs-items",
+          "label": "Drugs",
+          "match": {
+            "categories": [
+              "Drug"
+            ]
+          }
+        },
+        {
+          "id": "drugs-supplies",
+          "label": "Drug Supplies",
+          "match": {
+            "categories": [
+              "Drug Supply"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

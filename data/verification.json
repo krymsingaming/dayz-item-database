@@ -24,28 +24,28 @@
     "entityType": "item",
     "entityId": "50-ruble-note",
     "dataPath": "inventory.maxStack",
-    "state": "missing",
+    "state": "warning",
     "source": null
   },
   {
     "entityType": "item",
     "entityId": "25-ruble-note",
     "dataPath": "inventory.maxStack",
-    "state": "missing",
+    "state": "warning",
     "source": null
   },
   {
     "entityType": "item",
     "entityId": "10-ruble-note",
     "dataPath": "inventory.maxStack",
-    "state": "missing",
+    "state": "warning",
     "source": null
   },
   {
     "entityType": "item",
     "entityId": "1-ruble-note",
     "dataPath": "inventory.maxStack",
-    "state": "missing",
+    "state": "warning",
     "source": null
   },
   {
@@ -1761,6 +1761,762 @@
     "entityId": "hf-lightbrown-littlebear-pelt",
     "dataPath": "buy",
     "state": "notApplicable",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x19",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39-ap",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "762x54",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "762x54-tracer",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-45x39",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-45x39-tracer",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-56x45",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-56x45-tracer",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "7-62x39",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "7-62x39-tracer",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "308-win",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "308-win-tracer",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "357",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "45-acp",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "380-acp",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "22-lr",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "12ga-00-buckshot",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "12ga-rifled-slug",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "flare",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "bolt",
+    "dataPath": "ballistics",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "15rd-sporter-22-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "sporter-22",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "15rd-cr-75-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "cr-75",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "15rd-mlock-91-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "mlock-91",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "15rd-fx-45-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "fx-45",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "20rd-cr-61-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "cr-61-skorpion",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "25rd-usg-45-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "usg-45",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "15rd-rak-37-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "rak-37",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "25rd-rak-37-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "10rd-dmr-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "dmr",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "20rd-lar-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "lar",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5rd-vaiga-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vaiga",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "8rd-vaiga-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "20rd-drum-vaiga-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "75rd-ka-m-drum-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "ka-m",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "30rd-ka-m-polymer-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "10rd-vss-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vss",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5rd-pioneer-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "pioneer",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "25rd-le-mas-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "le-mas",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "30rd-aur-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "aur-ax",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "64rd-bizon-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "bizon",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "10rd-vsd-mag",
+    "dataPath": "magazine.capacity",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "vsd",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot"
+  },
+  {
+    "entityType": "item",
+    "entityId": "box-9x19",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "box-9x39",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-9x39mm-armor-piercing-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "box-762x54",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "box-762x54-tracer",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "altar-9-110-e2e58335",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "altar-9-115-fa2f2716",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "altar-9-111-b1b9809c",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "altar-10-134-f9b71a53",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-7-62x39mm-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "altar-10-135-e1ca87f2",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-308-win-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-308-win-tracer-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-357-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-45-acp-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-380-acp-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-22-lr-rounds",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-12ga-00-buckshots",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "boxed-12ga-rifled-slugs",
+    "dataPath": "ammoBox.opensTo",
+    "state": "inferred",
+    "source": "Trader-Altar screenshot + Bullet Damage"
+  },
+  {
+    "entityType": "item",
+    "entityId": "762x54",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "762x54-tracer",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x19",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39-ap",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39-ap",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39-ap",
+    "dataPath": "ballistics.armor",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "9x39-ap",
+    "dataPath": "ballistics.dieselArmor",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "flare",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "bolt",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-45x39",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-45x39-tracer",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-56x45",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-56x45",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "5-56x45-tracer",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "7-62x39",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "7-62x39-tracer",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "308-win",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "308-win",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "308-win-tracer",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "308-win-tracer",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "357",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "45-acp",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "45-acp",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "380-acp",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "22-lr",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "22-lr",
+    "dataPath": "ballistics.dieselOverride",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "12ga-00-buckshot",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
+    "source": "server_spreadsheet"
+  },
+  {
+    "entityType": "item",
+    "entityId": "12ga-rifled-slug",
+    "dataPath": "ballistics.damage",
+    "state": "inferred",
     "source": "server_spreadsheet"
   }
 ]

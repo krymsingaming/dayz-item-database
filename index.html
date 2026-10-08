@@ -1,61 +1,86 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Noobs Only — DayZ Item Database Alpha</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Noobs Only — DayZ Item Database Alpha 9</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
-  <div>
-    <h1>Noobs Only — Item Database</h1>
-    <p>Alpha prototype • server-specific item, trader, attachment, and interaction data</p>
-  </div>
-  <div class="alpha-badge">ALPHA</div>
+  <button id="siteHome" class="site-home" type="button"><span class="site-home-title">Noobs Only — Item Database</span>
+    <span class="site-home-subtitle">Alpha 9 • item database and trader browser</span>
+  </button>
+  <div class="alpha-badge">ALPHA 9</div>
 </header>
 
 <main class="container">
   <section class="notice">
     <strong>Database Notice</strong>
-    <p>This is an independent database for the Noobs Only PVE server. Information can change with server configuration and mod updates. Data marked with an icon needs attention; reports help improve the database.</p>
+    <p>This is an independent database for the Noobs Only PVE server. Information can change with server configuration and mod updates. Information markers distinguish notices from actionable warnings. Same-name records are grouped for readability, but remain separate because they may represent unique variants such as different colors or cosmetic effects.</p>
   </section>
 
-  <section class="controls">
-    <label class="search-label">Search
-      <input id="searchInput" type="search" placeholder="Search items, traders, categories, or sources…">
-    </label>
-    <label>Category
-      <select id="categoryFilter"><option value="">All categories</option></select>
-    </label>
-    <label>Source
-      <select id="sourceFilter"><option value="">All sources</option></select>
-    </label>
+  <nav class="main-nav" aria-label="Database navigation">
+    <button id="databaseViewButton" class="nav-button active">Item Database</button>
+    <button id="traderViewButton" class="nav-button">Trader Browser</button>
+  </nav>
+
+  <section id="databaseView" class="view">
+    <div class="database-layout">
+      <aside class="filter-panel">
+        <div class="panel-heading"><button id="categoryRootButton" class="text-button panel-title-button" data-browse-node="">Category</button><button id="clearFilters" class="text-button">Clear</button></div>
+        <label class="search-label">Search<input id="searchInput" type="search" placeholder="Search items, categories, mods, properties…"></label>
+        <div class="explorer-block">
+          <div id="categoryExplorer" class="explorer-tree"></div>
+        </div>
+        <label class="compact-label">Mod<select id="modFilter"><option value="">All mods</option></select></label>
+      </aside>
+
+      <section class="results-panel">
+        <div class="results-header">
+          <span id="resultCount">Loading…</span>
+          <span class="legend"><span>ⓘ information / review</span><span>⚠ warning / action needed</span></span>
+        </div>
+        <section id="itemResults" class="item-list"></section>
+      </section>
+    </div>
   </section>
 
-  <div class="results-header">
-    <span id="resultCount">Loading…</span>
-    <span class="legend">
-      <span>🛈 missing</span>
-      <span>✓ correction under review</span>
-      <span>⚠︎ reported/confirmed incorrect</span>
-    </span>
-  </div>
+  <section id="traderView" class="view hidden">
+    <div class="trader-layout">
+      <aside class="filter-panel trader-filter-panel">
+        <div class="panel-heading"><button id="traderRootButton" class="text-button panel-title-button" data-trader-node="all">Trader</button><button id="backToDatabase" class="text-button">← Items</button></div>
+        <div class="explorer-block trader-explorer-block">
+          <div id="traderExplorer" class="explorer-tree"></div>
+        </div>
+      </aside>
+      <section class="results-panel trader-results-panel">
+        <div class="trader-browser-header">
+          <div>
+            <h2>Trader Browser</h2>
+            <p class="meta">Browse locations, traders, and their menu pages. Click a page or heading to filter the listings on the right.</p>
+          </div>
+          <span id="traderResultCount" class="meta">Loading…</span>
+        </div>
+        <div id="traderRows" class="item-list trader-list"></div>
+      </section>
+    </div>
+  </section>
 
-  <section id="itemResults" class="item-grid"></section>
+  <section id="detailView" class="view hidden">
+    <div class="detail-page">
+      <div class="detail-page-header">
+        <button id="detailBack" class="text-button">← Back</button>
+        <div id="detailHeader"></div>
+      </div>
+      <div id="detailBody"></div>
+    </div>
+  </section>
 </main>
 
-<div id="itemModal" class="modal" aria-hidden="true">
-  <div id="modalBackground" class="modal-background"></div>
-  <article class="modal-panel" role="dialog" aria-modal="true">
-    <button id="modalClose" class="modal-close" aria-label="Close">×</button>
-    <div id="modalBody"></div>
-  </article>
-</div>
-
 <footer class="site-footer">
-  <span>Alpha prototype — data and interface are intentionally expandable.</span>
-  <button id="reportLink" class="report-button">Report an inconsistency / missing data</button>
+  <span>Alpha 9 • screenshot-imported Altar trader data is included; item details and unverified source information remain expandable.</span>
+  <button id="reportLink" class="report-button">Report missing or incorrect information</button>
 </footer>
 <script src="app.js"></script>
 </body>

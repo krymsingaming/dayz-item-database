@@ -27,5 +27,9 @@
   {
     "id": "test-data",
     "name": "Prototype Test Data"
+  },
+  {
+    "id": "unknown",
+    "name": "Unverified / Unknown Source"
   }
 ]
