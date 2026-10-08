@@ -131,6 +131,11 @@
       "display": "Inferred information",
       "icon": "ⓘ",
       "description": "This information was inferred from related evidence such as trader listings, spreadsheet data, or other documented relationships. It may be useful but has not been directly confirmed."
+    },
+    "corrected": {
+      "display": "Previously missing; now corrected",
+      "icon": "ⓘ",
+      "description": "This information was previously missing or unresolved and has since been corrected from new evidence. It remains marked informational so the change is visible."
     }
   },
   "sourcePriority": [

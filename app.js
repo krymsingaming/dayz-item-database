@@ -146,7 +146,7 @@ function marker(entityType,entityId,dataPath,missing=false){
   const v=stateFor(entityType,entityId,dataPath);let state=v?.state;if(missing&&!state)state="missing";
   if(!state||state==="confirmed")return"";
   const states=db.definitions.reliabilityStates||{};const text=states[state]?.description||state;
-  const icon=state==="notApplicable"?"❌":(state==="inferred"||state==="informational"||state==="underReview"?"ⓘ":"⚠");
+  const icon=state==="notApplicable"?"❌":(state==="inferred"||state==="informational"||state==="underReview"||state==="corrected"?"ⓘ":"⚠");
   return `<button class="marker ${escapeHtml(state)}" data-tooltip="${escapeHtml(text)}" aria-label="${escapeHtml(states[state]?.display||state)}" data-report="1" data-entity-type="${escapeHtml(entityType)}" data-entity-id="${escapeHtml(entityId)}" data-path="${escapeHtml(dataPath)}">${icon}</button>`;
 }
 function modValueHTML(item){
@@ -225,7 +225,7 @@ function renderItemRow(group){
   if(multi)infoParts.push("This item has multiple records with the same displayed name. Any ranges shown denote differences between entries. The individual item records can be seen once expanded.");
   if(listings.length>1)infoParts.push(`${listings.length} trader entries share this displayed item name. Their individual trader records can be seen once expanded.`);
   const groupTip=infoParts.join("\n\n");
-  return `<details class="item-row" data-group-name="${escapeHtml(first.name)}"><summary><span class="item-name-wrap"><span class="item-name">${escapeHtml(first.name)}</span></span><span class="item-classification">${classificationHTML(first)}</span><span class="item-facts">${facts.map(f=>`<span>${f}</span>`).join("")}</span>${mainLineTrader(first,listings)}${groupTip?infoIcon(groupTip):""}<span class="row-expander" aria-hidden="true">›</span></summary><div class="item-row-body">${buildRowDetails(group)}</div></details>`;
+  return `<details class="item-row" data-group-name="${escapeHtml(first.name)}"><summary><span class="item-name-wrap"><span class="item-name">${escapeHtml(first.name)}</span>${marker("item",first.id,"name")}</span><span class="item-classification">${classificationHTML(first)}</span><span class="item-facts">${facts.map(f=>`<span>${f}</span>`).join("")}</span>${mainLineTrader(first,listings)}${groupTip?infoIcon(groupTip):""}<span class="row-expander" aria-hidden="true">›</span></summary><div class="item-row-body">${buildRowDetails(group)}</div></details>`;
 }
 function buildRowDetails(group){
   const first=group[0],listings=getGroupListings(group),buy=getListingPriceSummary(listings,"buy"),sell=getListingPriceSummary(listings,"sell");let html="";
@@ -246,7 +246,7 @@ function buildRowDetails(group){
 
 /* ---------- Detailed item page ---------- */
 function openItemDetail(id,returnView="database",focusAttachment=null){const item=findItem(id);if(!item)return;currentDetailId=id;detailReturnView=returnView;renderDetailPage(item,focusAttachment);showView("detail");pushHistory({view:"detail",id,returnView,focusAttachment});window.scrollTo({top:0,behavior:"smooth"})}
-function renderDetailPage(item,focusAttachment=null){const listings=getItemListings(item);$("detailHeader").innerHTML=`<div class="detail-title"><div><h2>${escapeHtml(item.name)}</h2><p>${escapeHtml(item.category||"Uncategorized")}${item.subcategory?` → ${escapeHtml(item.subcategory)}`:""} • Mod: ${escapeHtml(getModName(item))}</p></div><div class="detail-actions">${listings.length?`<button class="link-button" data-trader-item="${escapeHtml(item.id)}">Trader Listings</button>`:""}<button class="link-button" data-report="1" data-entity-type="item" data-entity-id="${escapeHtml(item.id)}" data-path="item">Report</button></div></div>`;$("detailBody").innerHTML=buildCoreDetail(item)+buildTraderDetail(item,listings)+buildAttachmentDetail(item,focusAttachment)+buildRelationshipDetail(item)+buildNotesDetail(item)}
+function renderDetailPage(item,focusAttachment=null){const listings=getItemListings(item);$("detailHeader").innerHTML=`<div class="detail-title"><div><h2>${escapeHtml(item.name)} ${marker("item",item.id,"name")}</h2><p>${escapeHtml(item.category||"Uncategorized")}${item.subcategory?` → ${escapeHtml(item.subcategory)}`:""} • Mod: ${escapeHtml(getModName(item))}</p></div><div class="detail-actions">${listings.length?`<button class="link-button" data-trader-item="${escapeHtml(item.id)}">Trader Listings</button>`:""}<button class="link-button" data-report="1" data-entity-type="item" data-entity-id="${escapeHtml(item.id)}" data-path="item">Report</button></div></div>`;$("detailBody").innerHTML=buildCoreDetail(item)+buildTraderDetail(item,listings)+buildAttachmentDetail(item,focusAttachment)+buildRelationshipDetail(item)+buildNotesDetail(item)}
 function buildBallisticsDetail(item){
   const b=item.ballistics;if(!b)return marker("item",item.id,"ballistics",true);
   const rows=[];
@@ -263,10 +263,10 @@ function buildCoreDetail(item){
   rows.push(`<div class="detail-row"><strong>Category</strong>${escapeHtml(classificationLabel(item))}</div>`);
   if(item.subcategory)rows.push(`<div class="detail-row"><strong>Subcategory</strong>${valueHTML(item.subcategory,"item",item.id,"subcategory")}</div>`);
   if(item.properties?.length)rows.push(`<div class="detail-row"><strong>Properties</strong>${valueHTML(item.properties,"item",item.id,"properties")}</div>`);
-  if(item.inventory){
-    if(item.inventory.dimensions)rows.push(`<div class="detail-row"><strong>Inventory dimensions</strong>${valueHTML(item.inventory.dimensions,"item",item.id,"inventory.dimensions")}</div>`);
-    if(item.inventory.size)rows.push(`<div class="detail-row"><strong>Storage space</strong>${valueHTML(item.inventory.size,"item",item.id,"inventory.size")}</div>`);
-    if(item.inventory.maxStack!==undefined)rows.push(`<div class="detail-row"><strong>Max stack</strong>${valueHTML(item.inventory.maxStack,"item",item.id,"inventory.maxStack")}</div>`);
+  if(item.inventory||stateFor("item",item.id,"inventory.dimensions")||stateFor("item",item.id,"inventory.size")||stateFor("item",item.id,"inventory.maxStack")){
+    if(item.inventory?.dimensions!==undefined||stateFor("item",item.id,"inventory.dimensions"))rows.push(`<div class="detail-row"><strong>Inventory dimensions</strong>${valueHTML(item.inventory?.dimensions,"item",item.id,"inventory.dimensions")}</div>`);
+    if(item.inventory?.size!==undefined||stateFor("item",item.id,"inventory.size"))rows.push(`<div class="detail-row"><strong>Storage space</strong>${valueHTML(item.inventory?.size,"item",item.id,"inventory.size")}</div>`);
+    if(item.inventory?.maxStack!==undefined||stateFor("item",item.id,"inventory.maxStack"))rows.push(`<div class="detail-row"><strong>Max stack</strong>${valueHTML(item.inventory?.maxStack,"item",item.id,"inventory.maxStack")}</div>`);
   }
   if(item.currency)rows.push(`<div class="detail-row"><strong>Currency value</strong>${valueHTML(item.currency.value,"item",item.id,"currency.value")}</div>`);
   if(item.clothing){

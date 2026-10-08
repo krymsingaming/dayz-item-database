@@ -624,27 +624,12 @@
       "sell": 400
     },
     {
-      "id": "altar5-e9d728ec466c51",
-      "vendorId": "altar-weapon-trader",
-      "menuCategory": "Rifles",
-      "itemId": "altar-5-67-30053c93",
-      "buy": 550,
-      "sell": 1400
-    },
-    {
       "id": "altar5-ae2dfbb07d1124",
       "vendorId": "altar-weapon-trader",
       "menuCategory": "Rifles",
       "itemId": "altar-5-68-77ee363d",
       "buy": 550,
       "sell": 1400
-    },
-    {
-      "id": "altar5-5456be2ea8473e",
-      "vendorId": "altar-weapon-trader",
-      "menuCategory": "Rifles",
-      "itemId": "altar-5-69-81091c7b",
-      "sell": 400
     },
     {
       "id": "altar5-cc8e5a56add9da",
@@ -19346,23 +19331,6 @@
       },
       "buy": 500,
       "sell": 250,
-      "legacy": true
-    },
-    {
-      "id": "altar-0160",
-      "vendorId": "altar-weapon-supplies",
-      "menuCategory": "Magazines",
-      "itemId": "30rd-ka-ma-mag",
-      "displayName": "30rd KA-MA Mag",
-      "traderState": "buyAndSell",
-      "sourceEvidence": {
-        "workbookSheet": "Trader-Altar",
-        "screenshotIndex": 11,
-        "excelRow": 108,
-        "excelColumn": 1
-      },
-      "buy": 220,
-      "sell": 110,
       "legacy": true
     },
     {

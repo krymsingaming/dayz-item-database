@@ -18,7 +18,19 @@ The pre-alpha portion below is a **reconstructed project history** from the pres
 
 # Beta
 
-## Beta 1.0.0 — Current
+## Beta 1.0.1 — Current
+
+### Data review corrections
+- Applied the user's follow-up review of `DATA-REVIEW.md` instead of treating already-answered review points as unresolved.
+- Removed `$c`, `BK-18 s e B0`, and `30rd KA-MA Mag` records/listings rather than guessing their identities.
+- Confirmed the Pioneer magazine spelling as `5rd Pioneer Mag`.
+- Added user-confirmed `Kimber Custom`, `Kimber Custom Mag`, `ArexZero`, `ArexZero Mag 18Rnd`, and `Marlin 1895` records with explicit reliability markers for uncertain names/missing fields.
+- Added the user-confirmed `.45-70` Marlin information from Morty's mod-author Discord.
+- Added a `corrected` reliability state for future report-driven corrections.
+- Updated item detail rendering so fields explicitly marked missing by verification records remain visible with their marker instead of disappearing simply because the value is absent.
+- Preserved unresolved vehicle `$` OCR strings for targeted user confirmation rather than replacing them with guessed `5`/`S` characters.
+
+## Beta 1.0.0 — Superseded
 
 ### Release status
 First public beta candidate. The major UI architecture is considered sufficiently mature for live use with a small group of testers. The remaining work is primarily data completion, verification, corrections, and refinement based on real-world use.

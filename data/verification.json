@@ -4282,5 +4282,116 @@
     "dataPath": "sell",
     "state": "notApplicable",
     "source": "user_observation"
+  },
+  {
+    "entityType": "item",
+    "entityId": "kimber-custom",
+    "dataPath": "name",
+    "state": "warning",
+    "source": "user_review",
+    "note": "Display name may be incorrect."
+  },
+  {
+    "entityType": "item",
+    "entityId": "kimber-custom-mag",
+    "dataPath": "name",
+    "state": "warning",
+    "source": "user_review",
+    "note": "Display name may be incorrect."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero",
+    "dataPath": "name",
+    "state": "warning",
+    "source": "user_review",
+    "note": "Display name may be incorrect."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero-mag-18rnd",
+    "dataPath": "name",
+    "state": "warning",
+    "source": "user_review",
+    "note": "Display name may be incorrect."
+  },
+  {
+    "entityType": "item",
+    "entityId": "kimber-custom",
+    "dataPath": "inventory.dimensions",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "kimber-custom-mag",
+    "dataPath": "magazine.capacity",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "kimber-custom-mag",
+    "dataPath": "magazine.validAmmo",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero",
+    "dataPath": "inventory.dimensions",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero",
+    "dataPath": "equipment.slots",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero-mag-18rnd",
+    "dataPath": "inventory.dimensions",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero-mag-18rnd",
+    "dataPath": "magazine.validAmmo",
+    "state": "missing",
+    "source": "user_review",
+    "note": "Information has not yet been established."
+  },
+  {
+    "entityType": "item",
+    "entityId": "kimber-custom",
+    "dataPath": "firearm.validMagazines",
+    "state": "inferred",
+    "source": "spreadsheet_association",
+    "note": "Associated with the Kimber Custom row; direct compatibility not yet verified."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero",
+    "dataPath": "firearm.validMagazines",
+    "state": "confirmed",
+    "source": "user_review",
+    "note": "User confirmed this magazine is an available attachment for ArexZero."
+  },
+  {
+    "entityType": "item",
+    "entityId": "arexzero",
+    "dataPath": "firearm.caliber",
+    "state": "confirmed",
+    "source": "user_review"
   }
 ]

@@ -5420,23 +5420,6 @@
     }
   },
   {
-    "id": "30rd-ka-ma-mag",
-    "name": "30rd KA-MA Mag",
-    "category": "Magazine",
-    "source": {
-      "modId": "unknown"
-    },
-    "availability": {
-      "trader": true
-    },
-    "notes": [
-      "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
-    ],
-    "magazine": {
-      "capacity": 30
-    }
-  },
-  {
     "id": "30rd-ka-m-polymer-mag",
     "name": "30rd KA-M Polymer Mag",
     "category": "Magazine",
@@ -9752,22 +9735,6 @@
     }
   },
   {
-    "id": "altar-5-67-30053c93",
-    "name": "$c",
-    "category": "Firearm",
-    "subcategory": "Rifles",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 5,
-      "rawName": "$c"
-    }
-  },
-  {
     "id": "altar-5-68-77ee363d",
     "name": "SCG",
     "category": "Firearm",
@@ -9781,22 +9748,6 @@
       "source": "Trader-Altar screenshot",
       "image": 5,
       "rawName": "SCG"
-    }
-  },
-  {
-    "id": "altar-5-69-81091c7b",
-    "name": "BK-18 s e B0",
-    "category": "Firearm",
-    "subcategory": "Rifles",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 5,
-      "rawName": "BK-18 s e B0"
     }
   },
   {
@@ -43868,5 +43819,92 @@
     "notes": [
       "Attaches to a Vehicle Key. The tag changes the visible appearance of the key, allowing visually identical keys to be distinguished by tag color/design."
     ]
+  },
+  {
+    "id": "kimber-custom",
+    "name": "Kimber Custom",
+    "category": "Firearm",
+    "source": {
+      "modId": "mortys"
+    },
+    "firearm": {
+      "caliber": ".45acp",
+      "validMagazines": [
+        "kimber-custom-mag"
+      ]
+    },
+    "evidence": {
+      "status": "partially_confirmed",
+      "source": "GunsMags spreadsheet row 57",
+      "note": "User confirmed this record can be added, but the display name may be incorrect."
+    }
+  },
+  {
+    "id": "kimber-custom-mag",
+    "name": "Kimber Custom Mag",
+    "category": "Magazine",
+    "source": {
+      "modId": "mortys"
+    },
+    "magazine": {},
+    "evidence": {
+      "status": "partially_confirmed",
+      "source": "GunsMags spreadsheet row 57",
+      "note": "User confirmed this magazine can be added, but the display name may be incorrect."
+    }
+  },
+  {
+    "id": "arexzero",
+    "name": "ArexZero",
+    "category": "Firearm",
+    "subcategory": "Rifles",
+    "source": {
+      "modId": "twp"
+    },
+    "firearm": {
+      "caliber": "9x19mm",
+      "validMagazines": [
+        "arexzero-mag-18rnd"
+      ]
+    },
+    "evidence": {
+      "status": "partially_confirmed",
+      "source": "GunsMags spreadsheet row 13",
+      "note": "User confirmed this can be added as a rifle and 9x19mm is safe. Display name remains subject to verification."
+    }
+  },
+  {
+    "id": "arexzero-mag-18rnd",
+    "name": "ArexZero Mag 18Rnd",
+    "category": "Magazine",
+    "source": {
+      "modId": "twp"
+    },
+    "magazine": {
+      "capacity": 18
+    },
+    "evidence": {
+      "status": "partially_confirmed",
+      "source": "GunsMags spreadsheet F13",
+      "rawIdentifier": "ArexZero_mag_18Rnd",
+      "note": "Display name remains subject to verification."
+    }
+  },
+  {
+    "id": "marlin-1895",
+    "name": "Marlin 1895",
+    "category": "Firearm",
+    "subcategory": "Rifles",
+    "source": {
+      "modId": "mortys"
+    },
+    "firearm": {
+      "caliber": ".45-70"
+    },
+    "evidence": {
+      "status": "confirmed",
+      "source": "User verification via Morty's mod-author Discord",
+      "note": "Lever-action rifle; verified to shoot .45-70 rounds."
+    }
   }
 ]
