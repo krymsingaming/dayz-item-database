@@ -17,15 +17,19 @@ These were left alone because the screenshots/data do not provide enough evidenc
 
 ### Weapon Supplies / Ammunition
 - `BK-18 s e B0` — Buy: — / Sell: 400
+-- No entry found that is similar in Weapon Supplies / Ammunition. I did however see a BK-18 in Weapons Trader / Shotguns. The Entry is 'Sawed-off BK-18 - Buy: 1500 / Sell: 400
 - `$c` — Buy: 550 / Sell: 1400
+-- No item should have a higher sell price then buy price or the economy would crash lol. Endlessly buy items and then sell them back for more then bought for. I recommend removing this.
 - `Boxed 5.45x39mm Rounds` and other corrected ammo entries are now normalized where the screenshot itself confirms the text.
 
 ### Weapon Supplies / Magazines
 - `Srd Pioneer Mag` appears in the extracted data. The screenshot shows a `5rd Pioneer Mag`; this can be safely corrected if desired, but is recorded here as an OCR review point.
 - `30rd KA-MA Mag` does not have an obvious exact counterpart in the current item records; it was not silently mapped to KA-M.
+-- Looking through the trader screen captures, for similar mags, there is 30rd KA-M Mag, 30rd KA-M Polymer Mag, 75rd KA-M Drum Mag, 30rd KA-101 Mag, 30rd KA-74 Mag, 45rd KA-74 Mag. If all these entries exist. Then i would recommend removing the 30rd KA-MA Mag
 
 ### Vehicle / other OCR candidates
 Several `$` characters occur in vehicle-part names. These were NOT globally replaced with `5` because some are part of model/variant text and require the source screenshot for confirmation.
+-- I looked through every vehicle trader entry, and not a single one had a $ in the name. There are however quite a few entries that have a 5 or S in them. 
 
 ## Spreadsheet review points
 ### Bullet Damage
@@ -55,5 +59,6 @@ Two obvious spreadsheet anomalies worth checking manually:
 - `GunsMags!C57`: value `Kimber Custom` appears under the Buy column; this looks like a shifted/mis-entered value rather than a price.
 - `GunsMags!D59`: value `` ` `` appears under Sell for a `.45-70` row.
 - `GunsMags!A13` is blank while a magazine identifier is present in F13 (`ArexZero_mag_18Rnd`).
+-- All 3 of these entries are either artifacts from an older version of the spreadsheet before I started cleaning it up, and i didn't want to remove the reference before finding the replacement values. Some of these may have been removed from the server. I will know more once i get Black Market Trader Values.
 
 These were not silently repaired.
