@@ -34,31 +34,45 @@ User checked the vehicle trader data and confirmed that no vehicle trader entry 
 - `Jeep_GladiatorF$_Trunk_DarkBlue`
 - `Jeep_GladiatorF$_Trunk CamoBlack`
 - `Jeep_GladiatorF$_Trunk CamoBlue`
+-- Strangely, all the $ in the previous 5 Jeep entries is a 9. They should all be 'Jeep_GladiatorF9_
 - `Bronco_Driverdoor $`
+-- This might be an artifact from overlap between the 2 pages. I seem to have forgotten to highlight the last entry on the first page. The correct entry is 'Bronco_Driverdoor' If this already exists, then this one with the $ can be safely removed. 
 - `2014 Chevy Tahoe Hea 20 $`
+-- I think this one was my fault... You will notice some pink and cyan artifacts on some of the screen shots. These are because i had forgotton to hide my map markers in game. So they are showing through the translucent trader window. It is especially noticable at night. These are the only 2014 Chevy Tahoe variants. 2014 Chevy Tahoe variants LightBlue, 2014 Chevy Tahoe variants Black, 2014 Chevy Tahoe variants Blue, 2014 Chevy Tahoe variants Brown, 2014 Chevy Tahoe variants DarkBlue, 2014 Chevy Tahoe variants Green, 2014 Chevy Tahoe variants Pink, and 2014 Chevy Tahoe variants Red. If all of these exist, then this one with 'Hea 20 $' can be safely removed. Otherwise it should be replaced by the previous colors listed. 
 - `Tahoe_cargot $`
 - `Tahoe_cargo2 $`
+-- These 2 should be Tahoe_cargo1 and Tahoe_cargo2. If these already exist, then these 2 can be safely deleted.
 - `Tahoe_hood $`
 - `Tahoe_trunk $`
 - `Tahoe_wheel $`
+-- These 3 are all correct if the last space and $ is removed. That would make them Tahoe_hood, Tahoe_trunk, and Tahoe_wheel. If these are duplicates, they can safely be removed.
 - `Tahoe DriverDoor LightBlue $`
 - `Tahoe CoDriverDoor LightBlue $`
+-- These 2 remove the " $", leaving the names Tahoe DriverDoor LightBlue, and Tahoe CoDriverDoor LightBlue
 - `Tahoe CargoDoor’ LightBlue $`
+-- This one should be Tahoe CargoDoor1 LightBlue, or Tahoe CargoDoor2 LightBlue, whichever one is missing. If neither are missing, then this can safely be removed.
 - `Tahoe DriverDoor Sreen a $`
+--This should be Tahoe DriverDoor Green. (this is another that my map markers may have caused)
 - `Tahoe CargoDoor2 Green $`
 - `Tahoe Hood Green $`
 - `Tahoe Trunk Green $`
+-- These 3 should be Tahoe CargoDoor2 Green, Tahoe Hood Green, and Tahoe Trunk Green. 
 - `Tahge DriverDoor Pink $`
 - `Tahge CoDriverDoor Pink $`
 - `Tahge CargoDoor1 Pink $`
+-- These 3 should be Tahoe DriverDoor Pink, Tahoe CoDriverDoor Pink, and Tahoe CargoDoor1 Pink
 - `Tahoe CargoDoor2 Pink $`
+-- This should be Tahoe CargoDoor2 Pink
 - `Tahge Hood Pink $`
 - `Tahge Trunk Pink $`
 - `Tahge DriverDoor Red $`
+--These 3 are Tahoe Hood Pink, Tahoe Trunk Pink, and Tahoe DriverDoor Red.
 - `Tahoe CoDriverDoor Red $`
 - `Tahoe CargoDoor1 Red $`
 - `Tahoe CargoDoor2 Red $`
+--These 3 are all corrected by removing the " $" at the end, this would leave them Tahoe CoDriverDoor Red, Tahoe  CargoDoor1 Red, and Tahoe CargoDoor2 Red
 - `Toyota4Runner CoDriverDoor Pink $`
+-- This one should be Toyota4Runner CoDriverDoor Pink
 
 ## Review policy
 - Confirmed information: no reliability icon.
