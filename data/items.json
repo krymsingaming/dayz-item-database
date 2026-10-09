@@ -3479,7 +3479,7 @@
     "name": "Brass Knuckles",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3493,7 +3493,7 @@
     "name": "Stun Baton",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3507,7 +3507,7 @@
     "name": "Pipe",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3521,7 +3521,7 @@
     "name": "Baseball Bat",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3535,7 +3535,7 @@
     "name": "Nailed Bat",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3549,7 +3549,7 @@
     "name": "Vorpal Knife",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3563,7 +3563,7 @@
     "name": "Bean Basher",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3577,7 +3577,7 @@
     "name": "Pipe Axe",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3591,7 +3591,7 @@
     "name": "Plain Baseball Bat Red",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3605,7 +3605,7 @@
     "name": "Plain Baseball Bat Blue",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3619,7 +3619,7 @@
     "name": "Plain Baseball Bat Black",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3633,7 +3633,7 @@
     "name": "Blunder Bat",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3647,7 +3647,7 @@
     "name": "Bass Axe",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3661,7 +3661,7 @@
     "name": "Guitar",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3675,7 +3675,7 @@
     "name": "Fange",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3689,7 +3689,7 @@
     "name": "Bowie Knife",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3703,7 +3703,7 @@
     "name": "Katana",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3717,7 +3717,7 @@
     "name": "Crude Machete",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3731,7 +3731,7 @@
     "name": "Oriental Machete",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3745,7 +3745,7 @@
     "name": "Scythe",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3759,7 +3759,7 @@
     "name": "Meat Tenderizer",
     "category": "Melee Weapon",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3773,7 +3773,7 @@
     "name": "Signal Pistol",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3788,7 +3788,7 @@
     "name": "U-70",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3803,7 +3803,7 @@
     "name": "CR-75",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3823,7 +3823,7 @@
     "name": "CZ75B",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3838,7 +3838,7 @@
     "name": "FX-45",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3858,7 +3858,7 @@
     "name": "Mlock-91",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3878,7 +3878,7 @@
     "name": "MK II",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3893,7 +3893,7 @@
     "name": "Colt 1911",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3908,7 +3908,7 @@
     "name": "Engraved Kolt 1911",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3923,7 +3923,7 @@
     "name": "Revolver",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3938,7 +3938,7 @@
     "name": "Sawed-off Revolver",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3953,7 +3953,7 @@
     "name": "Deagle",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3968,7 +3968,7 @@
     "name": "Longhorn",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3983,7 +3983,7 @@
     "name": "P1",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -3998,7 +3998,7 @@
     "name": "Derringer",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4013,7 +4013,7 @@
     "name": "BK-133",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4028,7 +4028,7 @@
     "name": "BK-43",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4043,7 +4043,7 @@
     "name": "Sawed-off BK-43",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4058,7 +4058,7 @@
     "name": "BK-12",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4073,7 +4073,7 @@
     "name": "Sawed-off BK-18",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4088,7 +4088,7 @@
     "name": "Vaiga",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4110,7 +4110,7 @@
     "name": "R12",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4125,7 +4125,7 @@
     "name": "CR-61 Skorpion",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4145,7 +4145,7 @@
     "name": "USG-45",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4165,7 +4165,7 @@
     "name": "SGS5-K",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4180,7 +4180,7 @@
     "name": "RAK-37",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4201,7 +4201,7 @@
     "name": "KAS-74U",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4216,7 +4216,7 @@
     "name": "Bizon",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4236,7 +4236,7 @@
     "name": "Sporter 22",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4256,7 +4256,7 @@
     "name": "LAR",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4276,7 +4276,7 @@
     "name": "KA-M",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4297,7 +4297,7 @@
     "name": "KA-101",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4312,7 +4312,7 @@
     "name": "KA-74",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4327,7 +4327,7 @@
     "name": "DMR",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4347,7 +4347,7 @@
     "name": "SCR 17",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4362,7 +4362,7 @@
     "name": "M4-A1",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4377,7 +4377,7 @@
     "name": "M16-A2",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4392,7 +4392,7 @@
     "name": "SG 552 Commando",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4407,7 +4407,7 @@
     "name": "BK-18",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4422,7 +4422,7 @@
     "name": "Mosin 91/30",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4437,7 +4437,7 @@
     "name": "SSG 82",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4452,7 +4452,7 @@
     "name": "CR-527",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4467,7 +4467,7 @@
     "name": "M70 Tundra",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4482,7 +4482,7 @@
     "name": "SK 59/66",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4497,7 +4497,7 @@
     "name": "Repeater Carbine",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4512,7 +4512,7 @@
     "name": "Karabiner 98k",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4527,7 +4527,7 @@
     "name": "VultAR DMR Mod-15 5.56",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4542,7 +4542,7 @@
     "name": "Pioneer",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4562,7 +4562,7 @@
     "name": "AUR AX",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4582,7 +4582,7 @@
     "name": "AUR A1",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4597,7 +4597,7 @@
     "name": "LE-MAS",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4617,7 +4617,7 @@
     "name": "Sawed-off LE-MAS",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4632,7 +4632,7 @@
     "name": "CR-550 Savanna",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4647,7 +4647,7 @@
     "name": "Vikhr",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4662,7 +4662,7 @@
     "name": "VSS",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4682,7 +4682,7 @@
     "name": "Blaze",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4697,7 +4697,7 @@
     "name": "Sawed-off Blaze",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4712,7 +4712,7 @@
     "name": "VSD",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4732,7 +4732,7 @@
     "name": "SVAL",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4747,7 +4747,7 @@
     "name": "VS-89",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4762,7 +4762,7 @@
     "name": "Crossbow",
     "category": "Firearm",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4777,7 +4777,7 @@
     "name": "M79",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4792,7 +4792,7 @@
     "name": "40mm Smoke Grenade",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4807,7 +4807,7 @@
     "name": "EGD-5 Frag Grenade",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4822,7 +4822,7 @@
     "name": "6-M7 Frag Grenade",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4837,7 +4837,7 @@
     "name": "1-M8 Smoke Grenade",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4852,7 +4852,7 @@
     "name": "EGD-2 Smoke Grenade",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4867,7 +4867,7 @@
     "name": "8-M4 Flashbang",
     "category": "Throwable",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4882,7 +4882,7 @@
     "name": "Flare",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4901,7 +4901,7 @@
     "name": "Bolt",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4920,7 +4920,7 @@
     "name": "Boxed .380 ACP Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4938,7 +4938,7 @@
     "name": "Boxed .45 ACP Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4956,7 +4956,7 @@
     "name": "Boxed .22 LR Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4974,7 +4974,7 @@
     "name": "Boxed 12ga 00 Buckshots",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -4992,7 +4992,7 @@
     "name": "Boxed 12ga Rifled Slugs",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5010,7 +5010,7 @@
     "name": "Boxed 9x39mm Armor-Piercing Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5029,7 +5029,7 @@
     "name": "Boxed .308 WIN Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5047,7 +5047,7 @@
     "name": "Boxed .357 Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5065,7 +5065,7 @@
     "name": "Boxed 7.62x39mm Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5083,7 +5083,7 @@
     "name": "Boxed .308 WIN Tracer Rounds",
     "category": "Ammunition",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5101,7 +5101,7 @@
     "name": "15rd Sporter 22 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5118,7 +5118,7 @@
     "name": "12rd IJ-70 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5135,7 +5135,7 @@
     "name": "15rd CR-75 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5152,7 +5152,7 @@
     "name": "15rd Mlock-91 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5169,7 +5169,7 @@
     "name": "10rd MK II Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5186,7 +5186,7 @@
     "name": "15rd FX-45 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5203,7 +5203,7 @@
     "name": "9rd Deagle Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5220,7 +5220,7 @@
     "name": "5rd CR-527 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5237,7 +5237,7 @@
     "name": "20rd CR-61 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5254,7 +5254,7 @@
     "name": "25rd USG-45 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5271,7 +5271,7 @@
     "name": "15rd SGS5-K Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5288,7 +5288,7 @@
     "name": "30rd SGS5-K Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5305,7 +5305,7 @@
     "name": "15rd RAK-37 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5322,7 +5322,7 @@
     "name": "25rd RAK-37 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5339,7 +5339,7 @@
     "name": "10rd DMR Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5356,7 +5356,7 @@
     "name": "20rd LAR Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5373,7 +5373,7 @@
     "name": "5rd Vaiga Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5390,7 +5390,7 @@
     "name": "8rd Vaiga Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5407,7 +5407,7 @@
     "name": "20rd Drum Vaiga Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5424,7 +5424,7 @@
     "name": "30rd KA-M Polymer Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5441,7 +5441,7 @@
     "name": "75rd KA-M Drum Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5458,7 +5458,7 @@
     "name": "30rd KA-101 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5475,7 +5475,7 @@
     "name": "30rd KA-74 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5492,7 +5492,7 @@
     "name": "45rd KA-74 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5509,7 +5509,7 @@
     "name": "30rd Standardized Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5526,7 +5526,7 @@
     "name": "60rd Standardized Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5543,7 +5543,7 @@
     "name": "10rd Mag-C Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5560,7 +5560,7 @@
     "name": "20rd Mag-C Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5577,7 +5577,7 @@
     "name": "30rd Mag-C Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5594,7 +5594,7 @@
     "name": "40rd Mag-C Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5611,7 +5611,7 @@
     "name": "10rd VSS Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5628,7 +5628,7 @@
     "name": "10rd VSD Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5645,7 +5645,7 @@
     "name": "B95 Snaploader",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5659,7 +5659,7 @@
     "name": "5rd Pioneer Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5676,7 +5676,7 @@
     "name": "20rd SVAL Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5693,7 +5693,7 @@
     "name": "25rd LE-MAS Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5710,7 +5710,7 @@
     "name": "30rd AUR Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5727,7 +5727,7 @@
     "name": "Sig Sauer Arms 30 Round Magazine",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5741,7 +5741,7 @@
     "name": "64rd Bizon Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5758,7 +5758,7 @@
     "name": "10rd CR-550 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5775,7 +5775,7 @@
     "name": "8rd P1 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5792,7 +5792,7 @@
     "name": "5rd SSG 82 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5809,7 +5809,7 @@
     "name": "20rd DMR Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5826,7 +5826,7 @@
     "name": "20rd SCR 17 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5843,7 +5843,7 @@
     "name": "30rd Vikhr Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5860,7 +5860,7 @@
     "name": "10rnd VS-89 Mag",
     "category": "Magazine",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5874,7 +5874,7 @@
     "name": "SGS5-K Polymer Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5889,7 +5889,7 @@
     "name": "$G5-K Rail Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5904,7 +5904,7 @@
     "name": "KA Wooden Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5919,7 +5919,7 @@
     "name": "KA Rail Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5934,7 +5934,7 @@
     "name": "KA Polymer Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5949,7 +5949,7 @@
     "name": "M4-A1 MP Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5964,7 +5964,7 @@
     "name": "M4-A1 Polymer Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5979,7 +5979,7 @@
     "name": "M4-A1 Rail Handguard",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -5994,7 +5994,7 @@
     "name": "SGS5-K Lightweight Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6009,7 +6009,7 @@
     "name": "LAR Polymer Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6024,7 +6024,7 @@
     "name": "LAR Lightweight Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6039,7 +6039,7 @@
     "name": "Vaiga Lightweight Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6054,7 +6054,7 @@
     "name": "KAS-74U Lightweight Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6069,7 +6069,7 @@
     "name": "KA Wooden Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6084,7 +6084,7 @@
     "name": "KA Polymer Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6099,7 +6099,7 @@
     "name": "KA Lightweight Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6114,7 +6114,7 @@
     "name": "M4-A1 CQB Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6129,7 +6129,7 @@
     "name": "(44-A1 MP Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6144,7 +6144,7 @@
     "name": "M4-A1 Telescopic Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6159,7 +6159,7 @@
     "name": "SCR Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6174,7 +6174,7 @@
     "name": "SCAR PrecisionBttstck",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6189,7 +6189,7 @@
     "name": "SCR Precision Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6204,7 +6204,7 @@
     "name": "Bizon Lightweight Buttstock",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6219,7 +6219,7 @@
     "name": "Handgun Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6234,7 +6234,7 @@
     "name": "Baraka Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6249,7 +6249,7 @@
     "name": "M4-A1 Carry Handle Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6264,7 +6264,7 @@
     "name": "Backup Iron Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6279,7 +6279,7 @@
     "name": "Mini Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6294,7 +6294,7 @@
     "name": "ATOG 4x32 Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6309,7 +6309,7 @@
     "name": "Combat Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6324,7 +6324,7 @@
     "name": "RVN Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6339,7 +6339,7 @@
     "name": "Marksman Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6354,7 +6354,7 @@
     "name": "Kobra Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6369,7 +6369,7 @@
     "name": "P1-87-L Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6384,7 +6384,7 @@
     "name": "PU Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6399,7 +6399,7 @@
     "name": "Hunting Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6414,7 +6414,7 @@
     "name": "PSO-1 Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6429,7 +6429,7 @@
     "name": "PSO-1-1 Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6444,7 +6444,7 @@
     "name": "Sportpoint Sights",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6459,7 +6459,7 @@
     "name": "4PNS1 Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6474,7 +6474,7 @@
     "name": "ATOG 6x48 Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6489,7 +6489,7 @@
     "name": "DMRScope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6504,7 +6504,7 @@
     "name": "Leupold 24x50",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6519,7 +6519,7 @@
     "name": "NV-PVS4 Scope",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6534,7 +6534,7 @@
     "name": "Pistol Suppressor",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6549,7 +6549,7 @@
     "name": "Normalized Suppressor",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6564,7 +6564,7 @@
     "name": "Standardized Suppressor",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6579,7 +6579,7 @@
     "name": "Mosin 91/30 Compensator",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6594,7 +6594,7 @@
     "name": "SGS5-K Compensator",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6609,7 +6609,7 @@
     "name": "Mosin 91/30 Bayonet",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6624,7 +6624,7 @@
     "name": "KA Bayonet",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6639,7 +6639,7 @@
     "name": "SK 59/66 Bayonet",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6654,7 +6654,7 @@
     "name": "Universal Flashlight",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -6669,7 +6669,7 @@
     "name": "Pistol Flashlight",
     "category": "Attachment",
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "availability": {
       "trader": true
@@ -9261,7 +9261,7 @@
     "subcategory": "Melee",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9277,7 +9277,7 @@
     "subcategory": "Melee",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9293,7 +9293,7 @@
     "subcategory": "Melee",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9309,7 +9309,7 @@
     "subcategory": "Melee",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9325,7 +9325,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9341,7 +9341,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9357,7 +9357,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9373,7 +9373,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9389,7 +9389,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9405,7 +9405,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9421,7 +9421,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9437,7 +9437,7 @@
     "subcategory": "Pistol",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9453,7 +9453,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9469,7 +9469,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9485,7 +9485,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9501,7 +9501,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9517,7 +9517,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9533,7 +9533,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9549,7 +9549,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9565,7 +9565,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9581,7 +9581,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9597,7 +9597,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9613,7 +9613,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9629,7 +9629,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9645,7 +9645,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9661,7 +9661,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9677,7 +9677,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9693,7 +9693,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9709,7 +9709,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9725,7 +9725,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9741,7 +9741,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9757,7 +9757,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9773,7 +9773,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9789,7 +9789,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9805,7 +9805,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9821,7 +9821,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9837,7 +9837,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9853,7 +9853,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9869,7 +9869,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9885,7 +9885,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9901,7 +9901,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9917,7 +9917,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9933,7 +9933,7 @@
     "subcategory": "Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9949,7 +9949,7 @@
     "subcategory": "Sniper Rifles",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9965,7 +9965,7 @@
     "subcategory": "Grenade",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9981,7 +9981,7 @@
     "subcategory": "Grenade",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -9997,7 +9997,7 @@
     "subcategory": "Grenade",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10013,7 +10013,7 @@
     "subcategory": "Grenade",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10029,7 +10029,7 @@
     "subcategory": "Grenade",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10061,7 +10061,7 @@
     "subcategory": "Ammunition",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10080,7 +10080,7 @@
     "subcategory": "Ammunition",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10099,7 +10099,7 @@
     "subcategory": "Ammunition",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10150,7 +10150,7 @@
     "subcategory": "Ammunition",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10169,7 +10169,7 @@
     "subcategory": "Ammunition",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10182,28 +10182,12 @@
     }
   },
   {
-    "id": "altar-10-136-94cc7932",
-    "name": "Boxed 7.62x54mmR Tracer Rounds",
-    "category": "Ammunition",
-    "subcategory": "Ammunition",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 10,
-      "rawName": "Boxed 7.62x54mmR Tracer Rounds"
-    }
-  },
-  {
     "id": "altar-11-138-c2744869",
     "name": "12rd U-70 Mag",
     "category": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10221,7 +10205,7 @@
     "category": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10239,7 +10223,7 @@
     "category": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10254,7 +10238,7 @@
     "category": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10272,7 +10256,7 @@
     "category": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10290,7 +10274,7 @@
     "category": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10309,7 +10293,7 @@
     "subcategory": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10325,7 +10309,7 @@
     "subcategory": "Magazine",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10341,7 +10325,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10357,7 +10341,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10373,7 +10357,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10389,7 +10373,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10405,7 +10389,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10421,7 +10405,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10437,7 +10421,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10453,7 +10437,7 @@
     "subcategory": "Handguards",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10469,7 +10453,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10485,7 +10469,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10501,7 +10485,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10517,7 +10501,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10533,7 +10517,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10549,7 +10533,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10565,7 +10549,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10581,7 +10565,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10597,7 +10581,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10613,7 +10597,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10629,7 +10613,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10645,7 +10629,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10661,7 +10645,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10677,7 +10661,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10693,7 +10677,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10709,7 +10693,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10725,7 +10709,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10741,7 +10725,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10757,7 +10741,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10773,7 +10757,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10789,7 +10773,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -10805,7 +10789,7 @@
     "subcategory": "Optics",
     "properties": [],
     "source": {
-      "modId": "unknown"
+      "modId": "vanilla"
     },
     "evidence": {
       "status": "unverified",
@@ -31646,38 +31630,6 @@
     }
   },
   {
-    "id": "altar-169-1623-fd347569",
-    "name": "Jeep_GladiatorF$_Cargo_Door1 Black",
-    "category": "Vehicle Part",
-    "subcategory": "Jeep_GladiatorF9",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 169,
-      "rawName": "Jeep_GladiatorF$_Cargo_Door1 Black"
-    }
-  },
-  {
-    "id": "altar-169-1624-58d8c6db",
-    "name": "Jeep_CladiatorF$_Cargo_Door1 Brown",
-    "category": "Vehicle Part",
-    "subcategory": "Jeep_GladiatorF9",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 169,
-      "rawName": "Jeep_CladiatorF$_Cargo_Door1 Brown"
-    }
-  },
-  {
     "id": "altar-169-1625-36a5c773",
     "name": "Jeep_CladiatorF9_Cargo_Door1_DarkRed",
     "category": "Vehicle Part",
@@ -32703,7 +32655,7 @@
   },
   {
     "id": "altar-172-1689-7444bc25",
-    "name": "Jeep_GladiatorF$_Trunk_DarkBlue",
+    "name": "Jeep_GladiatorF9_Trunk_DarkBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_CladiatorF9",
     "properties": [],
@@ -32751,7 +32703,7 @@
   },
   {
     "id": "altar-172-1692-0ef1da5a",
-    "name": "Jeep_CladiatorF$_Trunk CamoBlack",
+    "name": "Jeep_GladiatorF9_Trunk CamoBlack",
     "category": "Vehicle Part",
     "subcategory": "Jeep_CladiatorF9",
     "properties": [],
@@ -32767,7 +32719,7 @@
   },
   {
     "id": "altar-172-1693-b75923e1",
-    "name": "Jeep_GladiatorF$_Trunk CamoBlue",
+    "name": "Jeep_GladiatorF9_Trunk CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_CladiatorF9",
     "properties": [],
@@ -33586,22 +33538,6 @@
       "source": "Trader-Altar screenshot",
       "image": 175,
       "rawName": "Bronco_Trunk (Hunter}"
-    }
-  },
-  {
-    "id": "altar-176-1733-49ba51ce",
-    "name": "Bronco_Driverdoor $",
-    "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 176,
-      "rawName": "Bronco_Driverdoor $"
     }
   },
   {
@@ -37123,7 +37059,7 @@
   },
   {
     "id": "altar-202-1969-ff610ca2",
-    "name": "2014 Chevy Tahoe Creen",
+    "name": "2014 Chevy Tahoe Green",
     "category": "Vehicle",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37139,7 +37075,7 @@
   },
   {
     "id": "altar-202-1970-4cbe14be",
-    "name": "2014 Chevy Tahoe Pink a",
+    "name": "2014 Chevy Tahoe Pink",
     "category": "Vehicle",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37162,22 +37098,6 @@
         "Trunk"
       ],
       "attachmentEvidence": "Inferred from vehicle part names shown in the Altar trader interface; attachment point display names are provisional."
-    }
-  },
-  {
-    "id": "altar-202-1971-cf32a9ee",
-    "name": "2014 Chevy Tahoe Hea 20 $",
-    "category": "Vehicle",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 202,
-      "rawName": "2014 Chevy Tahoe Hea 20 $"
     }
   },
   {
@@ -37214,7 +37134,7 @@
   },
   {
     "id": "altar-202-1974-45074eaf",
-    "name": "Tahoe_cargot $",
+    "name": "Tahoe_cargo1",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37230,7 +37150,7 @@
   },
   {
     "id": "altar-202-1975-c7bb8c59",
-    "name": "Tahoe_cargo2 $",
+    "name": "Tahoe_cargo2",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37246,7 +37166,7 @@
   },
   {
     "id": "altar-202-1976-3f46c637",
-    "name": "Tahoe_hood $",
+    "name": "Tahoe_hood",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37262,7 +37182,7 @@
   },
   {
     "id": "altar-202-1977-6c4f886b",
-    "name": "Tahoe_trunk $",
+    "name": "Tahoe_trunk",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37278,7 +37198,7 @@
   },
   {
     "id": "altar-202-1978-4071ab74",
-    "name": "Tahoe_wheel $",
+    "name": "Tahoe_wheel",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37294,7 +37214,7 @@
   },
   {
     "id": "altar-202-1979-24f8235f",
-    "name": "Tahoe DriverDoor LightBlue $",
+    "name": "Tahoe DriverDoor LightBlue",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37310,7 +37230,7 @@
   },
   {
     "id": "altar-202-1980-41f0fb29",
-    "name": "Tahoe CoDriverDoor LightBlue $",
+    "name": "Tahoe CoDriverDoor LightBlue",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37326,7 +37246,7 @@
   },
   {
     "id": "altar-202-1981-3b09e44c",
-    "name": "Tahoe CargoDoor’ LightBlue $",
+    "name": "Tahoe CargoDoor1 LightBlue",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37342,7 +37262,7 @@
   },
   {
     "id": "altar-202-1982-e1f3e468",
-    "name": "Tahoe CargoDoor?2 LightBlue",
+    "name": "Tahoe CargoDoor2 LightBlue",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37438,7 +37358,7 @@
   },
   {
     "id": "altar-203-1988-2c77215b",
-    "name": "Tahoe CargoDoort Black",
+    "name": "Tahoe CargoDoor1 Black",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37630,7 +37550,7 @@
   },
   {
     "id": "altar-203-2000-dfdb1d8c",
-    "name": "Tahoe CargoDoort Brown",
+    "name": "Tahoe CargoDoor1 Brown",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37725,24 +37645,8 @@
     }
   },
   {
-    "id": "altar-204-2006-00f60684",
-    "name": "Tahoe DriverDoor DarkBlue $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahoe DriverDoor DarkBlue $"
-    }
-  },
-  {
     "id": "altar-204-2007-85ed2d71",
-    "name": "Tahoe CargoDoor1 DarkBlue $",
+    "name": "Tahoe CargoDoor1 DarkBlue",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37758,7 +37662,7 @@
   },
   {
     "id": "altar-204-2008-f5c11b64",
-    "name": "Tahoe CargoDoor2 DarkBlue $",
+    "name": "Tahoe CargoDoor2 DarkBlue",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37773,40 +37677,8 @@
     }
   },
   {
-    "id": "altar-204-2009-94f3b41f",
-    "name": "Tahoe Hood DarkBlue $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahoe Hood DarkBlue $"
-    }
-  },
-  {
-    "id": "altar-204-2010-ef4ad471",
-    "name": "Tahoe Trunk DarkBlue $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahoe Trunk DarkBlue $"
-    }
-  },
-  {
     "id": "altar-204-2011-45df9981",
-    "name": "Tahoe DriverDoor Sreen a $",
+    "name": "Tahoe DriverDoor Green",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37818,22 +37690,6 @@
       "source": "Trader-Altar screenshot",
       "image": 204,
       "rawName": "Tahoe DriverDoor Sreen a $"
-    }
-  },
-  {
-    "id": "altar-204-2012-0ba3a085",
-    "name": "Tahoe CoDriverDonr Creen 2 s0",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahoe CoDriverDonr Creen 2 s0"
     }
   },
   {
@@ -37854,7 +37710,7 @@
   },
   {
     "id": "altar-204-2014-317329ff",
-    "name": "Tahoe CargoDoor2 Green $",
+    "name": "Tahoe CargoDoor2 Green",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37870,7 +37726,7 @@
   },
   {
     "id": "altar-204-2015-a400118e",
-    "name": "Tahoe Hood Green $",
+    "name": "Tahoe Hood Green",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37886,7 +37742,7 @@
   },
   {
     "id": "altar-204-2016-19667fc2",
-    "name": "Tahoe Trunk Green $",
+    "name": "Tahoe Trunk Green",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37901,88 +37757,8 @@
     }
   },
   {
-    "id": "altar-204-2017-ee133bc5",
-    "name": "Tahge DriverDoor Pink $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahge DriverDoor Pink $"
-    }
-  },
-  {
-    "id": "altar-204-2018-083a53ce",
-    "name": "Tahge CoDriverDoor Pink $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahge CoDriverDoor Pink $"
-    }
-  },
-  {
-    "id": "altar-204-2019-32947251",
-    "name": "Tahge CargoDoor1 Pink $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahge CargoDoor1 Pink $"
-    }
-  },
-  {
-    "id": "altar-204-2020-f8dc9201",
-    "name": "Tahoe CargoDoor2 Pink $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahoe CargoDoor2 Pink $"
-    }
-  },
-  {
-    "id": "altar-204-2021-7eb13d37",
-    "name": "Tahge Hood Pink $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahge Hood Pink $"
-    }
-  },
-  {
     "id": "altar-204-2022-9ecd95bd",
-    "name": "Tahoe Trunk Pink $",
+    "name": "Tahoe Trunk Pink",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -37997,40 +37773,8 @@
     }
   },
   {
-    "id": "altar-204-2023-cc41ad15",
-    "name": "Tahge DriverDoor Red $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahge DriverDoor Red $"
-    }
-  },
-  {
-    "id": "altar-204-2024-19fabcd9",
-    "name": "Tahoe CoDriverDoor Red $",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 204,
-      "rawName": "Tahoe CoDriverDoor Red $"
-    }
-  },
-  {
     "id": "altar-204-2025-0c6bfb8c",
-    "name": "Tahoe CargoDoor1 Red $",
+    "name": "Tahoe CargoDoor1 Red",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -38046,7 +37790,7 @@
   },
   {
     "id": "altar-204-2026-55261a06",
-    "name": "Tahoe CargoDoor2 Red $",
+    "name": "Tahoe CargoDoor2 Red",
     "category": "Vehicle Part",
     "subcategory": "Tahoe",
     "properties": [],
@@ -38058,38 +37802,6 @@
       "source": "Trader-Altar screenshot",
       "image": 204,
       "rawName": "Tahoe CargoDoor2 Red $"
-    }
-  },
-  {
-    "id": "altar-205-2027-97d2c373",
-    "name": "Tahoe CargoDoor’ DarkBlue",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe CargoDoor’ DarkBlue"
-    }
-  },
-  {
-    "id": "altar-205-2028-86d12143",
-    "name": "Tahoe CargoDoor?2 DarkBlue",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe CargoDoor?2 DarkBlue"
     }
   },
   {
@@ -38125,22 +37837,6 @@
     }
   },
   {
-    "id": "altar-205-2031-d3f5a74c",
-    "name": "Tahoe DriverDoor Green",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe DriverDoor Green"
-    }
-  },
-  {
     "id": "altar-205-2032-4e32e8e0",
     "name": "Tahoe CoDriverDoor Green",
     "category": "Vehicle Part",
@@ -38154,70 +37850,6 @@
       "source": "Trader-Altar screenshot",
       "image": 205,
       "rawName": "Tahoe CoDriverDoor Green"
-    }
-  },
-  {
-    "id": "altar-205-2033-76b95efb",
-    "name": "Tahoe CargoDoor? Green e",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe CargoDoor? Green e"
-    }
-  },
-  {
-    "id": "altar-205-2034-a150a742",
-    "name": "Tahoe CargoDoor? Green",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe CargoDoor? Green"
-    }
-  },
-  {
-    "id": "altar-205-2035-d08c9c16",
-    "name": "Tahoe Hood Green ue",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe Hood Green ue"
-    }
-  },
-  {
-    "id": "altar-205-2036-d22a9925",
-    "name": "Tahoe Trunk Green",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe Trunk Green"
     }
   },
   {
@@ -38301,22 +37933,6 @@
     }
   },
   {
-    "id": "altar-205-2042-8b2b24f7",
-    "name": "Tahoe Trunk Pink S0",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe Trunk Pink S0"
-    }
-  },
-  {
     "id": "altar-205-2043-7e512014",
     "name": "Tahoe DriverDoor Red",
     "category": "Vehicle Part",
@@ -38346,22 +37962,6 @@
       "source": "Trader-Altar screenshot",
       "image": 205,
       "rawName": "Tahoe CoDriverDoor Red"
-    }
-  },
-  {
-    "id": "altar-205-2045-82f45042",
-    "name": "Tahoe CargaDoor1 Red",
-    "category": "Vehicle Part",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 205,
-      "rawName": "Tahoe CargaDoor1 Red"
     }
   },
   {
@@ -40170,22 +39770,6 @@
       "source": "Trader-Altar screenshot",
       "image": 210,
       "rawName": "Toyota4Runner CoDriverDoor CamoRed"
-    }
-  },
-  {
-    "id": "altar-211-2148-1e120253",
-    "name": "Toyota4Runner CoDriverDoor Pink $",
-    "category": "Vehicle Part",
-    "subcategory": "Toyota Runner",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 211,
-      "rawName": "Toyota4Runner CoDriverDoor Pink $"
     }
   },
   {
@@ -43905,6 +43489,58 @@
       "status": "confirmed",
       "source": "User verification via Morty's mod-author Discord",
       "note": "Lever-action rifle; verified to shoot .45-70 rounds."
+    }
+  },
+  {
+    "id": "tahoe-variant-tahoe-darkblue",
+    "name": "2014 Chevy Tahoe DarkBlue",
+    "category": "Vehicle",
+    "subcategory": "Tahoe",
+    "properties": [],
+    "source": {
+      "modId": "unknown"
+    },
+    "evidence": {
+      "status": "inferred",
+      "source": "User-confirmed correction to Trader-Altar review",
+      "note": "Variant name confirmed by user; vehicle details inferred from other 2014 Chevy Tahoe variants."
+    },
+    "vehicle": {
+      "inferredAttachmentPoints": [
+        "Wheel",
+        "Driver",
+        "CoDriver",
+        "Cargo",
+        "Hood",
+        "Trunk"
+      ],
+      "attachmentEvidence": "Inferred from vehicle part names shown in the Altar trader interface; attachment point display names are provisional."
+    }
+  },
+  {
+    "id": "tahoe-variant-tahoe-red",
+    "name": "2014 Chevy Tahoe Red",
+    "category": "Vehicle",
+    "subcategory": "Tahoe",
+    "properties": [],
+    "source": {
+      "modId": "unknown"
+    },
+    "evidence": {
+      "status": "inferred",
+      "source": "User-confirmed correction to Trader-Altar review",
+      "note": "Variant name confirmed by user; vehicle details inferred from other 2014 Chevy Tahoe variants."
+    },
+    "vehicle": {
+      "inferredAttachmentPoints": [
+        "Wheel",
+        "Driver",
+        "CoDriver",
+        "Cargo",
+        "Hood",
+        "Trunk"
+      ],
+      "attachmentEvidence": "Inferred from vehicle part names shown in the Altar trader interface; attachment point display names are provisional."
     }
   }
 ]

@@ -18,7 +18,22 @@ The pre-alpha portion below is a **reconstructed project history** from the pres
 
 # Beta
 
-## Beta 1.0.1 — Current
+## Beta 1.0.2 — Current
+
+### Trader-Altar vehicle-name corrections
+- Applied the user's confirmed vehicle-name corrections from the Beta 1.0.1 data review.
+- Corrected the five specified Jeep Gladiator F9 entries, including the `F9` model identifier and `Gladiator` spelling where confirmed.
+- Removed duplicate Bronco, Jeep, Tahoe, and Toyota 4Runner records where the clean record already existed, reassigning the associated trader listing to the clean record first.
+- Corrected the specified Tahoe cargo, hood, trunk, wheel, door, and color-variant names where the user supplied the intended text.
+- Corrected `2014 Chevy Tahoe Creen` to `2014 Chevy Tahoe Green` and `2014 Chevy Tahoe Pink a` to `2014 Chevy Tahoe Pink`.
+- Left `2014 Chevy Tahoe Hea 20 $` unresolved because the current evidence does not establish whether it represents the missing DarkBlue or Red variant.
+- Did not alter unrelated suspicious OCR strings that were not resolved by the user's review.
+
+### Data integrity
+- Reassigned trader listings from removed duplicate item records to their existing clean item records.
+- Revalidated trader-to-item references after the cleanup.
+
+## Beta 1.0.1 — Superseded
 
 ### Data review corrections
 - Applied the user's follow-up review of `DATA-REVIEW.md` instead of treating already-answered review points as unresolved.
@@ -243,3 +258,12 @@ From **Beta 1.0.0 onward**, version numbers will follow the same rules within th
 - and so on.
 
 A future production release can start a new stage (for example `1.0.0`) once the database is considered ready for general use.
+
+
+### Beta 1.0.2 — data-review amendment (same version; no version bump)
+- Completed the outstanding Tahoe vehicle and part-name corrections from the Beta 1.0.1 review.
+- Removed the malformed Tahoe vehicle OCR entry and added the DarkBlue and Red Tahoe variants.
+- Corrected and merged Tahoe part duplicates, including the previously overlooked `Tahoe Trunk Pink $` record.
+- Merged duplicate boxed 7.62x54mmR Tracer records while preserving the spreadsheet-enriched canonical record and its trader listing.
+- Applied the user-confirmed Vanilla source classification to Altar firearms, ammunition, and attachments, including Vanilla ammunition used by modded firearms.
+- Added Google Forms/Sheets setup instructions; reporting remains unconnected until the owner supplies a published form URL.

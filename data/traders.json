@@ -997,7 +997,7 @@
       "id": "altar5-8848a151645377",
       "vendorId": "altar-weapon-supplies",
       "menuCategory": "Ammunition",
-      "itemId": "altar-10-136-94cc7932",
+      "itemId": "box-762x54-tracer",
       "buy": 400,
       "sell": 200
     },
@@ -12351,7 +12351,7 @@
       "id": "altar5-c0958837fa0517",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Jeep_GladiatorF9",
-      "itemId": "altar-169-1623-fd347569",
+      "itemId": "altar-170-1642-3f0e3425",
       "buy": 2500,
       "sell": 500
     },
@@ -12359,7 +12359,7 @@
       "id": "altar5-52c38e686d6600",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Jeep_GladiatorF9",
-      "itemId": "altar-169-1624-58d8c6db",
+      "itemId": "altar-170-1643-d5b1d504",
       "buy": 2500,
       "sell": 500
     },
@@ -13209,7 +13209,7 @@
       "id": "altar5-baf52d4301578e",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Ford Bronco",
-      "itemId": "altar-176-1733-49ba51ce",
+      "itemId": "altar-175-1715-cbcb1494",
       "sell": 3800
     },
     {
@@ -14896,14 +14896,6 @@
       "sell": 250000
     },
     {
-      "id": "altar5-c5c387b90d32d8",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Tahoe",
-      "itemId": "altar-202-1971-cf32a9ee",
-      "buy": 9,
-      "sell": 250000
-    },
-    {
       "id": "altar5-9cdb269563ba24",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
@@ -15171,7 +15163,7 @@
       "id": "altar5-6436459e1f9732",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2006-00f60684",
+      "itemId": "altar-203-2004-1b7244fc",
       "sell": 2500
     },
     {
@@ -15192,14 +15184,14 @@
       "id": "altar5-df6632e6d88095",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2009-94f3b41f",
+      "itemId": "altar-205-2029-4049a456",
       "sell": 2500
     },
     {
       "id": "altar5-2ce43fb8b94186",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2010-ef4ad471",
+      "itemId": "altar-205-2030-224ff549",
       "sell": 2500
     },
     {
@@ -15213,7 +15205,7 @@
       "id": "altar5-b486ab47e5daf8",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2012-0ba3a085",
+      "itemId": "altar-205-2032-4e32e8e0",
       "sell": 2500
     },
     {
@@ -15248,35 +15240,35 @@
       "id": "altar5-8436039e460b0e",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2017-ee133bc5",
+      "itemId": "altar-205-2037-7dd3a87e",
       "sell": 2500
     },
     {
       "id": "altar5-8e74cd71c9ecb5",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2018-083a53ce",
+      "itemId": "altar-205-2038-964798ed",
       "sell": 2500
     },
     {
       "id": "altar5-2449d7ba7ee018",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2019-32947251",
+      "itemId": "altar-205-2039-94d997dc",
       "sell": 2500
     },
     {
       "id": "altar5-709fa0bd29fa07",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2020-f8dc9201",
+      "itemId": "altar-205-2040-3a95c3c4",
       "sell": 2500
     },
     {
       "id": "altar5-84d54467dcc9cf",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2021-7eb13d37",
+      "itemId": "altar-205-2041-92b6cf43",
       "sell": 2500
     },
     {
@@ -15290,14 +15282,14 @@
       "id": "altar5-70c72c34dfe08a",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2023-cc41ad15",
+      "itemId": "altar-205-2043-7e512014",
       "sell": 2500
     },
     {
       "id": "altar5-5a6ce6b832a80e",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-204-2024-19fabcd9",
+      "itemId": "altar-205-2044-b98e2e98",
       "sell": 2500
     },
     {
@@ -15318,7 +15310,7 @@
       "id": "altar5-d5f70ca38a82fa",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2027-97d2c373",
+      "itemId": "altar-204-2007-85ed2d71",
       "buy": 5000,
       "sell": 2500
     },
@@ -15326,7 +15318,7 @@
       "id": "altar5-ddb5bdac17d805",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2028-86d12143",
+      "itemId": "altar-204-2008-f5c11b64",
       "buy": 5000,
       "sell": 2500
     },
@@ -15350,7 +15342,7 @@
       "id": "altar5-9e6f7e5641c61f",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2031-d3f5a74c",
+      "itemId": "altar-204-2011-45df9981",
       "buy": 5000,
       "sell": 2500
     },
@@ -15366,7 +15358,7 @@
       "id": "altar5-3e0eaa91aed0f8",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2033-76b95efb",
+      "itemId": "altar-204-2013-9972880c",
       "buy": 5000,
       "sell": 2500
     },
@@ -15374,7 +15366,7 @@
       "id": "altar5-e15b642b155e60",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2034-a150a742",
+      "itemId": "altar-204-2014-317329ff",
       "buy": 5000,
       "sell": 2500
     },
@@ -15382,7 +15374,7 @@
       "id": "altar5-79c8067d78987c",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2035-d08c9c16",
+      "itemId": "altar-204-2015-a400118e",
       "buy": 5000,
       "sell": 2500
     },
@@ -15390,7 +15382,7 @@
       "id": "altar5-988c156b59b707",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2036-d22a9925",
+      "itemId": "altar-204-2016-19667fc2",
       "buy": 5000,
       "sell": 2500
     },
@@ -15435,13 +15427,6 @@
       "sell": 2500
     },
     {
-      "id": "altar5-e9c9fc1a2ab091",
-      "vendorId": "altar-vehicles-trader",
-      "menuCategory": "Tahoe",
-      "itemId": "altar-205-2042-8b2b24f7",
-      "sell": 2500
-    },
-    {
       "id": "altar5-9d0a64937c09a8",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
@@ -15461,7 +15446,7 @@
       "id": "altar5-e9b6633ff991aa",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Tahoe",
-      "itemId": "altar-205-2045-82f45042",
+      "itemId": "altar-204-2025-0c6bfb8c",
       "buy": 5000,
       "sell": 2500
     },
@@ -16284,7 +16269,7 @@
       "id": "altar5-1b194daef05108",
       "vendorId": "altar-vehicles-trader",
       "menuCategory": "Toyota Runner",
-      "itemId": "altar-211-2148-1e120253",
+      "itemId": "altar-210-2142-9260cdc7",
       "sell": 2500
     },
     {
@@ -21461,6 +21446,22 @@
       "itemId": "vehicle-key-tag-yellow",
       "displayName": "Yellow Tag",
       "buy": 1500
+    },
+    {
+      "id": "beta102-tahoe-variant-tahoe-darkblue-listing",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicles",
+      "itemId": "tahoe-variant-tahoe-darkblue",
+      "buy": 500000,
+      "sell": 250000
+    },
+    {
+      "id": "beta102-tahoe-variant-tahoe-red-listing",
+      "vendorId": "altar-vehicles-trader",
+      "menuCategory": "Vehicles",
+      "itemId": "tahoe-variant-tahoe-red",
+      "buy": 500000,
+      "sell": 250000
     }
   ]
 }

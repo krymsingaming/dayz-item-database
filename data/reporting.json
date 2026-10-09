@@ -2,5 +2,5 @@
   "enabled": true,
   "provider": "google-form",
   "formUrl": "",
-  "notes": "Set formUrl when the final Google Form exists. Reports target individual data paths, relationships, or trader listings."
+  "notes": "Not connected yet. Follow REPORTING-SETUP.md, then set formUrl to the published Google Form responder URL."
 }

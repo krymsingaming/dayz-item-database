@@ -38,3 +38,7 @@ Vehicle part listings can be used to infer temporary attachment-point names. Suc
 - Loose ammunition ballistics were populated from the Bullet Damage spreadsheet where the mapping was clear. Diesel overrides and shock values are retained as data; no effect beyond the recorded numeric values is inferred.
 - Magazine capacities and weapon→magazine relationships were added where the trader item name directly establishes them.
 - Remaining suspicious OCR/spreadsheet entries are documented in DATA-REVIEW.md rather than guessed.
+
+
+## Beta 1.0.2 review amendment
+This amendment does not increment the version number. It completes user-supplied corrections from the Beta 1.0.1 review, deduplicates the boxed 7.62x54mmR Tracer listing in favor of the spreadsheet-enriched canonical item, and applies the user-confirmed Vanilla classification to Altar weapon/ammunition/attachment listings. Google Form reporting remains pending owner setup; see REPORTING-SETUP.md.
