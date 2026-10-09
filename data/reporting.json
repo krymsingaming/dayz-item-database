@@ -1,6 +1,6 @@
 {
   "enabled": true,
   "provider": "google-form",
-  "formUrl": "",
+  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc0EeqNlkQv62ud6xdsd17U19-Z3qpcOP8kRVrVUawRsLTtrw/viewform?usp=dialog",
   "notes": "Not connected yet. Follow REPORTING-SETUP.md, then set formUrl to the published Google Form responder URL."
 }
