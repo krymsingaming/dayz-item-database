@@ -1,8 +1,9 @@
 {
   "stage": "beta",
-  "version": "1.0.2",
-  "displayVersion": "Beta 1.0.2",
-  "previousBuild": "Beta 1.0.1",
+  "version": "1.0.3",
+  "displayVersion": "Beta 1.0.3",
+  "previousBuild": "Beta 1.0.2",
   "status": "public beta candidate",
-  "date": "2026-10-08"
+  "date": "2026-10-09",
+  "summary": "Trader and item-name OCR cleanup, model-family category normalization, and duplicate Tahoe DarkBlue consolidation."
 }

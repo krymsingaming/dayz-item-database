@@ -1,6 +1,10 @@
 {
   "enabled": true,
   "provider": "google-form",
-  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc0EeqNlkQv62ud6xdsd17U19-Z3qpcOP8kRVrVUawRsLTtrw/viewform?usp=dialog",
-  "notes": "Not connected yet. Follow REPORTING-SETUP.md, then set formUrl to the published Google Form responder URL."
+  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc0EeqNlkQv62ud6xdsd17U19-Z3qpcOP8kRVrVUawRsLTtrw/viewform",
+  "notes": "Google Form URL connected. The website pre-fills only the known item/listing context and field/relationship; correction type, correction details, evidence, and contact are left for the reporter.",
+  "prefillFields": {
+    "itemOrListing": "entry.22533478",
+    "fieldOrRelationship": "entry.696720047"
+  }
 }

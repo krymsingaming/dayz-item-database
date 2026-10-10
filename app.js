@@ -337,7 +337,7 @@ function renderTraderBrowser(focusItemId=null,focusListingId=null){
   const rows=getListingsForTraderState(),groups=groupTraderListings(rows),body=$("traderRows");if(!body)return;
   body.innerHTML=groups.map(group=>{
     const first=group[0],item=findItem(first.itemId),display=first.displayName||item?.name||"Unknown",focused=group.some(l=>(focusListingId&&l.id===focusListingId)||(focusItemId&&l.itemId===focusItemId)),buy=getListingPriceSummary(group,"buy"),sell=getListingPriceSummary(group,"sell"),tip="This trader page has multiple records with the same displayed name. Any ranges shown denote differences between entries. The individual trader entries can be seen once expanded.";
-    return `<details class="item-row trader-row ${focused?"current":""}" ${focused?"open":""}><summary><span class="item-name-wrap"><span class="item-name">${escapeHtml(display)}</span></span><span class="item-classification">${escapeHtml(first.menuCategory||"")}</span><span class="item-facts">${item?primaryFactsHTML(item).map(f=>`<span>${f}</span>`).join(""):""}</span><span class="trader-inline">${priceInfo(buy,"Buy","buy")} ${priceInfo(sell,"Sell","sell")}</span>${group.length>1?infoIcon(tip):""}<span class="row-expander" aria-hidden="true">›</span></summary><div class="item-row-body">${buildTraderRowGroup(group,item)}</div></details>`;
+    return `<details class="item-row trader-row ${focused?"current":""}" ${focused?"open":""}><summary><span class="item-name-wrap"><span class="item-name">${escapeHtml(display)}</span></span><span class="item-classification">${escapeHtml(first.menuCategory||"")}</span><span class="item-facts">${item?primaryFactsHTML(item).map(f=>`<span>${f}</span>`).join(""):""}</span><span class="trader-inline">${reportPriceButton(first,"buy",buy,"Buy")} ${reportPriceButton(first,"sell",sell,"Sell")}</span>${group.length>1?infoIcon(tip):""}<span class="row-expander" aria-hidden="true">›</span></summary><div class="item-row-body">${buildTraderRowGroup(group,item)}</div></details>`;
   }).join("")||`<div class="empty-state">No trader listings in this selection.</div>`;
   $("traderResultCount").textContent=`${groups.length} displayed item${groups.length===1?"":"s"} • ${rows.length} listings`;
   if(focusListingId||focusItemId){const el=body.querySelector(".trader-row.current");if(el)requestAnimationFrame(()=>el.scrollIntoView({block:"center",behavior:"smooth"}))}
@@ -345,8 +345,8 @@ function renderTraderBrowser(focusItemId=null,focusListingId=null){
 function buildTraderRowGroup(group,item){
   const first=group[0],buy=getListingPriceSummary(group,"buy"),sell=getListingPriceSummary(group,"sell");
   let html=`<div class="detail-grid"><div class="detail-row"><strong>Item</strong>${item?`<button class="link-button" data-detail-id="${escapeHtml(item.id)}">${escapeHtml(item.name)}</button>`:escapeHtml(first.displayName||"Unknown")}</div><div class="detail-row"><strong>Location</strong>${escapeHtml(listingLocationNames(first).join(", "))}</div></div>`;
-  html+=`<section class="detail-section"><h3>Trader prices</h3><div class="detail-grid"><div class="detail-row"><strong>Buy</strong>${buy?priceInfo(buy,"","buy"):unavailableIcon("buy")}</div><div class="detail-row"><strong>Sell</strong>${sell?priceInfo(sell,"","sell"):unavailableIcon("sell")}</div></div></section>`;
-  if(group.length>1)html+=`<section class="detail-section"><h3>Individual trader records</h3>${group.map((l,i)=>`<details class="group"><summary>Record ${i+1}</summary><div class="group-body"><div class="detail-grid"><div class="detail-row"><strong>Buy</strong>${l.buy!==undefined?Number(l.buy).toLocaleString():unavailableIcon("buy")}</div><div class="detail-row"><strong>Sell</strong>${l.sell!==undefined?Number(l.sell).toLocaleString():unavailableIcon("sell")}</div><div class="detail-row"><strong>Trader page</strong>${escapeHtml(listingLabel(l))}</div></div><button class="link-button" data-trader-listing="${escapeHtml(l.id)}">Open trader record</button></div></details>`).join("")}</section>`;
+  html+=`<section class="detail-section"><h3>Trader prices</h3><div class="detail-grid"><div class="detail-row">${reportPriceButton(first,"buy",buy,"Buy")}</div><div class="detail-row">${reportPriceButton(first,"sell",sell,"Sell")}</div></div></section>`;
+  if(group.length>1)html+=`<section class="detail-section"><h3>Individual trader records</h3>${group.map((l,i)=>`<details class="group"><summary>Record ${i+1}</summary><div class="group-body"><div class="detail-grid"><div class="detail-row">${reportPriceButton(l,"buy",l.buy!==undefined?{minimum:l.buy,maximum:l.buy,values:[l.buy]}:null,"Buy")}</div><div class="detail-row">${reportPriceButton(l,"sell",l.sell!==undefined?{minimum:l.sell,maximum:l.sell,values:[l.sell]}:null,"Sell")}</div><div class="detail-row"><strong>Trader page</strong>${escapeHtml(listingLabel(l))}</div></div><button class="link-button" data-trader-listing="${escapeHtml(l.id)}">Open trader record</button></div></details>`).join("")}</section>`;
   html+=`<div class="row-links">${item?`<button class="link-button" data-detail-id="${escapeHtml(item.id)}">Open item details</button>`:""}<button class="text-button back-top-link" data-scroll-top="1">Back to top ↑</button></div>`;
   return html;
 }
@@ -381,5 +381,50 @@ function handleGlobalClick(e){
   const listing=e.target.closest("[data-trader-listing]");if(listing){e.preventDefault();e.stopPropagation();const l=db.traders.listings.find(x=>x.id===listing.dataset.traderListing);if(l)showTraderForListing(l);return}
   const detail=e.target.closest("[data-detail-id]");if(detail){e.preventDefault();e.stopPropagation();openItemDetail(detail.dataset.detailId,currentView==="trader"?"trader":"database",detail.dataset.attachmentPoint||null);return}
 }
-function openReport(target){const item=target.entityType==="item"?findItem(target.entityId):null;const field=target.path;const message=`Report for ${item?.name||target.entityId}\nField: ${field}\nCurrent value: ${getPath(item,field)??"Missing"}`;if(db.reporting.formUrl){window.open(db.reporting.formUrl+"?item="+encodeURIComponent(item?.name||target.entityId)+"&field="+encodeURIComponent(field),"_blank","noopener");return}alert(message+"\n\nReporting is ready architecturally; the Google Form URL has not been connected yet.")}
+function itemReportContext(item){
+  if(!item)return "Unknown item";
+  const paths=getBrowsePathsForItem(item);
+  const preferred=paths.find(path=>item.subcategory&&path.some(node=>node.label===item.subcategory))||paths[0];
+  const labels=preferred?.map(node=>node.label)||[item.category,item.subcategory].filter(Boolean);
+  return [...labels,item.name].filter(Boolean).join("/");
+}
+function reportFieldLabel(path){
+  const known={
+    "name":"Item name","item":"Item information","general":"General feedback",
+    "firearm.caliber":"Caliber","buy":"Buy Price","sell":"Sell Price",
+    "inventory.dimensions":"Inventory dimensions","inventory.maxStack":"Maximum stack",
+    "inventory.size":"Storage capacity","source.modId":"Mod source",
+    "ballistics.damage":"Damage","ballistics.shock":"Shock damage",
+    "availability.trader":"Trader availability","availability.worldSpawn":"World spawn availability"
+  };
+  if(known[path])return known[path];
+  const last=String(path||"General feedback").split(".").pop();
+  return last.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/^./,c=>c.toUpperCase());
+}
+function reportPriceButton(listing,field,summary,label){
+  const display=summary?priceText(summary):unavailableIcon(field==="buy"?"buy":"sell");
+  return `<button type="button" class="report-price-button" data-report="1" data-entity-type="listing" data-entity-id="${escapeHtml(listing.id)}" data-path="${field}" aria-label="Report incorrect ${label.toLowerCase()}">${label}: ${display}</button>`;
+}
+function openReport(target){
+  const listing=target.entityType==="listing"?db.traders.listings.find(x=>x.id===target.entityId):null;
+  const item=target.entityType==="item"?findItem(target.entityId):(listing?findItem(listing.itemId):null);
+  const field=reportFieldLabel(target.path);
+  let itemLabel=item?itemReportContext(item):(target.entityId||"General feedback");
+  if(listing){
+    const vendor=db.traders.vendors.find(v=>v.id===listing.vendorId);
+    const locations=listingLocationNames(listing);
+    itemLabel=[...locations,vendor?.name,listing.menuCategory,itemReportContext(item)].filter(Boolean).join(" / ");
+  }else if(target.entityType==="site")itemLabel="General site feedback";
+  const currentValue=listing?listing[target.path]:getPath(item,target.path);
+  if(db.reporting.enabled&&db.reporting.formUrl){
+    const url=new URL(db.reporting.formUrl);
+    url.searchParams.set("usp","pp_url");
+    const fields=db.reporting.prefillFields||{};
+    if(fields.itemOrListing)url.searchParams.set(fields.itemOrListing,itemLabel);
+    if(fields.fieldOrRelationship)url.searchParams.set(fields.fieldOrRelationship,field);
+    window.open(url.toString(),"_blank","noopener,noreferrer");
+    return;
+  }
+  alert(`Report for ${itemLabel}\nField: ${field}\nCurrent value: ${currentValue??"Missing"}\n\nThe reporting form has not been configured yet.`);
+}
 function getPath(obj,path){if(!obj)return undefined;return path.split(".").reduce((a,k)=>a?.[k],obj)}

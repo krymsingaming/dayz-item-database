@@ -18,7 +18,7 @@ The pre-alpha portion below is a **reconstructed project history** from the pres
 
 # Beta
 
-## Beta 1.0.2 — Current
+## Beta 1.0.2 — Previous release
 
 ### Trader-Altar vehicle-name corrections
 - Applied the user's confirmed vehicle-name corrections from the Beta 1.0.1 data review.
@@ -266,4 +266,24 @@ A future production release can start a new stage (for example `1.0.0`) once the
 - Corrected and merged Tahoe part duplicates, including the previously overlooked `Tahoe Trunk Pink $` record.
 - Merged duplicate boxed 7.62x54mmR Tracer records while preserving the spreadsheet-enriched canonical record and its trader listing.
 - Applied the user-confirmed Vanilla source classification to Altar firearms, ammunition, and attachments, including Vanilla ammunition used by modded firearms.
-- Added Google Forms/Sheets setup instructions; reporting remains unconnected until the owner supplies a published form URL.
+- Added Google Forms/Sheets setup instructions. At the time of this amendment, reporting awaited the published form URL; the URL was connected in the subsequent Beta 1.0.2 reporting amendment below.
+
+
+### Beta 1.0.2 — Google Forms reporting connection (same version; no version bump)
+- Connected the provided Google Forms responder URL and configured the supplied prefill field IDs.
+- Item reports prefill the taxonomy breadcrumb plus item name and the selected field label.
+- Trader Browser Buy/Sell prices now open the report form with location, trader, menu category, item context, and price field prefilled.
+- Added documentation for Google Forms file-upload sign-in restrictions.
+
+
+### Beta 1.0.3 — trader data quality cleanup
+- Corrected more than 260 item-name OCR/spelling/punctuation issues across the item database.
+- Corrected or normalized trader menu-category rows, including the duplicated Jeep Gladiator category and clear model/category mismatches across LAPV, MRAP, Blackouts Baja, GMC, Ford Raptor, MotorHome, and DodgeRam families.
+- Reconstructed malformed M1114 Humvee and DodgeRam 3500 rows using the master workbook / existing canonical listing; uncertain duplicate candidates remain flagged rather than deleted.
+- Added `DATA-QUALITY-AUDIT.md` documenting applied fixes and unresolved items.
+- No schema change; version increment is minor patch-level Beta 1.0.3.
+
+- Consolidated the screenshot-backed Tahoe DarkBlue listing into the canonical item record and removed its duplicate synthetic listing.
+- Updated the visible site version to Beta 1.0.3.
+
+- Repaired the Hunting and Fishing vendor ID on 106 listings, categorized the formerly Uncategorized entries using their item taxonomy, and corrected obvious fish-name misspellings.

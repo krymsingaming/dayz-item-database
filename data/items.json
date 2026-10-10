@@ -1894,7 +1894,7 @@
   },
   {
     "id": "hf-stealheadtrout",
-    "name": "StealheadTrout",
+    "name": "Steelhead Trout",
     "category": "Fishing",
     "source": {
       "modId": "vanilla"
@@ -1994,7 +1994,7 @@
   },
   {
     "id": "hf-largemout-bass",
-    "name": "Largemout Bass",
+    "name": "Largemouth Bass",
     "category": "Fishing",
     "source": {
       "modId": "vanilla"
@@ -2214,7 +2214,7 @@
   },
   {
     "id": "hf-readhead-cichlid",
-    "name": "Readhead Cichlid",
+    "name": "Redhead Cichlid",
     "category": "Fishing",
     "source": {
       "modId": "vanilla"
@@ -6542,7 +6542,7 @@
     "notes": [
       "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
     ],
-    "subcategory": "Supressors"
+    "subcategory": "Suppressors"
   },
   {
     "id": "normalized-suppressor",
@@ -6557,7 +6557,7 @@
     "notes": [
       "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
     ],
-    "subcategory": "Supressors"
+    "subcategory": "Suppressors"
   },
   {
     "id": "standardized-suppressor",
@@ -6572,7 +6572,7 @@
     "notes": [
       "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
     ],
-    "subcategory": "Supressors"
+    "subcategory": "Suppressors"
   },
   {
     "id": "mosin-91-30-compensator",
@@ -7527,7 +7527,7 @@
     "notes": [
       "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
     ],
-    "subcategory": "Hoodies & Sweater"
+    "subcategory": "Hoodies & Sweaters"
   },
   {
     "id": "military-sweater",
@@ -7542,7 +7542,7 @@
     "notes": [
       "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
     ],
-    "subcategory": "Hoodies & Sweater"
+    "subcategory": "Hoodies & Sweaters"
   },
   {
     "id": "hoodie",
@@ -7557,7 +7557,7 @@
     "notes": [
       "Imported from the Altar trader screenshots in the Trader-Altar workbook tab. Item-specific details such as dimensions, properties, and exact mod source have not yet been entered or verified."
     ],
-    "subcategory": "Hoodies & Sweater"
+    "subcategory": "Hoodies & Sweaters"
   },
   {
     "id": "reflective-vest",
@@ -9896,7 +9896,7 @@
   },
   {
     "id": "altar-5-81-6f76efa1",
-    "name": "LE-MAS.",
+    "name": "LE-MAS",
     "category": "Firearm",
     "subcategory": "Rifles",
     "properties": [],
@@ -17392,7 +17392,7 @@
   },
   {
     "id": "altar-58-792-69915465",
-    "name": "Nike Air Force 1 Low ‘",
+    "name": "Nike Air Force 1 Low",
     "category": "Feet",
     "subcategory": "Sneakers",
     "properties": [],
@@ -17408,7 +17408,7 @@
   },
   {
     "id": "altar-58-793-69915465",
-    "name": "Nike Air Force 1 Low ‘",
+    "name": "Nike Air Force 1 Low",
     "category": "Feet",
     "subcategory": "Sneakers",
     "properties": [],
@@ -17424,7 +17424,7 @@
   },
   {
     "id": "altar-58-794-69915465",
-    "name": "Nike Air Force 1 Low ‘",
+    "name": "Nike Air Force 1 Low",
     "category": "Feet",
     "subcategory": "Sneakers",
     "properties": [],
@@ -17616,7 +17616,7 @@
   },
   {
     "id": "altar-68-806-bef54587",
-    "name": "Medium Tent ‘",
+    "name": "Medium Tent",
     "category": "Placeable / Building",
     "subcategory": "Building Supplies",
     "properties": [],
@@ -17840,7 +17840,7 @@
   },
   {
     "id": "altar-69-820-ec03aa94",
-    "name": "‘Small Safe Ragnalock Kit",
+    "name": "Small Safe Ragnalock Kit",
     "category": "Placeable / Building",
     "subcategory": "Building Supplies",
     "properties": [],
@@ -19632,7 +19632,7 @@
   },
   {
     "id": "altar-76-932-7cfccad9",
-    "name": "Barrel Bananas:",
+    "name": "Barrel Bananas",
     "category": "Placeable / Building",
     "subcategory": "BananaFritas Custom Barrels",
     "properties": [],
@@ -20432,7 +20432,7 @@
   },
   {
     "id": "altar-78-982-83db072f",
-    "name": "Coffee Mug yellow Shop.",
+    "name": "Coffee Mug yellow Shop",
     "category": "Placeable / Building",
     "subcategory": "RaG Base Items",
     "properties": [],
@@ -20624,7 +20624,7 @@
   },
   {
     "id": "altar-79-994-a8a210ce",
-    "name": "‘Weapon Cleaner Kit",
+    "name": "Weapon Cleaner Kit",
     "category": "Placeable / Building",
     "subcategory": "RaG Base Items",
     "properties": [],
@@ -20704,7 +20704,7 @@
   },
   {
     "id": "altar-79-999-ae6f3c17",
-    "name": "Sewing Machine Kit.",
+    "name": "Sewing Machine Kit",
     "category": "Placeable / Building",
     "subcategory": "RaG Base Items",
     "properties": [],
@@ -21618,7 +21618,7 @@
     "id": "altar-132-1056-176255ca",
     "name": "Blue Fishing Rod",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21634,7 +21634,7 @@
     "id": "altar-132-1057-92a400de",
     "name": "Green Fishing Rod",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21650,7 +21650,7 @@
     "id": "altar-132-1058-9003531d",
     "name": "Purple Fishing Rod",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21666,7 +21666,7 @@
     "id": "altar-133-1059-3d624c89",
     "name": "In-Line Spinnerbait 2",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21682,7 +21682,7 @@
     "id": "altar-133-1060-8e4a27ac",
     "name": "In-Line Spinnerbait 3",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21698,7 +21698,7 @@
     "id": "altar-133-1061-67dded67",
     "name": "In-Line Spinnerbait 4",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21714,7 +21714,7 @@
     "id": "altar-133-1062-1569f49f",
     "name": "Crankbait Lure",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21730,7 +21730,7 @@
     "id": "altar-133-1063-676cb940",
     "name": "Minnowbait Lure 2",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21746,7 +21746,7 @@
     "id": "altar-133-1064-5d9c43ee",
     "name": "Minnowbait Lure 3",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21762,7 +21762,7 @@
     "id": "altar-133-1065-439075a2",
     "name": "Minnowbait Lure 4",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21778,7 +21778,7 @@
     "id": "altar-133-1066-47b5d5aa",
     "name": "Grasshopper",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21794,7 +21794,7 @@
     "id": "altar-133-1067-7757b2e9",
     "name": "Field Cricket",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21810,7 +21810,7 @@
     "id": "altar-133-1068-77a75ac0",
     "name": "Grub Worm",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21826,7 +21826,7 @@
     "id": "altar-133-1069-4c9f54a0",
     "name": "Rubber Worm",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21842,7 +21842,7 @@
     "id": "altar-134-1070-304b0ce2",
     "name": "Orange Fish Knife",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21858,7 +21858,7 @@
     "id": "altar-134-1071-01088029",
     "name": "Green Fish Knife",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21874,7 +21874,7 @@
     "id": "altar-134-1072-8ac15fd3",
     "name": "Yellow Fish Knife",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21890,7 +21890,7 @@
     "id": "altar-134-1073-200412cd",
     "name": "Red Fish Knife",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21906,7 +21906,7 @@
     "id": "altar-134-1074-6d76ba99",
     "name": "Yellow Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21922,7 +21922,7 @@
     "id": "altar-134-1075-a4d8a75f",
     "name": "Red Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21938,7 +21938,7 @@
     "id": "altar-134-1076-5ac0e5fa",
     "name": "Purple Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21954,7 +21954,7 @@
     "id": "altar-134-1077-5f18d847",
     "name": "Pink Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21970,7 +21970,7 @@
     "id": "altar-134-1078-7973cfbf",
     "name": "Orange Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -21986,7 +21986,7 @@
     "id": "altar-134-1079-50c569d7",
     "name": "Lime Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22002,7 +22002,7 @@
     "id": "altar-134-1080-c27cae7f",
     "name": "Lightblue Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22018,7 +22018,7 @@
     "id": "altar-134-1081-c89636b5",
     "name": "Green Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22034,7 +22034,7 @@
     "id": "altar-134-1082-b54fae6d",
     "name": "Brown Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22050,7 +22050,7 @@
     "id": "altar-134-1083-fbbae536",
     "name": "Camouflage Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22066,7 +22066,7 @@
     "id": "altar-134-1084-d9b7c29f",
     "name": "Blue Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22082,7 +22082,7 @@
     "id": "altar-134-1085-2996bbc0",
     "name": "Fun Purple Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22098,7 +22098,7 @@
     "id": "altar-134-1086-d11e6d64",
     "name": "Fun Yellow Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22114,7 +22114,7 @@
     "id": "altar-134-1087-00a44f95",
     "name": "Fun Green Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22130,7 +22130,7 @@
     "id": "altar-134-1088-24a6f90c",
     "name": "Fun Red Tackle box",
     "category": "Fishing",
-    "subcategory": "Tackle and Knifes",
+    "subcategory": "Tackle and Knives",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -22528,7 +22528,7 @@
   },
   {
     "id": "altar-139-1113-2c94bd40",
-    "name": "‘Spark Plug",
+    "name": "Spark Plug",
     "category": "Vehicle",
     "subcategory": "Vehicle Parts",
     "properties": [],
@@ -22544,7 +22544,7 @@
   },
   {
     "id": "altar-139-1114-53ac8ae7",
-    "name": "Clowplug",
+    "name": "Glow Plug",
     "category": "Vehicle",
     "subcategory": "Vehicle Parts",
     "properties": [],
@@ -22576,7 +22576,7 @@
   },
   {
     "id": "altar-139-1116-ef77afba",
-    "name": "Truck Battery,",
+    "name": "Truck Battery",
     "category": "Vehicle",
     "subcategory": "Vehicle Parts",
     "properties": [],
@@ -22824,7 +22824,7 @@
   },
   {
     "id": "altar-140-1133-509af8a8",
-    "name": "‘Olga 24 Wheel",
+    "name": "Olga 24 Wheel",
     "category": "Vehicle Part",
     "subcategory": "Vehicle Parts",
     "properties": [],
@@ -22922,7 +22922,7 @@
   },
   {
     "id": "altar-141-1138-a121a549",
-    "name": "OD 4x4 ATY",
+    "name": "OD 4x4 ATV",
     "category": "Vehicle",
     "subcategory": "Vehicle Parts",
     "properties": [],
@@ -23076,7 +23076,7 @@
   },
   {
     "id": "altar-142-1145-35635588",
-    "name": "BMW 525i £34",
+    "name": "BMW 525i E34",
     "category": "Vehicle",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23123,7 +23123,7 @@
   },
   {
     "id": "altar-142-1146-63436b22",
-    "name": "BMW 5251 E34",
+    "name": "BMW 525i E34",
     "category": "Vehicle",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23264,7 +23264,7 @@
   },
   {
     "id": "altar-142-1149-a72ce25e",
-    "name": "BMW £34 Hood",
+    "name": "BMW E34 Hood",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23280,7 +23280,7 @@
   },
   {
     "id": "altar-142-1150-3312ea06",
-    "name": "BMW £34 Trunk",
+    "name": "BMW E34 Trunk",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23296,7 +23296,7 @@
   },
   {
     "id": "altar-142-1151-cb7a845a",
-    "name": "BMW £34 Front left door",
+    "name": "BMW E34 Front left door",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23312,7 +23312,7 @@
   },
   {
     "id": "altar-142-1152-7beb3c12",
-    "name": "BMW £34 Front right door",
+    "name": "BMW E34 Front right door",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23328,7 +23328,7 @@
   },
   {
     "id": "altar-142-1153-611c7850",
-    "name": "BMW £34 Rear left door",
+    "name": "BMW E34 Rear left door",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23344,7 +23344,7 @@
   },
   {
     "id": "altar-142-1154-7a80a21b",
-    "name": "BMW £34 Rear right door",
+    "name": "BMW E34 Rear right door",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23360,7 +23360,7 @@
   },
   {
     "id": "altar-142-1155-a72ce25e",
-    "name": "BMW £34 Hood",
+    "name": "BMW E34 Hood",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23376,7 +23376,7 @@
   },
   {
     "id": "altar-142-1156-3312ea06",
-    "name": "BMW £34 Trunk",
+    "name": "BMW E34 Trunk",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23424,7 +23424,7 @@
   },
   {
     "id": "altar-142-1159-f3128dba",
-    "name": "BMW £34 Rear Icft door",
+    "name": "BMW E34 Rear left door",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23472,7 +23472,7 @@
   },
   {
     "id": "altar-142-1162-3312ea06",
-    "name": "BMW £34 Trunk",
+    "name": "BMW E34 Trunk",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23520,7 +23520,7 @@
   },
   {
     "id": "altar-142-1165-611c7850",
-    "name": "BMW £34 Rear left door",
+    "name": "BMW E34 Rear left door",
     "category": "Vehicle Part",
     "subcategory": "CrSk BMW Vehicles",
     "properties": [],
@@ -23874,7 +23874,7 @@
     "id": "altar-144-1187-69b9ffa3",
     "name": "Blackouts Baja Powder",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -23926,7 +23926,7 @@
     "id": "altar-144-1188-56fa51ef",
     "name": "Blackouts Baja Ocean",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -23978,7 +23978,7 @@
     "id": "altar-144-1189-c4a0df85",
     "name": "Blackouts Baja Fire",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24030,7 +24030,7 @@
     "id": "altar-144-1190-8dd67af6",
     "name": "Blackouts Baja Pink",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24082,7 +24082,7 @@
     "id": "altar-144-1191-8946d236",
     "name": "Blackouts Baja Purple",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24134,7 +24134,7 @@
     "id": "altar-144-1192-cea44cac",
     "name": "Blackouts Baja Radio Active",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24186,7 +24186,7 @@
     "id": "altar-144-1193-82a6e97e",
     "name": "Blackouts Baja Death",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24238,7 +24238,7 @@
     "id": "altar-144-1194-c17be1bb",
     "name": "Blackouts Baja Driver Net Black",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24254,7 +24254,7 @@
     "id": "altar-144-1195-aae4ef43",
     "name": "Blackouts Baja Passenger Net Black",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24270,7 +24270,7 @@
     "id": "altar-144-1196-943e1151",
     "name": "Blackouts Baja Hood Plate",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24286,7 +24286,7 @@
     "id": "altar-144-1197-3c700516",
     "name": "Blackouts Baja Engine Cover",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24302,7 +24302,7 @@
     "id": "altar-144-1198-fa7a48ae",
     "name": "Blackouts Baja Driver Net White",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24318,7 +24318,7 @@
     "id": "altar-144-1199-946037a5",
     "name": "Blackouts Baja Passenger Net White",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24332,9 +24332,9 @@
   },
   {
     "id": "altar-144-1200-663a616b",
-    "name": "Blackouts Baja river Net Blue",
+    "name": "Blackouts Baja Driver Net Blue",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24350,7 +24350,7 @@
     "id": "altar-144-1201-ec15ca49",
     "name": "Blackouts Baja Passenger Net Blue",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24366,7 +24366,7 @@
     "id": "altar-144-1202-e6deee53",
     "name": "Blackouts Baja Driver Net Green",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24382,7 +24382,7 @@
     "id": "altar-144-1203-760855f1",
     "name": "Blackouts Baja Passenger Net Green",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24412,9 +24412,9 @@
   },
   {
     "id": "altar-144-1205-39285733",
-    "name": "Blackouts Gaja Passenger Net Orange",
+    "name": "Blackouts Baja Passenger Net Orange",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24430,7 +24430,7 @@
     "id": "altar-144-1206-be22eacb",
     "name": "Blackouts Baja Driver Net Red",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24446,7 +24446,7 @@
     "id": "altar-144-1207-67c185f4",
     "name": "Blackouts Baja Passenger Net Red",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24462,7 +24462,7 @@
     "id": "altar-145-1208-b70bf7e3",
     "name": "Blackouts Baja Driver Net Yellow",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24478,7 +24478,7 @@
     "id": "altar-145-1209-47e28312",
     "name": "Blackouts Baja Passenger Net Yellow",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24494,7 +24494,7 @@
     "id": "altar-145-1210-2a7fd972",
     "name": "Blackouts Baja Driver Net Pink",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24510,7 +24510,7 @@
     "id": "altar-145-1211-bc1f5ee8",
     "name": "Blackouts Baja Passenger Net Pink",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24526,7 +24526,7 @@
     "id": "altar-145-1212-d2ef6200",
     "name": "Blackouts Baja Driver Net Purple",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24542,7 +24542,7 @@
     "id": "altar-145-1213-7fb16d6b",
     "name": "Blackouts Baja Passenger Net Purple",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24556,9 +24556,9 @@
   },
   {
     "id": "altar-145-1214-bd828d4f",
-    "name": "Blackouts Baja Hoad White",
+    "name": "Blackouts Baja Hood White",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24574,7 +24574,7 @@
     "id": "altar-145-1215-3c700516",
     "name": "Blackouts Baja Engine Cover",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24590,7 +24590,7 @@
     "id": "altar-145-1216-bf884e81",
     "name": "Blackouts Baja Hood Red",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24606,7 +24606,7 @@
     "id": "altar-145-1217-7cb3a228",
     "name": "Blackouts Baja Hood Blue",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24620,9 +24620,9 @@
   },
   {
     "id": "altar-145-1218-0e00963e",
-    "name": "Blackouts Baja Hoad Death",
+    "name": "Blackouts Baja Hood Death",
     "category": "Vehicle",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24638,7 +24638,7 @@
     "id": "altar-145-1219-7de7b031",
     "name": "Blackouts Baja Engine Cover Death",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24654,7 +24654,7 @@
     "id": "altar-145-1220-b64c4187",
     "name": "Blackouts Baja Hood Pink",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24670,7 +24670,7 @@
     "id": "altar-145-1221-11e0a3f3",
     "name": "Blackouts Baja Engine Cover Pink",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24686,7 +24686,7 @@
     "id": "altar-145-1222-d569ce04",
     "name": "Blackouts Baja Hood Yellow",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24702,7 +24702,7 @@
     "id": "altar-145-1223-a9c69eb3",
     "name": "Blackouts Baja Engine Cover Yellow",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24718,7 +24718,7 @@
     "id": "altar-145-1224-5ca8f0d9",
     "name": "Blackouts Baja Hood Purple",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24734,7 +24734,7 @@
     "id": "altar-145-1225-fac5dfdf",
     "name": "Blackouts Baja Engine Cover Purple",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24750,7 +24750,7 @@
     "id": "altar-145-1226-1fa5164d",
     "name": "Blackouts Baja Wheel",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24766,7 +24766,7 @@
     "id": "altar-145-1227-f476c9e1",
     "name": "Blackouts Baja Powder Wheel",
     "category": "Vehicle Part",
-    "subcategory": "CrSk BMW Vehicles",
+    "subcategory": "Blackouts Baja",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -24895,7 +24895,7 @@
   },
   {
     "id": "altar-146-1240-49013afc",
-    "name": "Hummer Heavy Armored.",
+    "name": "Hummer Heavy Armored",
     "category": "Vehicle",
     "subcategory": "RaG Vehicles",
     "properties": [],
@@ -25208,7 +25208,7 @@
   },
   {
     "id": "altar-151-1267-eef2a8fe",
-    "name": "Landrever",
+    "name": "Landrover",
     "category": "Vehicle",
     "subcategory": "RaG Vehicles",
     "properties": [],
@@ -25857,7 +25857,7 @@
   },
   {
     "id": "altar-154-1307-9e9bf825",
-    "name": "Gunner Truck Tan.",
+    "name": "Gunner Truck Tan",
     "category": "Vehicle",
     "subcategory": "RaG Vehicles",
     "properties": [],
@@ -26138,7 +26138,7 @@
   },
   {
     "id": "altar-154-1324-3667b118",
-    "name": "Gunner Truck Rear Right Ooor",
+    "name": "Gunner Truck Rear Right Door",
     "category": "Vehicle",
     "subcategory": "RaG Vehicles",
     "properties": [],
@@ -26420,7 +26420,7 @@
   },
   {
     "id": "altar-155-1336-fb71c7ee",
-    "name": "Hilux 4x4,",
+    "name": "Hilux 4x4",
     "category": "Vehicle",
     "subcategory": "Hiluxs",
     "properties": [],
@@ -26516,7 +26516,7 @@
     "id": "altar-156-1347-45ba7e5d",
     "name": "LAPV (Matte Black)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26564,7 +26564,7 @@
     "id": "altar-156-1348-31af68dd",
     "name": "LAPV (Desert)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26612,7 +26612,7 @@
     "id": "altar-156-1349-b3bd46e8",
     "name": "LAPV (Matte Desert)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26660,7 +26660,7 @@
     "id": "altar-156-1350-93ba3e1a",
     "name": "LAPV (Grey)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26708,7 +26708,7 @@
     "id": "altar-156-1351-6b0e12c9",
     "name": "LAPV (Matte Grey)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26754,9 +26754,9 @@
   },
   {
     "id": "altar-156-1352-aa5a4f87",
-    "name": "LAPV (Creen)",
+    "name": "LAPV (Green)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26804,7 +26804,7 @@
     "id": "altar-156-1353-2c85358a",
     "name": "LAPV (Matte Green)",
     "category": "Vehicle",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26852,7 +26852,7 @@
     "id": "altar-156-1354-42279bd9",
     "name": "LAPV Wheel",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26868,7 +26868,7 @@
     "id": "altar-156-1355-abb0ec1f",
     "name": "LAPV Driver Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26884,7 +26884,7 @@
     "id": "altar-156-1356-2f21639c",
     "name": "LAPV CoDriver Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26900,7 +26900,7 @@
     "id": "altar-156-1357-2b0758ff",
     "name": "LAPV Cargo 1 Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26916,7 +26916,7 @@
     "id": "altar-156-1358-4c363cf5",
     "name": "LAPV Cargo 2 Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26948,7 +26948,7 @@
     "id": "altar-156-1360-4882c549",
     "name": "LAPV Driver Door (Matte Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26964,7 +26964,7 @@
     "id": "altar-156-1361-0aeb3384",
     "name": "LAPV CoDriver Door (Matte Black}",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26980,7 +26980,7 @@
     "id": "altar-156-1362-f870bf2e",
     "name": "LAPV Cargo Door (Matte Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -26996,7 +26996,7 @@
     "id": "altar-156-1363-4ac93753",
     "name": "LAPV Cargo2 Door (Matte Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -27012,7 +27012,7 @@
     "id": "altar-156-1364-ef7bcaa6",
     "name": "LAPV Trunk (Matte Black)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -27028,7 +27028,7 @@
     "id": "altar-156-1365-d80953c4",
     "name": "LAPV Driver Door (Matte Desert)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -27044,7 +27044,7 @@
     "id": "altar-156-1366-f789a56a",
     "name": "LAPV CoDriver Door (Matte Desert)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -27060,7 +27060,7 @@
     "id": "altar-156-1367-2ba78cab",
     "name": "LAPV Cargo Door (Matte Desert)",
     "category": "Vehicle Part",
-    "subcategory": "Hiluxs",
+    "subcategory": "LAPV",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -27106,7 +27106,7 @@
   },
   {
     "id": "altar-157-1370-b7fb1eeb",
-    "name": "LAPV Driver Door (Matte Crey)",
+    "name": "LAPV Driver Door (Matte Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27138,7 +27138,7 @@
   },
   {
     "id": "altar-157-1372-2833d99e",
-    "name": "LAPV Cargo1 Door (Matte Crey)",
+    "name": "LAPV Cargo1 Door (Matte Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27330,7 +27330,7 @@
   },
   {
     "id": "altar-157-1384-0c1e2bcb",
-    "name": "LAPV Trunk (Desert}",
+    "name": "LAPV Trunk (Desert)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27378,7 +27378,7 @@
   },
   {
     "id": "altar-157-1387-47c975a1",
-    "name": "LAPV Cargo Door (Crey)",
+    "name": "LAPV Cargo Door (Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27394,7 +27394,7 @@
   },
   {
     "id": "altar-158-1388-fe3c06c4",
-    "name": "LAPV CargoZ Door (Matte Grey)",
+    "name": "LAPV Cargo2 Door (Matte Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27442,7 +27442,7 @@
   },
   {
     "id": "altar-158-1391-92e1b92a",
-    "name": "LAPV CoDriver Door {Matte Green)",
+    "name": "LAPV CoDriver Door (Matte Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27458,7 +27458,7 @@
   },
   {
     "id": "altar-158-1392-d3797ec0",
-    "name": "LAPV Cargo’ Door (Matte Green)",
+    "name": "LAPV Cargo1 Door (Matte Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27490,7 +27490,7 @@
   },
   {
     "id": "altar-158-1394-5236930a",
-    "name": "LAPY Trunk (Matte Green)",
+    "name": "LAPV Trunk (Matte Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27506,7 +27506,7 @@
   },
   {
     "id": "altar-158-1395-1e3c6293",
-    "name": "LAPY Driver Door (Desert)",
+    "name": "LAPV Driver Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27522,7 +27522,7 @@
   },
   {
     "id": "altar-158-1396-588bf9a6",
-    "name": "LAPY CoDriver Doar (Desert)",
+    "name": "LAPV CoDriver Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27538,7 +27538,7 @@
   },
   {
     "id": "altar-158-1397-f8baafa9",
-    "name": "LAPY Cargo’ Door (Desert)",
+    "name": "LAPV Cargo1 Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27554,7 +27554,7 @@
   },
   {
     "id": "altar-158-1398-9dc9ffe8",
-    "name": "LAPY Carga? Door (Desert)",
+    "name": "LAPV Carga? Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27570,7 +27570,7 @@
   },
   {
     "id": "altar-158-1399-a217c56e",
-    "name": "LAPY Trunk (Desert)",
+    "name": "LAPV Trunk (Desert)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27586,7 +27586,7 @@
   },
   {
     "id": "altar-158-1400-d2335bf1",
-    "name": "LAPY Driver Door (Grey)",
+    "name": "LAPV Driver Door (Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27602,7 +27602,7 @@
   },
   {
     "id": "altar-158-1401-30c60a07",
-    "name": "LAPV CoDriver Doar (Grey)",
+    "name": "LAPV CoDriver Door (Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27618,7 +27618,7 @@
   },
   {
     "id": "altar-158-1402-77075d6d",
-    "name": "LAPY Cargo2 Door (Grey)",
+    "name": "LAPV Cargo2 Door (Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27634,7 +27634,7 @@
   },
   {
     "id": "altar-158-1403-3376a452",
-    "name": "LAPY Trunk (Grey)",
+    "name": "LAPV Trunk (Grey)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27650,7 +27650,7 @@
   },
   {
     "id": "altar-158-1404-ec379e6f",
-    "name": "LAPY Driver Door (Green)",
+    "name": "LAPV Driver Door (Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27666,7 +27666,7 @@
   },
   {
     "id": "altar-158-1405-73a29613",
-    "name": "LAPY CoDriver Door (Green)",
+    "name": "LAPV CoDriver Door (Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27682,7 +27682,7 @@
   },
   {
     "id": "altar-158-1406-23644e58",
-    "name": "LAPY Cargo’ Door (Green)",
+    "name": "LAPV Cargo1 Door (Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27698,7 +27698,7 @@
   },
   {
     "id": "altar-158-1407-5097ac88",
-    "name": "LAPY Cargo2 Door (Green)",
+    "name": "LAPV Cargo2 Door (Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27714,7 +27714,7 @@
   },
   {
     "id": "altar-158-1408-c68eb959",
-    "name": "LAPY Trunk (Green)",
+    "name": "LAPV Trunk (Green)",
     "category": "Vehicle Part",
     "subcategory": "LAPV",
     "properties": [],
@@ -27730,7 +27730,7 @@
   },
   {
     "id": "altar-159-1409-e3b03dc1",
-    "name": "< M1",
+    "name": "M1114 Humvee",
     "category": "Vehicle",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27741,8 +27741,12 @@
       "status": "unverified",
       "source": "Trader-Altar screenshot",
       "image": 159,
-      "rawName": "< M1"
-    }
+      "rawName": "< M1",
+      "priceSource": "Vehicles worksheet: M1114 Humvee buy 750000 / sell 375000"
+    },
+    "notes": [
+      "Name and trader prices reconstructed from the master Vehicles worksheet because the imported listing split “M1114” into text and a false 114 price. Duplicate candidate: verify whether both rows represent separate listings."
+    ]
   },
   {
     "id": "altar-159-1410-f02c68e5",
@@ -27796,7 +27800,7 @@
   },
   {
     "id": "altar-159-1411-d9e8cb73",
-    "name": "441114 Humvee (Resident Evil)",
+    "name": "M1114 Humvee (Resident Evil)",
     "category": "Vehicle",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27846,7 +27850,7 @@
   },
   {
     "id": "altar-159-1412-465b08d0",
-    "name": "441114 Humvee (Winter)",
+    "name": "M1114 Humvee (Winter)",
     "category": "Vehicle",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27896,7 +27900,7 @@
   },
   {
     "id": "altar-159-1413-a005ce6d",
-    "name": "441114 Humvee (Woodland)",
+    "name": "M1114 Humvee (Woodland)",
     "category": "Vehicle",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27946,7 +27950,7 @@
   },
   {
     "id": "altar-159-1414-b9b41e18",
-    "name": "441114 Humvee Wheel",
+    "name": "M1114 Humvee Wheel",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27962,7 +27966,7 @@
   },
   {
     "id": "altar-159-1415-e4f3efe2",
-    "name": "M1114 Humvee Driver Door (Dessert)",
+    "name": "M1114 Humvee Driver Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27978,7 +27982,7 @@
   },
   {
     "id": "altar-159-1416-92b92c63",
-    "name": "M1114 Humvee CoDriver Door (Dessert)",
+    "name": "M1114 Humvee CoDriver Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -27994,7 +27998,7 @@
   },
   {
     "id": "altar-159-1417-a1fe6765",
-    "name": "M1114 Humvee Cargo 1 Door (Dessert)",
+    "name": "M1114 Humvee Cargo 1 Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28010,7 +28014,7 @@
   },
   {
     "id": "altar-159-1418-0b5fb0d0",
-    "name": "M1114 Humvee Cargo 2 Door (Dessert)",
+    "name": "M1114 Humvee Cargo 2 Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28026,7 +28030,7 @@
   },
   {
     "id": "altar-159-1419-5695bdcf",
-    "name": "M1114 Humvee Trunk (Dessert)",
+    "name": "M1114 Humvee Trunk (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28042,7 +28046,7 @@
   },
   {
     "id": "altar-159-1420-348bdb0d",
-    "name": "M1114 Humvee Tailgate (Dessert)",
+    "name": "M1114 Humvee Tailgate (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28058,7 +28062,7 @@
   },
   {
     "id": "altar-159-1421-24573b87",
-    "name": "M1114 Humvce Hood (Dessert)",
+    "name": "M1114 Humvee Hood (Desert)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28074,7 +28078,7 @@
   },
   {
     "id": "altar-159-1422-9b190a6e",
-    "name": "441114 Humyce Wheel (Black)",
+    "name": "M1114 Humvee Wheel (Black)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28090,7 +28094,7 @@
   },
   {
     "id": "altar-159-1423-894d6273",
-    "name": "41114 Humvce Oriver Door {Black}",
+    "name": "M1114 Humvee Driver Door (Black)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28106,7 +28110,7 @@
   },
   {
     "id": "altar-159-1424-678d94dd",
-    "name": "41114 Humvce CoDriver Door (Black)",
+    "name": "M1114 Humvee CoDriver Door (Black)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28122,7 +28126,7 @@
   },
   {
     "id": "altar-159-1425-ceedecb9",
-    "name": "M1114 Humvce Cargo’ Door (Black)",
+    "name": "M1114 Humvee Cargo1 Door (Black)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28154,7 +28158,7 @@
   },
   {
     "id": "altar-159-1427-c9534021",
-    "name": "41114 Humvee Trunk (Black)",
+    "name": "M1114 Humvee Trunk (Black)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28202,7 +28206,7 @@
   },
   {
     "id": "altar-159-1430-9a2d6610",
-    "name": "#1114 Humvee Wheel (Woodland)",
+    "name": "M1114 Humvee Wheel (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28218,7 +28222,7 @@
   },
   {
     "id": "altar-160-1431-e3b03dc1",
-    "name": "< M1",
+    "name": "M1114 Humvee",
     "category": "Vehicle",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28229,12 +28233,16 @@
       "status": "unverified",
       "source": "Trader-Altar screenshot",
       "image": 160,
-      "rawName": "< M1"
-    }
+      "rawName": "< M1",
+      "priceSource": "Vehicles worksheet: M1114 Humvee buy 750000 / sell 375000"
+    },
+    "notes": [
+      "Name and trader prices reconstructed from the master Vehicles worksheet because the imported listing split “M1114” into text and a false 114 price. Duplicate candidate: verify whether both rows represent separate listings."
+    ]
   },
   {
     "id": "altar-160-1432-74d4abb2",
-    "name": "41114 Humvee Hood Door (Black)",
+    "name": "M1114 Humvee Hood Door (Black)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28250,7 +28258,7 @@
   },
   {
     "id": "altar-160-1433-b98d239e",
-    "name": "#41114 Humvee Driver Door (Woodland)",
+    "name": "M1114 Humvee Driver Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28266,7 +28274,7 @@
   },
   {
     "id": "altar-160-1434-5ec3d157",
-    "name": "#41114 Humvee CoDriver Door (Woodland)",
+    "name": "M1114 Humvee CoDriver Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28282,7 +28290,7 @@
   },
   {
     "id": "altar-160-1435-a4f3f445",
-    "name": "#41114 Humvee Cargo Door (Woodland)",
+    "name": "M1114 Humvee Cargo Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28298,7 +28306,7 @@
   },
   {
     "id": "altar-160-1436-bb3a4269",
-    "name": "#41114 Humvee Cargo2 Door (Woodland)",
+    "name": "M1114 Humvee Cargo2 Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28314,7 +28322,7 @@
   },
   {
     "id": "altar-160-1437-1f47b840",
-    "name": "#41114 Humvee Trunk (Woodland)",
+    "name": "M1114 Humvee Trunk (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28330,7 +28338,7 @@
   },
   {
     "id": "altar-160-1438-c1ad4a80",
-    "name": "#1114 Humvee Tailgate Door (Woodland)",
+    "name": "M1114 Humvee Tailgate Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28346,7 +28354,7 @@
   },
   {
     "id": "altar-160-1439-ab9fa618",
-    "name": "#41114 Humvee Hood Door (Woodland)",
+    "name": "M1114 Humvee Hood Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28394,7 +28402,7 @@
   },
   {
     "id": "altar-160-1442-170baeeb",
-    "name": "#1114 Humvee CoDriver Door (Winter)",
+    "name": "M1114 Humvee CoDriver Door (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28410,7 +28418,7 @@
   },
   {
     "id": "altar-160-1443-398eeb6e",
-    "name": "#1114 Humvce Cargo Door (Winter)",
+    "name": "M1114 Humvee Cargo Door (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28426,7 +28434,7 @@
   },
   {
     "id": "altar-160-1444-5ac171b9",
-    "name": "#1114 Humvce Cargo2 Door (Winter)",
+    "name": "M1114 Humvee Cargo2 Door (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28442,7 +28450,7 @@
   },
   {
     "id": "altar-160-1445-9b9535c5",
-    "name": "#1114 Humvce Trunk (Winter)",
+    "name": "M1114 Humvee Trunk (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28458,7 +28466,7 @@
   },
   {
     "id": "altar-160-1446-1cd6183c",
-    "name": "#1114 Humvee Tailgate (Winter)",
+    "name": "M1114 Humvee Tailgate (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28474,7 +28482,7 @@
   },
   {
     "id": "altar-160-1447-3b6d2af0",
-    "name": "#41114 Humvee Hood Door (Winter)",
+    "name": "M1114 Humvee Hood Door (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28490,7 +28498,7 @@
   },
   {
     "id": "altar-160-1448-fc48ddf7",
-    "name": "#41114 Humvee Driver Door (Resident Evil)",
+    "name": "M1114 Humvee Driver Door (Resident Evil)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28522,7 +28530,7 @@
   },
   {
     "id": "altar-160-1450-67c26b95",
-    "name": "M1114 Humvee Cargo’ Door (Resident Evil)",
+    "name": "M1114 Humvee Cargo1 Door (Resident Evil)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28538,7 +28546,7 @@
   },
   {
     "id": "altar-160-1451-cbe3ce08",
-    "name": "1114 Humvee Cargo2 Door (Resident Evil)",
+    "name": "M1114 Humvee Cargo2 Door (Resident Evil)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28554,7 +28562,7 @@
   },
   {
     "id": "altar-160-1452-7b5ae61f",
-    "name": "#41114 Humvee Trunk (Resident Evil)",
+    "name": "M1114 Humvee Trunk (Resident Evil)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28570,7 +28578,7 @@
   },
   {
     "id": "altar-161-1453-c9baf43e",
-    "name": "« M1",
+    "name": "M1114 Humvee",
     "category": "Vehicle",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28581,8 +28589,12 @@
       "status": "unverified",
       "source": "Trader-Altar screenshot",
       "image": 161,
-      "rawName": "« M1"
-    }
+      "rawName": "« M1",
+      "priceSource": "Vehicles worksheet: M1114 Humvee buy 750000 / sell 375000"
+    },
+    "notes": [
+      "Name and trader prices reconstructed from the master Vehicles worksheet because the imported listing split “M1114” into text and a false 114 price. Duplicate candidate: verify whether this row represents a separate listing."
+    ]
   },
   {
     "id": "altar-161-1454-43cb7267",
@@ -28618,7 +28630,7 @@
   },
   {
     "id": "altar-161-1456-ba6e58fa",
-    "name": "41114 Humvee Cargo’ Door (Woodland)",
+    "name": "M1114 Humvee Cargo1 Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28634,7 +28646,7 @@
   },
   {
     "id": "altar-161-1457-84d8cb0b",
-    "name": "41114 Humvee Cargo2 Door (Woodland)",
+    "name": "M1114 Humvee Cargo2 Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28666,7 +28678,7 @@
   },
   {
     "id": "altar-161-1459-3006eb59",
-    "name": "M1114 Humvce Tailgate Door (Woodland)",
+    "name": "M1114 Humvee Tailgate Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28682,7 +28694,7 @@
   },
   {
     "id": "altar-161-1460-ac6541b9",
-    "name": "M1114 Humyce Hood Door (Woodland)",
+    "name": "M1114 Humvee Hood Door (Woodland)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28730,7 +28742,7 @@
   },
   {
     "id": "altar-161-1463-c1e9209b",
-    "name": "M1114 Humyce CoDriver Door (Winter)",
+    "name": "M1114 Humvee CoDriver Door (Winter)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28858,7 +28870,7 @@
   },
   {
     "id": "altar-161-1471-67c26b95",
-    "name": "M1114 Humvee Cargo’ Door (Resident Evil)",
+    "name": "M1114 Humvee Cargo1 Door (Resident Evil)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28890,7 +28902,7 @@
   },
   {
     "id": "altar-161-1473-4e821657",
-    "name": "1114 Humvee Tailgate (Resident Evil)",
+    "name": "M1114 Humvee Tailgate (Resident Evil)",
     "category": "Vehicle Part",
     "subcategory": "M1114 Humvee",
     "properties": [],
@@ -28922,7 +28934,7 @@
   },
   {
     "id": "altar-162-1475-50b71ee6",
-    "name": "Mercedes Zctros (Desert)",
+    "name": "Mercedes Zetros (Desert)",
     "category": "Vehicle",
     "subcategory": "MercedesZetros",
     "properties": [],
@@ -28949,7 +28961,7 @@
   },
   {
     "id": "altar-162-1476-256f2dce",
-    "name": "MercedesZectros_Whcel",
+    "name": "MercedesZetros_Wheel",
     "category": "Vehicle",
     "subcategory": "MercedesZetros",
     "properties": [],
@@ -29095,7 +29107,7 @@
     "id": "altar-163-1485-1994ef7c",
     "name": "MRAP Cougar (Black)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29144,7 +29156,7 @@
     "id": "altar-163-1486-98ecd179",
     "name": "MRAP Cougar (SWAT)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29193,7 +29205,7 @@
     "id": "altar-163-1487-193d1680",
     "name": "MRAP Cougar (FBI)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29242,7 +29254,7 @@
     "id": "altar-163-1488-e32e98aa",
     "name": "MRAP Cougar (Woodland)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29289,9 +29301,9 @@
   },
   {
     "id": "altar-163-1489-4f97acb4",
-    "name": "MRAP Cougar Whecl (Dessert}",
+    "name": "MRAP Cougar Wheel (Desert)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29305,9 +29317,9 @@
   },
   {
     "id": "altar-163-1490-07a0c58f",
-    "name": "MRAP Cougar Hatch (Dessert)",
+    "name": "MRAP Cougar Hatch (Desert)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29321,9 +29333,9 @@
   },
   {
     "id": "altar-163-1491-40c92f16",
-    "name": "MRAP Cougar Driver Door {Dessert)",
+    "name": "MRAP Cougar Driver Door (Desert)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29337,9 +29349,9 @@
   },
   {
     "id": "altar-163-1492-66df5f56",
-    "name": "MRAP Cougar CoDriver Door (Dessert)",
+    "name": "MRAP Cougar CoDriver Door (Desert)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29353,9 +29365,9 @@
   },
   {
     "id": "altar-163-1493-ba0f684b",
-    "name": "MRAP Cougar Cargo 1 Door (Dessert)",
+    "name": "MRAP Cougar Cargo 1 Door (Desert)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29369,9 +29381,9 @@
   },
   {
     "id": "altar-163-1494-4a79ec32",
-    "name": "MRAP Cougar Cargo 2 Door (Dessert)",
+    "name": "MRAP Cougar Cargo 2 Door (Desert)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29385,9 +29397,9 @@
   },
   {
     "id": "altar-163-1495-0ba7fa65",
-    "name": "MRAP Cougar Storage Cargo 1 Door (Dessert)",
+    "name": "MRAP Cougar Storage Cargo 1 Door (Desert)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29401,9 +29413,9 @@
   },
   {
     "id": "altar-163-1496-0da6effd",
-    "name": "MRAP Cougar Storage Cargo 2 Door (Dessert)",
+    "name": "MRAP Cougar Storage Cargo 2 Door (Desert)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29419,7 +29431,7 @@
     "id": "altar-163-1497-ebba2882",
     "name": "MRAP Cougar Wheel (Black)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29435,7 +29447,7 @@
     "id": "altar-163-1498-39fa1b8a",
     "name": "MRAP Cougar Storage Hatch (Black)",
     "category": "Vehicle",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29451,7 +29463,7 @@
     "id": "altar-163-1499-0cdf64d4",
     "name": "MRAP Cougar Driver Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29465,9 +29477,9 @@
   },
   {
     "id": "altar-163-1500-f30e697c",
-    "name": "MRAP Cougar CoDriver Door (Black}",
+    "name": "MRAP Cougar CoDriver Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29481,9 +29493,9 @@
   },
   {
     "id": "altar-163-1501-86f7557a",
-    "name": "MRAP Cougar Cargo 1 Door (Black}",
+    "name": "MRAP Cougar Cargo 1 Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29499,7 +29511,7 @@
     "id": "altar-163-1502-cc27e653",
     "name": "MRAP Cougar Cargo 2 Door {Black}",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29515,7 +29527,7 @@
     "id": "altar-163-1503-af4ce3b2",
     "name": "MRAP Cougar Storage Cargo 1 Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29531,7 +29543,7 @@
     "id": "altar-163-1504-9f1c1da8",
     "name": "MRAP Cougar Storage Cargo 2 Door (Black)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -29547,7 +29559,7 @@
     "id": "altar-163-1505-910c7594",
     "name": "MRAP Cougar Wheel (SWAT)",
     "category": "Vehicle Part",
-    "subcategory": "MercedesZetros",
+    "subcategory": "MRAP Cougar",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30219,7 +30231,7 @@
     "id": "altar-166-1547-e6d0aa8b",
     "name": "MRAP Punisher (BlueCamo)",
     "category": "Vehicle",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30268,7 +30280,7 @@
     "id": "altar-166-1548-27898ebe",
     "name": "MRAP Punisher (Grey)",
     "category": "Vehicle",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30317,7 +30329,7 @@
     "id": "altar-166-1549-d62874ef",
     "name": "MRAP Punisher (Red)",
     "category": "Vehicle",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30366,7 +30378,7 @@
     "id": "altar-166-1550-125bee9a",
     "name": "MRAP Punisher (Desert)",
     "category": "Vehicle",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30415,7 +30427,7 @@
     "id": "altar-166-1551-ee4b3c01",
     "name": "MRAP Punisher Wheel (Punisher)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30429,9 +30441,9 @@
   },
   {
     "id": "altar-166-1552-aa997092",
-    "name": "MRAP Punisher Driver Doar {Punisher}",
+    "name": "MRAP Punisher Driver Door {Punisher}",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30447,7 +30459,7 @@
     "id": "altar-166-1553-3f9cd6b7",
     "name": "MRAP Punisher CoDriver Door (Punisher)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30463,7 +30475,7 @@
     "id": "altar-166-1554-4f37250e",
     "name": "MRAP Punisher Cargo 1 Door (Punisher)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30479,7 +30491,7 @@
     "id": "altar-166-1555-15c5881d",
     "name": "MRAP Punisher Cargo 2 Door (Punisher)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30495,7 +30507,7 @@
     "id": "altar-166-1556-c3772659",
     "name": "MRAP Punisher Cargo 3 Door (Punisher)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30511,7 +30523,7 @@
     "id": "altar-166-1557-49e609c2",
     "name": "MRAP Punisher Cargo 4 Door (Punisher)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30525,9 +30537,9 @@
   },
   {
     "id": "altar-166-1558-e97dd8cc",
-    "name": "MRAP Punisher Driver Doar {BlueCamo)",
+    "name": "MRAP Punisher Driver Door {BlueCamo)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30543,7 +30555,7 @@
     "id": "altar-166-1559-bb151606",
     "name": "MRAP Punisher CoDriver Door (BlueCamo)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30557,9 +30569,9 @@
   },
   {
     "id": "altar-166-1560-4dc3482c",
-    "name": "MRAP Punisher Cargo1 Doar {BlueCamo)",
+    "name": "MRAP Punisher Cargo1 Door {BlueCamo)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30573,9 +30585,9 @@
   },
   {
     "id": "altar-166-1561-78c2e8c4",
-    "name": "MRAP Punisher Cargo2 Doar {BlueCamo)",
+    "name": "MRAP Punisher Cargo2 Door {BlueCamo)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30591,7 +30603,7 @@
     "id": "altar-166-1562-3133512f",
     "name": "MRAP Punisher Cargo3 Door {BlueCamo)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30605,9 +30617,9 @@
   },
   {
     "id": "altar-166-1563-eb93a638",
-    "name": "MRAP Punisher Cargo4 Doar {BlueCamo)",
+    "name": "MRAP Punisher Cargo4 Door {BlueCamo)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30623,7 +30635,7 @@
     "id": "altar-166-1564-d38e64bc",
     "name": "MRAP Punisher Driver Door (Grey)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30639,7 +30651,7 @@
     "id": "altar-166-1565-e67d5542",
     "name": "MRAP Punisher CoDriver Door (Grey)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30653,9 +30665,9 @@
   },
   {
     "id": "altar-166-1566-5075cfa2",
-    "name": "MRAP Punisher Cargo1 Doar {Crey)",
+    "name": "MRAP Punisher Cargo1 Door (Grey)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30669,9 +30681,9 @@
   },
   {
     "id": "altar-166-1567-3bf44543",
-    "name": "MRAP Punisher Cargo2 Doar {Crey)",
+    "name": "MRAP Punisher Cargo2 Door (Grey)",
     "category": "Vehicle Part",
-    "subcategory": "MRAP Cougar",
+    "subcategory": "MRAP Punisher",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -30685,7 +30697,7 @@
   },
   {
     "id": "altar-167-1568-ec21079c",
-    "name": "MRAP Punisher Cargo’ Door (BlueCamo)",
+    "name": "MRAP Punisher Cargo1 Door (BlueCamo)",
     "category": "Vehicle Part",
     "subcategory": "MRAP Punisher",
     "properties": [],
@@ -30781,7 +30793,7 @@
   },
   {
     "id": "altar-167-1574-0b31769b",
-    "name": "MRAP Punisher Cargo’ Door (Grey)",
+    "name": "MRAP Punisher Cargo1 Door (Grey)",
     "category": "Vehicle Part",
     "subcategory": "MRAP Punisher",
     "properties": [],
@@ -30813,7 +30825,7 @@
   },
   {
     "id": "altar-167-1576-79a9ef00",
-    "name": "MRAP Punisher Cargo4 Door (Grey}",
+    "name": "MRAP Punisher Cargo4 Door (Grey)",
     "category": "Vehicle Part",
     "subcategory": "MRAP Punisher",
     "properties": [],
@@ -30829,7 +30841,7 @@
   },
   {
     "id": "altar-167-1577-c64fe416",
-    "name": "MRAP Punisher Oriver Door (Red)",
+    "name": "MRAP Punisher Driver Door (Red)",
     "category": "Vehicle Part",
     "subcategory": "MRAP Punisher",
     "properties": [],
@@ -30861,7 +30873,7 @@
   },
   {
     "id": "altar-167-1579-f668c939",
-    "name": "MRAP Punisher Cargo’ Door (Red)",
+    "name": "MRAP Punisher Cargo1 Door (Red)",
     "category": "Vehicle Part",
     "subcategory": "MRAP Punisher",
     "properties": [],
@@ -30957,7 +30969,7 @@
   },
   {
     "id": "altar-167-1585-26ca712d",
-    "name": "MRAP Punisher Cargo’ Door (Desert)",
+    "name": "MRAP Punisher Cargo1 Door (Desert)",
     "category": "Vehicle Part",
     "subcategory": "MRAP Punisher",
     "properties": [],
@@ -31021,7 +31033,7 @@
   },
   {
     "id": "altar-168-1589-5a067540",
-    "name": "Jeep_CladiatorF9_Black",
+    "name": "Jeep_GladiatorF9_Black",
     "category": "Vehicle",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31048,7 +31060,7 @@
   },
   {
     "id": "altar-168-1590-94cbc0ab",
-    "name": "Jeep_CladiatorF9_Brown",
+    "name": "Jeep_GladiatorF9_Brown",
     "category": "Vehicle",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31156,7 +31168,7 @@
   },
   {
     "id": "altar-168-1594-b5247401",
-    "name": "Jeep_Gladiator9_camo_blue",
+    "name": "Jeep_GladiatorF9_camo_blue",
     "category": "Vehicle",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31199,7 +31211,7 @@
   },
   {
     "id": "altar-168-1596-00096132",
-    "name": "Jeep_Cladiator Wheel",
+    "name": "Jeep_GladiatorF9 Wheel",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31439,7 +31451,7 @@
   },
   {
     "id": "altar-169-1611-0b401805",
-    "name": "Jeep_CladiatorF9_Driver_Door CamoBlack",
+    "name": "Jeep_GladiatorF9_Driver_Door CamoBlack",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31455,7 +31467,7 @@
   },
   {
     "id": "altar-169-1612-5dc4742f",
-    "name": "Jeep_Gladiator®9_Driver_Door CamoBlue",
+    "name": "Jeep_GladiatorF9_Driver_Door CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31471,7 +31483,7 @@
   },
   {
     "id": "altar-169-1613-bd4f6d38",
-    "name": "Jeep_Gladiator®9_Codriver_Door.",
+    "name": "Jeep_GladiatorF9_Codriver_Door",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31583,7 +31595,7 @@
   },
   {
     "id": "altar-169-1620-9236bca0",
-    "name": "Jeep_Gladiator®9_Codriver_Door CamoBlack",
+    "name": "Jeep_GladiatorF9_Codriver_Door CamoBlack",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31599,7 +31611,7 @@
   },
   {
     "id": "altar-169-1621-7b63df33",
-    "name": "Jeep_Gladiator®9_Codriver_Door CamoBlue",
+    "name": "Jeep_GladiatorF9_Codriver_Door CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31615,7 +31627,7 @@
   },
   {
     "id": "altar-169-1622-a5021186",
-    "name": "Jeep_Gladiator®9_Cargo_Door1",
+    "name": "Jeep_GladiatorF9_Cargo_Door1",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31631,7 +31643,7 @@
   },
   {
     "id": "altar-169-1625-36a5c773",
-    "name": "Jeep_CladiatorF9_Cargo_Door1_DarkRed",
+    "name": "Jeep_GladiatorF9_Cargo_Door1_DarkRed",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31647,7 +31659,7 @@
   },
   {
     "id": "altar-169-1626-d17ed244",
-    "name": "Jeep_CladiatorF9_Cargo_Door1_DarkBlue",
+    "name": "Jeep_GladiatorF9_Cargo_Door1_DarkBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31663,7 +31675,7 @@
   },
   {
     "id": "altar-169-1627-d01d6d54",
-    "name": "Jeep_CladiatorF9_Cargo_Door1 CamoGreen",
+    "name": "Jeep_GladiatorF9_Cargo_Door1 CamoGreen",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31679,7 +31691,7 @@
   },
   {
     "id": "altar-169-1628-14fce049",
-    "name": "Jeep_CladiatorF9_Cargo_Door1 CamoRed",
+    "name": "Jeep_GladiatorF9_Cargo_Door1 CamoRed",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31695,7 +31707,7 @@
   },
   {
     "id": "altar-169-1629-aae9cd19",
-    "name": "Jeep_CladiatorF9_Cargo_Door1 CamoBlack",
+    "name": "Jeep_GladiatorF9_Cargo_Door1 CamoBlack",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31711,7 +31723,7 @@
   },
   {
     "id": "altar-169-1630-bca8368a",
-    "name": "Jeep_CladiatorF9_Cargo_Door1 CamoBlue",
+    "name": "Jeep_GladiatorF9_Cargo_Door1 CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -31743,7 +31755,7 @@
   },
   {
     "id": "altar-170-1632-e26c1b15",
-    "name": "Jeep_GladiatorF9_Codriver_Door.",
+    "name": "Jeep_GladiatorF9_Codriver_Door",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32063,7 +32075,7 @@
   },
   {
     "id": "altar-171-1652-3c657e12",
-    "name": "Jeep_CladiatorF9_Cargo_Door2",
+    "name": "Jeep_GladiatorF9_Cargo_Door2",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32079,7 +32091,7 @@
   },
   {
     "id": "altar-171-1653-333213b8",
-    "name": "Jeep_CladiatorF9_Cargo_Door2 Brown",
+    "name": "Jeep_GladiatorF9_Cargo_Door2 Brown",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32111,7 +32123,7 @@
   },
   {
     "id": "altar-171-1655-7bf6498b",
-    "name": "Jeep_CladiatorF9_Cargo_Door2_DarkBlue",
+    "name": "Jeep_GladiatorF9_Cargo_Door2_DarkBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32127,7 +32139,7 @@
   },
   {
     "id": "altar-171-1656-e2bfc0d1",
-    "name": "Jeep_CladiatorF9_Cargo_Door2 CamoGreen",
+    "name": "Jeep_GladiatorF9_Cargo_Door2 CamoGreen",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32143,7 +32155,7 @@
   },
   {
     "id": "altar-171-1657-660ea3f7",
-    "name": "Jeep_CladiatorF9_Cargo_Door2 CamoRed",
+    "name": "Jeep_GladiatorF9_Cargo_Door2 CamoRed",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32159,7 +32171,7 @@
   },
   {
     "id": "altar-171-1658-2a889139",
-    "name": "Jeep_CladiatorF9_Cargo_Door2 CamoBlack",
+    "name": "Jeep_GladiatorF9_Cargo_Door2 CamoBlack",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32175,7 +32187,7 @@
   },
   {
     "id": "altar-171-1659-fbcb325e",
-    "name": "Jeep_CladiatorF9_Cargo_Door2 CamoBlue",
+    "name": "Jeep_GladiatorF9_Cargo_Door2 CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32191,7 +32203,7 @@
   },
   {
     "id": "altar-171-1660-60f6f62a",
-    "name": "Jeep_CladiatorF9_Hood",
+    "name": "Jeep_GladiatorF9_Hood",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32207,7 +32219,7 @@
   },
   {
     "id": "altar-171-1661-2bde3e6b",
-    "name": "Jeep_CladiatorF9_Hood Black",
+    "name": "Jeep_GladiatorF9_Hood Black",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32223,7 +32235,7 @@
   },
   {
     "id": "altar-171-1662-65b0cc96",
-    "name": "Jeep_CladiatorF9_Hood Brown",
+    "name": "Jeep_GladiatorF9_Hood Brown",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32239,7 +32251,7 @@
   },
   {
     "id": "altar-171-1663-5a9c5faf",
-    "name": "Jeep_CladiatorF9_Hood_DarkRed",
+    "name": "Jeep_GladiatorF9_Hood_DarkRed",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32255,7 +32267,7 @@
   },
   {
     "id": "altar-171-1664-ade7693e",
-    "name": "Jeep_CladiatorF9_Hood_DarkBlue",
+    "name": "Jeep_GladiatorF9_Hood_DarkBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32271,7 +32283,7 @@
   },
   {
     "id": "altar-171-1665-f34d5d6e",
-    "name": "Jeep_CladiatorF9_Hood Green",
+    "name": "Jeep_GladiatorF9_Hood Green",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32287,7 +32299,7 @@
   },
   {
     "id": "altar-171-1666-cfa45146",
-    "name": "Jeep_CladiatorF9_Hood CamoRed",
+    "name": "Jeep_GladiatorF9_Hood CamoRed",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32303,7 +32315,7 @@
   },
   {
     "id": "altar-171-1667-0c9eb820",
-    "name": "Jeep_CladiatorF9_Hood CamoBlack",
+    "name": "Jeep_GladiatorF9_Hood CamoBlack",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32319,7 +32331,7 @@
   },
   {
     "id": "altar-171-1668-4af08912",
-    "name": "Jeep_CladiatorF9_Hood CamoBlue",
+    "name": "Jeep_GladiatorF9_Hood CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32335,7 +32347,7 @@
   },
   {
     "id": "altar-171-1669-455a4c1c",
-    "name": "Jeep_CladiatorF9_Trunk",
+    "name": "Jeep_GladiatorF9_Trunk",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32351,7 +32363,7 @@
   },
   {
     "id": "altar-171-1670-96104e8a",
-    "name": "Jeep_CladiatorF9_Trunk Black",
+    "name": "Jeep_GladiatorF9_Trunk Black",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32367,7 +32379,7 @@
   },
   {
     "id": "altar-171-1671-fa3b4357",
-    "name": "Jeep_CladiatorF9_Trunk Brown",
+    "name": "Jeep_GladiatorF9_Trunk Brown",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32383,7 +32395,7 @@
   },
   {
     "id": "altar-171-1672-37e2cfe7",
-    "name": "Jeep_CladiatorF9_Trunk_DarkRed",
+    "name": "Jeep_GladiatorF9_Trunk_DarkRed",
     "category": "Vehicle Part",
     "subcategory": "Jeep_GladiatorF9",
     "properties": [],
@@ -32401,7 +32413,7 @@
     "id": "altar-172-1673-c501219e",
     "name": "Jeep_GladiatorF9_Cargo_Door2 CamoGreen",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32415,9 +32427,9 @@
   },
   {
     "id": "altar-172-1674-660ea3f7",
-    "name": "Jeep_CladiatorF9_Cargo_Door2 CamoRed",
+    "name": "Jeep_GladiatorF9_Cargo_Door2 CamoRed",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32433,7 +32445,7 @@
     "id": "altar-172-1675-0935f2af",
     "name": "Jeep_GladiatorF9_Cargo_Door2 CamoBlack",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32449,7 +32461,7 @@
     "id": "altar-172-1676-f8086584",
     "name": "Jeep_GladiatorF9_Cargo_Door2 CamoBlue",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32465,7 +32477,7 @@
     "id": "altar-172-1677-48ebbbb4",
     "name": "Jeep_CGladiatorF8_Hood",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32481,7 +32493,7 @@
     "id": "altar-172-1678-e887d9ce",
     "name": "Jeep_GladiatorF9_Hood Black",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32495,9 +32507,9 @@
   },
   {
     "id": "altar-172-1679-ca0efb54",
-    "name": "Jeep_CladiatorF9_Hood Brown",
+    "name": "Jeep_GladiatorF9_Hood Brown",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32513,7 +32525,7 @@
     "id": "altar-172-1680-33f298dc",
     "name": "Jeep_GladiatorF9_Hood_DarkRed",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32527,9 +32539,9 @@
   },
   {
     "id": "altar-172-1681-ecd293ad",
-    "name": "Jeep_CladiatorF9_Hood_DarkBlue",
+    "name": "Jeep_GladiatorF9_Hood_DarkBlue",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32543,9 +32555,9 @@
   },
   {
     "id": "altar-172-1682-f34d5d6e",
-    "name": "Jeep_CladiatorF9_Hood Green",
+    "name": "Jeep_GladiatorF9_Hood Green",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32561,7 +32573,7 @@
     "id": "altar-172-1683-44619aaf",
     "name": "Jeep_GladiatorF9_Hood CamoRed",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32577,7 +32589,7 @@
     "id": "altar-172-1684-86cfef00",
     "name": "Jeep_GladiatorF9_Hood CamoBlack",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32591,9 +32603,9 @@
   },
   {
     "id": "altar-172-1685-4af08912",
-    "name": "Jeep_CladiatorF9_Hood CamoBlue",
+    "name": "Jeep_GladiatorF9_Hood CamoBlue",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32609,7 +32621,7 @@
     "id": "altar-172-1686-c6643fda",
     "name": "Jeep_GladiatorFS_Trunk",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32623,9 +32635,9 @@
   },
   {
     "id": "altar-172-1687-dd8e23a4",
-    "name": "Jeep_CladiatorF9_Trunk Black",
+    "name": "Jeep_GladiatorF9_Trunk Black",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32641,7 +32653,7 @@
     "id": "altar-172-1688-e72a60ce",
     "name": "Jeep_GladiatorFS_Trunk Brown",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32657,7 +32669,7 @@
     "id": "altar-172-1689-7444bc25",
     "name": "Jeep_GladiatorF9_Trunk_DarkBlue",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32673,7 +32685,7 @@
     "id": "altar-172-1690-5dbcda50",
     "name": "Jeep_GladiatorF9_Trunk CamoGreen",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32687,9 +32699,9 @@
   },
   {
     "id": "altar-172-1691-61f743f7",
-    "name": "Jeep_CladiatorFS_Trunk CamoRed",
+    "name": "Jeep_GladiatorF9_Trunk CamoRed",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32705,7 +32717,7 @@
     "id": "altar-172-1692-0ef1da5a",
     "name": "Jeep_GladiatorF9_Trunk CamoBlack",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32721,7 +32733,7 @@
     "id": "altar-172-1693-b75923e1",
     "name": "Jeep_GladiatorF9_Trunk CamoBlue",
     "category": "Vehicle Part",
-    "subcategory": "Jeep_CladiatorF9",
+    "subcategory": "Jeep_GladiatorF9",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -32735,7 +32747,7 @@
   },
   {
     "id": "altar-173-1694-0e3a5939",
-    "name": "Ford Bronco Offroad ‘86 Crey",
+    "name": "Ford Bronco Offroad '86 Grey",
     "category": "Vehicle",
     "subcategory": "Ford Bronco",
     "properties": [],
@@ -32911,7 +32923,7 @@
   },
   {
     "id": "altar-173-1703-616a6db2",
-    "name": "Ford Bronco Offroad ‘86 Wheel",
+    "name": "Ford Bronco Offroad '86 Wheel",
     "category": "Vehicle Part",
     "subcategory": "Ford Bronco",
     "properties": [],
@@ -33222,7 +33234,7 @@
   },
   {
     "id": "altar-175-1714-76af5c97",
-    "name": "Ford_Bronco (Blue}",
+    "name": "Ford_Bronco (Blue)",
     "category": "Vehicle",
     "subcategory": "Ford Bronco",
     "properties": [],
@@ -33286,7 +33298,7 @@
   },
   {
     "id": "altar-175-1716-05558111",
-    "name": "Bronco_Codriverdoor.",
+    "name": "Bronco_Codriverdoor",
     "category": "Vehicle Part",
     "subcategory": "Ford Bronco",
     "properties": [],
@@ -33542,7 +33554,7 @@
   },
   {
     "id": "altar-176-1734-05558111",
-    "name": "Bronco_Codriverdoor.",
+    "name": "Bronco_Codriverdoor",
     "category": "Vehicle Part",
     "subcategory": "Ford Bronco",
     "properties": [],
@@ -33846,9 +33858,9 @@
   },
   {
     "id": "altar-177-1753-ddf2de39",
-    "name": "GMC {Black}",
+    "name": "GMC (Black)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33875,7 +33887,7 @@
     "id": "altar-177-1754-f2d3499d",
     "name": "GMC (White)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33902,7 +33914,7 @@
     "id": "altar-177-1755-a46e2aba",
     "name": "GMC (Blue)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33929,7 +33941,7 @@
     "id": "altar-177-1756-e10fc389",
     "name": "GMC_driverdoor",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33943,9 +33955,9 @@
   },
   {
     "id": "altar-177-1757-c61066ac",
-    "name": "GMC_Codrvier.",
+    "name": "GMC_Codriver",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33961,7 +33973,7 @@
     "id": "altar-177-1758-b7c97505",
     "name": "GMC_Cargo1",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33977,7 +33989,7 @@
     "id": "altar-177-1759-9ae73101",
     "name": "GMC_Cargo2",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -33993,7 +34005,7 @@
     "id": "altar-177-1760-9a7ed5cb",
     "name": "GMC_Hood",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34009,7 +34021,7 @@
     "id": "altar-177-1761-f44ba075",
     "name": "GMC_Trunk_1",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34025,7 +34037,7 @@
     "id": "altar-177-1762-0f7ef5e2",
     "name": "GMC_Trunk_2",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34071,9 +34083,9 @@
   },
   {
     "id": "altar-177-1765-cd0ede30",
-    "name": "CMC_Cadrvier (Black)",
+    "name": "GMC_Codriver (Black)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34087,9 +34099,9 @@
   },
   {
     "id": "altar-177-1766-4532502b",
-    "name": "CMC_Cargo’ (Black)",
+    "name": "GMC_Cargo1 (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34103,9 +34115,9 @@
   },
   {
     "id": "altar-177-1767-a5b5509c",
-    "name": "CMC_Cargo2 (Black)",
+    "name": "GMC_Cargo2 (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34183,9 +34195,9 @@
   },
   {
     "id": "altar-177-1772-9756db6e",
-    "name": "CMC_Codrvier (White)",
+    "name": "GMC_Codriver (White)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34199,9 +34211,9 @@
   },
   {
     "id": "altar-177-1773-bbe1613c",
-    "name": "CMC_Cargo1 (White)",
+    "name": "GMC_Cargo1 (White)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34217,7 +34229,7 @@
     "id": "altar-178-1774-9b0bb688",
     "name": "GMC_Wheel",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34233,7 +34245,7 @@
     "id": "altar-178-1775-7b9723c8",
     "name": "GMC_driverdoor (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34247,9 +34259,9 @@
   },
   {
     "id": "altar-178-1776-320b3e1f",
-    "name": "GMC_Codnrvier (Black)",
+    "name": "GMC_Codriver (Black)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34263,9 +34275,9 @@
   },
   {
     "id": "altar-178-1777-f9de95db",
-    "name": "GMC_Cargo’ (Black)",
+    "name": "GMC_Cargo1 (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34281,7 +34293,7 @@
     "id": "altar-178-1778-d2507e1e",
     "name": "GMC_Cargo2 (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34297,7 +34309,7 @@
     "id": "altar-178-1779-84b3f024",
     "name": "GMC_Hood (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34313,7 +34325,7 @@
     "id": "altar-178-1780-68663a12",
     "name": "GMC_Trunk_1 (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34329,7 +34341,7 @@
     "id": "altar-178-1781-f72e8aab",
     "name": "GMC_Trunk_2 (Black)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34345,7 +34357,7 @@
     "id": "altar-178-1782-27a6e121",
     "name": "GMC_driverdoor (White)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34359,9 +34371,9 @@
   },
   {
     "id": "altar-178-1783-d108a4ab",
-    "name": "GMC_Codrvier (White)",
+    "name": "GMC_Codriver (White)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34375,9 +34387,9 @@
   },
   {
     "id": "altar-178-1784-31e4c62f",
-    "name": "CMC_Cargo2 (White)",
+    "name": "GMC_Cargo2 (White)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34455,9 +34467,9 @@
   },
   {
     "id": "altar-178-1789-64a3dd30",
-    "name": "CMC_Codrvier (Blue)",
+    "name": "GMC_Codriver (Blue)",
     "category": "Vehicle",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34471,9 +34483,9 @@
   },
   {
     "id": "altar-178-1790-842aaff3",
-    "name": "CMC_Cargo’ (Blue)",
+    "name": "GMC_Cargo1 (Blue)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34487,9 +34499,9 @@
   },
   {
     "id": "altar-178-1791-6b55326a",
-    "name": "CMC_Cargo2 (Blue)",
+    "name": "GMC_Cargo2 (Blue)",
     "category": "Vehicle Part",
-    "subcategory": "Ford Bronco",
+    "subcategory": "GMC",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -34742,7 +34754,7 @@
   },
   {
     "id": "altar-179-1803-26dfec60",
-    "name": "Kamaz_Typhoonk_CoDriver.",
+    "name": "Kamaz_Typhoonk_CoDriver",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34758,7 +34770,7 @@
   },
   {
     "id": "altar-179-1804-b705c744",
-    "name": "Kamaz_Typhoonk_EngineDoor.",
+    "name": "Kamaz_Typhoonk_EngineDoor",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34806,7 +34818,7 @@
   },
   {
     "id": "altar-179-1807-5e17b6ab",
-    "name": "Kamaz_Typhoonk_Cargo2.",
+    "name": "Kamaz_Typhoonk_Cargo2",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34822,7 +34834,7 @@
   },
   {
     "id": "altar-179-1808-d947c26c",
-    "name": "Kamaz_Typhoonk_Cargo3.",
+    "name": "Kamaz_Typhoonk_Cargo3",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34838,7 +34850,7 @@
   },
   {
     "id": "altar-179-1809-983eab3d",
-    "name": "Kamaz_Typhoonk_Cargo4.",
+    "name": "Kamaz_Typhoonk_Cargo4",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34854,7 +34866,7 @@
   },
   {
     "id": "altar-179-1810-1b60c384",
-    "name": "Kamaz_Typhoonk_Cargo5.",
+    "name": "Kamaz_Typhoonk_Cargo5",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34870,7 +34882,7 @@
   },
   {
     "id": "altar-179-1811-1b60c384",
-    "name": "Kamaz_Typhoonk_Cargo5.",
+    "name": "Kamaz_Typhoonk_Cargo5",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34886,7 +34898,7 @@
   },
   {
     "id": "altar-179-1812-1b60c384",
-    "name": "Kamaz_Typhoonk_Cargo5.",
+    "name": "Kamaz_Typhoonk_Cargo5",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -34902,7 +34914,7 @@
   },
   {
     "id": "altar-179-1813-20221e8e",
-    "name": "Kamaz_Typhoonk_Cargo8,",
+    "name": "Kamaz_Typhoonk_Cargo8",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35254,7 +35266,7 @@
   },
   {
     "id": "altar-181-1841-ef18c647",
-    "name": "Kamaz_Typhoonk_Oriver CamoGreen3",
+    "name": "Kamaz_Typhoonk_Driver CamoGreen3",
     "category": "Vehicle",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35302,7 +35314,7 @@
   },
   {
     "id": "altar-181-1844-b6611bdf",
-    "name": "Kamaz_TyphoonK_Trunk CamoGreen? 2h",
+    "name": "Kamaz_TyphoonK_Trunk CamoGreen 2h",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35446,7 +35458,7 @@
   },
   {
     "id": "altar-181-1853-596c5614",
-    "name": "Kamaz_Typhoonk_Oriver RedCamo",
+    "name": "Kamaz_Typhoonk_Driver RedCamo",
     "category": "Vehicle",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35510,7 +35522,7 @@
   },
   {
     "id": "altar-182-1858-343211ab",
-    "name": "Kamaz_Typhoonk_Cargo2 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo2 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35526,7 +35538,7 @@
   },
   {
     "id": "altar-182-1859-93952aa2",
-    "name": "Kamaz_Typhoonk_Cargo3 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo3 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35542,7 +35554,7 @@
   },
   {
     "id": "altar-182-1860-ae6dc0f9",
-    "name": "Kamaz_Typhoonk_Cargo4 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo4 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35558,7 +35570,7 @@
   },
   {
     "id": "altar-182-1861-fe15c5fe",
-    "name": "Kamaz_Typhoonk_Cargo5 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo5 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35574,7 +35586,7 @@
   },
   {
     "id": "altar-182-1862-2a484770",
-    "name": "Kamaz_Typhoonk_Cargo6 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo6 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35590,7 +35602,7 @@
   },
   {
     "id": "altar-182-1863-dde027cb",
-    "name": "Kamaz_Typhoonk_Cargo7 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo7 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35606,7 +35618,7 @@
   },
   {
     "id": "altar-182-1864-ae90c3ac",
-    "name": "Kamaz_Typhoonk_Cargo8 RedCamo.",
+    "name": "Kamaz_Typhoonk_Cargo8 RedCamo",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35654,7 +35666,7 @@
   },
   {
     "id": "altar-182-1867-797114e8",
-    "name": ".Kamaz_Typhoonk_EngineDoor White 120,",
+    "name": "Kamaz_Typhoonk_EngineDoor White 120",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35686,7 +35698,7 @@
   },
   {
     "id": "altar-182-1869-6f661821",
-    "name": "Kamaz_Typhoonk_Cargo’l White",
+    "name": "Kamaz_Typhoonk_Cargo1 White",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -35990,7 +36002,7 @@
   },
   {
     "id": "altar-183-1888-e0897d5f",
-    "name": "Kamaz_Typhoonk_Cargo? Black",
+    "name": "Kamaz_Typhoonk_Cargo2 Black",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -36086,7 +36098,7 @@
   },
   {
     "id": "altar-183-1894-c4f8adfe",
-    "name": "Kamaz_Typhoonk_Cargo’l Rusty",
+    "name": "Kamaz_Typhoonk_Cargo1 Rusty",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -36294,7 +36306,7 @@
   },
   {
     "id": "altar-184-1907-e0897d5f",
-    "name": "Kamaz_Typhoonk_Cargo? Black",
+    "name": "Kamaz_Typhoonk_Cargo2 Black",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -36390,7 +36402,7 @@
   },
   {
     "id": "altar-184-1913-5e0f5422",
-    "name": "Kamaz_Typhoonk_Cargo’ Rusty —",
+    "name": "Kamaz_Typhoonk_Cargo1 Rusty —",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -36470,7 +36482,7 @@
   },
   {
     "id": "altar-184-1918-a3c9564f",
-    "name": "Kamaz_Typhoonk_Cargo? Rusty",
+    "name": "Kamaz_Typhoonk_Cargo2 Rusty",
     "category": "Vehicle Part",
     "subcategory": "Kamaz Typhoonk",
     "properties": [],
@@ -36502,7 +36514,7 @@
   },
   {
     "id": "altar-194-1920-eb9cccc1",
-    "name": "< DodgeRam",
+    "name": "DodgeRam 3500",
     "category": "Vehicle",
     "subcategory": "DodgeRam 3500",
     "properties": [],
@@ -36513,8 +36525,12 @@
       "status": "unverified",
       "source": "Trader-Altar screenshot",
       "image": 194,
-      "rawName": "< DodgeRam"
-    }
+      "rawName": "< DodgeRam",
+      "priceSource": "Existing DodgeRam_3500 (A145) trader listing: buy 700000 / sell 350000"
+    },
+    "notes": [
+      "Name and price reconstructed from existing DodgeRam 3500 master/adjacent listing data. Duplicate candidate: verify whether both rows represent separate listings."
+    ]
   },
   {
     "id": "altar-194-1921-74da5c45",
@@ -36550,7 +36566,7 @@
   },
   {
     "id": "altar-194-1923-93d9241b",
-    "name": "DodgeRam_3500 (Grey}",
+    "name": "DodgeRam_3500 (Grey)",
     "category": "Vehicle",
     "subcategory": "DodgeRam 3500",
     "properties": [],
@@ -36758,9 +36774,9 @@
   },
   {
     "id": "altar-201-1942-eb9cccc1",
-    "name": "< DodgeRam",
+    "name": "DodgeRam 3500",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "DodgeRam 3500",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -36769,14 +36785,18 @@
       "status": "unverified",
       "source": "Trader-Altar screenshot",
       "image": 201,
-      "rawName": "< DodgeRam"
-    }
+      "rawName": "< DodgeRam",
+      "priceSource": "Existing DodgeRam_3500 (A145) trader listing: buy 700000 / sell 350000"
+    },
+    "notes": [
+      "Name and price reconstructed from existing DodgeRam 3500 master/adjacent listing data. Duplicate candidate: verify whether both rows represent separate listings."
+    ]
   },
   {
     "id": "altar-201-1952-5917e8e0",
-    "name": "DodgeRam_3500 (A145) .",
+    "name": "DodgeRam_3500 (A145) ",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "DodgeRam 3500",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -36803,7 +36823,7 @@
     "id": "altar-201-1953-66e3e544",
     "name": "DodgeRam_3500 (BlueTiger)",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "DodgeRam 3500",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -36830,7 +36850,7 @@
     "id": "altar-201-1954-d3e51aee",
     "name": "DodgeRam_3500 (KBTSR) ve",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "DodgeRam 3500",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -36905,7 +36925,7 @@
     "id": "altar-201-1962-619a82f2",
     "name": "DodgeRam_3500_Wheel",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "DodgeRam 3500",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -36921,7 +36941,7 @@
     "id": "altar-201-1963-d234fe92",
     "name": "DodgeRam_3500_WheelFlashy",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "DodgeRam 3500",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -37028,33 +37048,6 @@
       "source": "Trader-Altar screenshot",
       "image": 202,
       "rawName": "2014 Chevy Tahoe Brown"
-    }
-  },
-  {
-    "id": "altar-202-1968-bf97ae7e",
-    "name": "2014 Chevy Tanoe DarkBlue",
-    "category": "Vehicle",
-    "subcategory": "Tahoe",
-    "properties": [],
-    "source": {
-      "modId": "unknown"
-    },
-    "evidence": {
-      "status": "unverified",
-      "source": "Trader-Altar screenshot",
-      "image": 202,
-      "rawName": "2014 Chevy Tanoe DarkBlue"
-    },
-    "vehicle": {
-      "inferredAttachmentPoints": [
-        "Wheel",
-        "Driver",
-        "CoDriver",
-        "Cargo",
-        "Hood",
-        "Trunk"
-      ],
-      "attachmentEvidence": "Inferred from vehicle part names shown in the Altar trader interface; attachment point display names are provisional."
     }
   },
   {
@@ -38000,7 +37993,7 @@
     "id": "altar-206-2048-97f1bcaa",
     "name": "MotorHome White",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38027,7 +38020,7 @@
     "id": "altar-206-2049-ed400764",
     "name": "MotorHome Rust",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38054,7 +38047,7 @@
     "id": "altar-206-2050-ae285002",
     "name": "MotorHome GreenCamo",
     "category": "Vehicle",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38081,7 +38074,7 @@
     "id": "altar-206-2051-482d73be",
     "name": "MotorHome_DriverDoor",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38097,7 +38090,7 @@
     "id": "altar-206-2052-954bfdb9",
     "name": "MotorHome_Hood Apo",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38113,7 +38106,7 @@
     "id": "altar-206-2053-1b407d94",
     "name": "MotorHome_Hood2 Apo",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38129,7 +38122,7 @@
     "id": "altar-206-2054-facff106",
     "name": "MotorHomeRV_Wheel",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38145,7 +38138,7 @@
     "id": "altar-206-2055-21711bea",
     "name": "MotorHome_DriverDoor2",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38161,7 +38154,7 @@
     "id": "altar-206-2056-b6499cc9",
     "name": "MotorHome_Hood 2",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38177,7 +38170,7 @@
     "id": "altar-206-2057-0b24dc94",
     "name": "MotorHome_Hoodz i",
     "category": "Vehicle Part",
-    "subcategory": "Tahoe",
+    "subcategory": "MotorHome",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -38702,7 +38695,7 @@
   },
   {
     "id": "altar-207-2081-296bafa2",
-    "name": "Toyota4Runner Hood:",
+    "name": "Toyota4Runner Hood",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -38894,7 +38887,7 @@
   },
   {
     "id": "altar-208-2093-1db43b7d",
-    "name": "Toyota4Runner CargoDoorl CamoPurple",
+    "name": "Toyota4Runner CargoDoor1 CamoPurple",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39086,7 +39079,7 @@
   },
   {
     "id": "altar-208-2105-b3982ddc",
-    "name": "Toyotad4Runner CargoDoor CamaWhite",
+    "name": "Toyota4Runner CargoDoor CamoWhite",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39278,7 +39271,7 @@
   },
   {
     "id": "altar-209-2117-edeaf1cc",
-    "name": "Toyota4Runner CoDriverDoor BOSS:",
+    "name": "Toyota4Runner CoDriverDoor BOSS",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39294,7 +39287,7 @@
   },
   {
     "id": "altar-209-2118-687525c5",
-    "name": "Toyota4Runner CargoDoor1 BOSS:",
+    "name": "Toyota4Runner CargoDoor1 BOSS",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39310,7 +39303,7 @@
   },
   {
     "id": "altar-209-2119-4ded35e5",
-    "name": "Toyota4Runner CargoDoor2 BOSS:",
+    "name": "Toyota4Runner CargoDoor2 BOSS",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39326,7 +39319,7 @@
   },
   {
     "id": "altar-209-2120-ac206fd7",
-    "name": "Toyota4Runner Hood BOSS:",
+    "name": "Toyota4Runner Hood BOSS",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39342,7 +39335,7 @@
   },
   {
     "id": "altar-209-2121-2a33105e",
-    "name": "Toyota4Runner Trunk BOSS.",
+    "name": "Toyota4Runner Trunk BOSS",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39486,7 +39479,7 @@
   },
   {
     "id": "altar-210-2130-ee06959d",
-    "name": "Toyota4 Runner CoDriverDoor Red",
+    "name": "Toyota4Runner CoDriverDoor Red",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39502,7 +39495,7 @@
   },
   {
     "id": "altar-210-2131-7df43835",
-    "name": "Toyota4 Runner CargoDoor1 CamoRed",
+    "name": "Toyota4Runner CargoDoor1 CamoRed",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39518,7 +39511,7 @@
   },
   {
     "id": "altar-210-2132-75b19e7d",
-    "name": "Toyota4 Runner CargoDoorz Red",
+    "name": "Toyota4Runner CargoDoor2 Red",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39534,7 +39527,7 @@
   },
   {
     "id": "altar-210-2133-9dbe44aa",
-    "name": "Toyota4 Runner Hood Red",
+    "name": "Toyota4Runner Hood Red",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39598,7 +39591,7 @@
   },
   {
     "id": "altar-210-2137-ae55d661",
-    "name": "Toyota4Runner CargoDoar’ Yellow,",
+    "name": "Toyota4Runner CargoDoor1 Yellow",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39630,7 +39623,7 @@
   },
   {
     "id": "altar-210-2139-c125151d",
-    "name": "Toyota4Runner Hoad Yellow",
+    "name": "Toyota4Runner Hood Yellow",
     "category": "Vehicle",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39694,7 +39687,7 @@
   },
   {
     "id": "altar-210-2143-bde949c2",
-    "name": "Toyota4Runner CargoDoor’ Pink",
+    "name": "Toyota4Runner CargoDoor1 Pink",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39710,7 +39703,7 @@
   },
   {
     "id": "altar-210-2144-60b184f8",
-    "name": "Toyota4Runner CargoDoor?2 Pink",
+    "name": "Toyota4Runner CargoDoor2 Pink",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39726,7 +39719,7 @@
   },
   {
     "id": "altar-210-2145-e61db92e",
-    "name": "Toyota4Runner Hoad Pink",
+    "name": "Toyota4Runner Hood Pink",
     "category": "Vehicle",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -39966,7 +39959,7 @@
   },
   {
     "id": "altar-211-2161-8605786e",
-    "name": "Toyota4Runner DriverDoor CamoBluc",
+    "name": "Toyota4Runner DriverDoor CamoBlue",
     "category": "Vehicle Part",
     "subcategory": "Toyota Runner",
     "properties": [],
@@ -40170,7 +40163,7 @@
   },
   {
     "id": "altar-212-2171-c8479346",
-    "name": "DadgeRam_B8OSS_Teal",
+    "name": "DodgeRam_BOSS_Teal",
     "category": "Vehicle",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40213,7 +40206,7 @@
   },
   {
     "id": "altar-212-2173-7fc44ea4",
-    "name": "DadgeRam_CoDriver_Door.",
+    "name": "DodgeRam_CoDriver_Door",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40325,7 +40318,7 @@
   },
   {
     "id": "altar-212-2180-92b27ee6",
-    "name": "DadgeRam CoDriver Red",
+    "name": "DodgeRam CoDriver Red",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40341,7 +40334,7 @@
   },
   {
     "id": "altar-212-2181-b09608c9",
-    "name": "DadgeRam Trunk Red",
+    "name": "DodgeRam Trunk Red",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40357,7 +40350,7 @@
   },
   {
     "id": "altar-212-2182-26d9619c",
-    "name": "DadgeRam Cargo’ Red",
+    "name": "DodgeRam Cargo1 Red",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40373,7 +40366,7 @@
   },
   {
     "id": "altar-212-2183-28dd9cc7",
-    "name": "DadgeRam Cargo2 Red",
+    "name": "DodgeRam Cargo2 Red",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40389,7 +40382,7 @@
   },
   {
     "id": "altar-212-2184-e50559be",
-    "name": "DadgeRam Haad Red",
+    "name": "DodgeRam Hood Red",
     "category": "Vehicle",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40405,7 +40398,7 @@
   },
   {
     "id": "altar-212-2185-9c759d09",
-    "name": "DadgeRam Driver Green",
+    "name": "DodgeRam Driver Green",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40421,7 +40414,7 @@
   },
   {
     "id": "altar-212-2186-55e1b18f",
-    "name": "DadgeRam CoDriver Green",
+    "name": "DodgeRam CoDriver Green",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40437,7 +40430,7 @@
   },
   {
     "id": "altar-212-2187-333058e4",
-    "name": "DadgeRam Trunk Green",
+    "name": "DodgeRam Trunk Green",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40469,7 +40462,7 @@
   },
   {
     "id": "altar-213-2189-76b0e753",
-    "name": "DodgeRam Cargo’ Green",
+    "name": "DodgeRam Cargo1 Green",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40581,7 +40574,7 @@
   },
   {
     "id": "altar-213-2196-74fe753e",
-    "name": "DodgeRam Cargo? Blue",
+    "name": "DodgeRam Cargo2 Blue",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40693,7 +40686,7 @@
   },
   {
     "id": "altar-213-2203-6f1e853a",
-    "name": "DodgeRam_Hood_camobtue",
+    "name": "DodgeRam_Hood_camoblue",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40773,7 +40766,7 @@
   },
   {
     "id": "altar-213-2208-9a429e73",
-    "name": "DodgeRam Cargo? Black",
+    "name": "DodgeRam Cargo2 Black",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40789,7 +40782,7 @@
   },
   {
     "id": "altar-214-2209-e9784de9",
-    "name": "DodgeRam Cargo’ Black",
+    "name": "DodgeRam Cargo1 Black",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40821,7 +40814,7 @@
   },
   {
     "id": "altar-214-2211-24395d65",
-    "name": "DodgeRam_Driver_Door_Tea!",
+    "name": "DodgeRam_Driver_Door_Teal",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -40869,7 +40862,7 @@
   },
   {
     "id": "altar-214-2214-60a32221",
-    "name": "DodgeRam_Cargo'_Teal",
+    "name": "DodgeRam_Cargo1_Teal",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41029,7 +41022,7 @@
   },
   {
     "id": "altar-214-2224-2ab98762",
-    "name": "DodgeRam_CoDriver_Door_camowhitc",
+    "name": "DodgeRam_CoDriver_Door_camowhite",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41045,7 +41038,7 @@
   },
   {
     "id": "altar-214-2225-f8be5c4e",
-    "name": "DodgeRam_Trunk_cammowhite",
+    "name": "DodgeRam_Trunk_camowhite",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41237,7 +41230,7 @@
   },
   {
     "id": "altar-215-2237-a6159ec9",
-    "name": "DadgeRam_CoDriver_Door_camogreen",
+    "name": "DodgeRam_CoDriver_Door_camogreen",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41269,7 +41262,7 @@
   },
   {
     "id": "altar-215-2239-c43bb982",
-    "name": "DadgeRam_Cargo1_camogreen",
+    "name": "DodgeRam_Cargo1_camogreen",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41285,7 +41278,7 @@
   },
   {
     "id": "altar-215-2240-1c5bffeb",
-    "name": "DadgeRam_Cargo2_camogreen",
+    "name": "DodgeRam_Cargo2_camogreen",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41621,7 +41614,7 @@
   },
   {
     "id": "altar-216-2261-183fc874",
-    "name": "DodgeRam_Oriver_Door_camonuke",
+    "name": "DodgeRam_Driver_Door_camonuke",
     "category": "Vehicle Part",
     "subcategory": "Dodge Ram BOSS",
     "properties": [],
@@ -41799,7 +41792,7 @@
     "id": "altar-217-2272-9fff1d8a",
     "name": "UA Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41826,7 +41819,7 @@
     "id": "altar-217-2273-018e6f11",
     "name": "UA2 Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41853,7 +41846,7 @@
     "id": "altar-217-2274-ed0498b6",
     "name": "UA Green Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41880,7 +41873,7 @@
     "id": "altar-217-2275-f33e8699",
     "name": "UA Black Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41907,7 +41900,7 @@
     "id": "altar-217-2276-83d6015f",
     "name": "UA White Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41934,7 +41927,7 @@
     "id": "altar-217-2277-0df39bd2",
     "name": "UA Carbon Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41961,7 +41954,7 @@
     "id": "altar-217-2278-b17e52f4",
     "name": "UA OldBody Ford Raptor Scorpio 3.5 AT 4x4",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"
@@ -41988,7 +41981,7 @@
     "id": "altar-217-2279-b909d64b",
     "name": "UA Koneco Ford Raptor Scorpio",
     "category": "Vehicle",
-    "subcategory": "Dodge Ram BOSS",
+    "subcategory": "Ford Raptor",
     "properties": [],
     "source": {
       "modId": "unknown"

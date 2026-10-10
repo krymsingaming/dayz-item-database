@@ -1,13 +1,17 @@
-# Noobs Only — DayZ Item Database Beta 1.0.2
+# Noobs Only — DayZ Item Database Beta 1.0.3
 
-Beta 1.0.2 is a source-backed Trader-Altar vehicle-name correction release following Beta 1.0.1. The major UI architecture remains unchanged.
+Beta 1.0.3 is a data-quality cleanup release for the static DayZ item and trader database. It keeps the existing UI and data model, corrects hundreds of high-confidence OCR/name issues, repairs trader category/vendor references, and documents remaining ambiguous entries rather than guessing.
 
-## Beta 1.0.2 data changes
-- Applied the user-confirmed Jeep, Bronco, Tahoe, and Toyota 4Runner vehicle-name corrections from the Beta 1.0.1 review.
-- Removed duplicate vehicle-part item records where a clean record already existed and reassigned their trader listings to the clean record.
-- Corrected the confirmed 2014 Chevy Tahoe Green and Pink variant typos.
-- Preserved `2014 Chevy Tahoe Hea 20 $` because the evidence does not establish whether it represents the missing DarkBlue or Red variant.
-- Did not guess unrelated OCR strings that were not resolved by the user.
+## Beta 1.0.3 data changes
+- Corrected more than 260 item-name OCR, spelling, and punctuation issues, especially across vehicle variants and vehicle parts.
+- Corrected duplicate Jeep Gladiator category naming and regrouped clearly miscategorized LAPV, MRAP, Blackouts Baja, GMC, Ford Raptor, MotorHome, and DodgeRam entries.
+- Reconstructed malformed M1114 Humvee and DodgeRam 3500 rows where the source split part of the vehicle name into a price; these remain flagged as possible duplicates.
+- Fixed the Hunting and Fishing vendor ID for 106 listings and replaced `Uncategorized` with the available item subcategory/category.
+- Consolidated the screenshot-backed Tahoe DarkBlue listing into the canonical item record.
+- Kept ambiguous names and suspicious prices documented in `DATA-QUALITY-AUDIT.md` for future verification.
+- Retained the Google Forms reporting connection and prefill support.
+
+See `CHANGELOG.md` for project history, `DATA-QUALITY-AUDIT.md` for this release's corrections and unresolved items, and `DATA-REVIEW.md` for the latest review status.
 
 ## Beta 1.0.1 data changes
 - Applied the user's follow-up corrections from `DATA-REVIEW.md`.

@@ -525,14 +525,14 @@
         },
         {
           "id": "body-hoodies",
-          "label": "Hoodies & Sweaters",
+          "label": "Hoodies & Sweaterss",
           "match": {
             "categories": [
               "Body"
             ],
             "subcategories": [
               "Hoodie / Sweater",
-              "Hoodies & Sweater"
+              "Hoodies & Sweaters"
             ]
           }
         }
@@ -827,7 +827,7 @@
               "Fishing"
             ],
             "subcategories": [
-              "Tackle and Knifes",
+              "Tackle and Knives",
               "Fish",
               "Animal"
             ]
