@@ -215,7 +215,7 @@ function primaryFactsHTML(item){
 function priceText(summary){return summary?(summary.minimum===summary.maximum?Number(summary.minimum).toLocaleString():`${Number(summary.minimum).toLocaleString()}–${Number(summary.maximum).toLocaleString()}`):null}
 function priceInfo(summary,label,action){if(!summary)return label?`${label}: ${unavailableIcon(action)}`:unavailableIcon(action);const value=summary.values.length?priceText(summary):unavailableIcon(action);const mixed=summary.missingCount>0&&summary.values.length?` ${unavailableIcon(action)}`:"";return label?`${label}: ${value}${mixed}`:`${value}${mixed}`}
 function mainLineTrader(item,listings){
-  if(!listings.length)return `<span class="trader-inline"><span class="trader-label">Trader Info</span> ${marker("item",item.id,"availability.trader",true)}</span>`;
+  if(!listings.length){const availability=item.availability?.trader===false?`<span class="meta">Not trader-sold</span>`:marker("item",item.id,"availability.trader",true);return `<span class="trader-inline"><span class="trader-label">Trader Info</span> ${availability}</span>`;}
   const buy=getListingPriceSummary(listings,"buy"),sell=getListingPriceSummary(listings,"sell");
   return `<span class="trader-inline"><span class="trader-label">Trader Info</span> ${priceInfo(buy,"Buy","buy")} ${priceInfo(sell,"Sell","sell")}</span>`;
 }

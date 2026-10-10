@@ -1,9 +1,9 @@
 {
   "stage": "beta",
-  "version": "1.0.3",
-  "displayVersion": "Beta 1.0.3",
-  "previousBuild": "Beta 1.0.2",
+  "version": "1.0.4",
+  "displayVersion": "Beta 1.0.4",
+  "previousBuild": "Beta 1.0.3",
   "status": "public beta candidate",
   "date": "2026-10-09",
-  "summary": "Trader and item-name OCR cleanup, model-family category normalization, and duplicate Tahoe DarkBlue consolidation."
+  "summary": "Fixed desktop sidebar clipping, corrected header badge version, and clarified availability for loose ammunition that only comes from boxed ammo."
 }

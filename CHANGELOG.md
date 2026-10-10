@@ -18,6 +18,13 @@ The pre-alpha portion below is a **reconstructed project history** from the pres
 
 # Beta
 
+## Beta 1.0.4 — sidebar, version badge, and ammunition availability
+- Fixed the top-right version badge so it displays Beta 1.0.4 consistently with the page title, subtitle, and footer.
+- Adjusted desktop sidebar sizing so the category explorer can scroll within the available panel height and the Mod filter remains visible above the fixed reporting footer; mobile/tablet sidebar behavior remains content-based.
+- Marked the 19 loose-ammunition records that have a corresponding boxed form as not trader-sold and not world-spawn loot. Added explanatory notes that these loose rounds come from opening boxed ammunition.
+- Updated the item-list Trader Info display to show “Not trader-sold” for known non-traded items instead of an actionable missing-information warning. Loose items without a boxed counterpart, such as Flare and Bolt, were not changed by this rule.
+
+
 ## Beta 1.0.2 — Previous release
 
 ### Trader-Altar vehicle-name corrections

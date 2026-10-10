@@ -31,3 +31,9 @@ The Google Forms responder URL and prefill entry IDs remain configured. The site
 
 ## Validation
 Final validation passed: all JSON files parse, JavaScript syntax checks, item/listing IDs are unique, and every trader listing references an existing item and a defined vendor. ZIP integrity was checked before delivery.
+
+
+## Beta 1.0.4 availability clarification
+- The 19 loose-ammunition items with a corresponding boxed item are explicitly marked `availability.trader: false` and `availability.worldSpawn: false`. Their boxed counterparts remain the records intended for loot/trader availability.
+- Loose Flare and Bolt were not assigned these false values because they have no boxed-ammunition target in the current item data; their existing trader behavior remains unchanged.
+- The database no longer flags known non-traded loose ammo as a missing trader-availability warning in the main item row.

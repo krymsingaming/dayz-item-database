@@ -258,7 +258,14 @@
     "ballistics": {
       "damage": 150,
       "mod": "Vanilla"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "762x54-tracer",
@@ -278,7 +285,14 @@
     "ballistics": {
       "damage": 150,
       "mod": "Vanilla"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "box-762x54",
@@ -329,7 +343,14 @@
     "ballistics": {
       "damage": 40,
       "mod": "Vanilla"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "box-9x19",
@@ -365,7 +386,14 @@
       "damage": 75,
       "dieselOverride": 150,
       "mod": "Vanilla"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "9x39-ap",
@@ -388,7 +416,14 @@
       "armor": 3,
       "dieselArmor": 115,
       "mod": "Vanilla"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "box-9x39",
@@ -42033,7 +42068,14 @@
     },
     "ammo": {
       "caliber": "5.45x39mm"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "5-45x39-tracer",
@@ -42049,7 +42091,14 @@
     },
     "ammo": {
       "caliber": "5.45x39mm"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "5-56x45",
@@ -42066,7 +42115,14 @@
     },
     "ammo": {
       "caliber": "5.56x45mm"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "5-56x45-tracer",
@@ -42082,7 +42138,14 @@
     },
     "ammo": {
       "caliber": "5.56x45mm"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "7-62x39",
@@ -42098,7 +42161,14 @@
     },
     "ammo": {
       "caliber": "7.62x39mm"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "7-62x39-tracer",
@@ -42114,7 +42184,14 @@
     },
     "ammo": {
       "caliber": "7.62x39mm"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "308-win",
@@ -42131,7 +42208,14 @@
     },
     "ammo": {
       "caliber": ".308 WIN"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "308-win-tracer",
@@ -42148,7 +42232,14 @@
     },
     "ammo": {
       "caliber": ".308 WIN"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "357",
@@ -42164,7 +42255,14 @@
     },
     "ammo": {
       "caliber": ".357"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "45-acp",
@@ -42181,7 +42279,14 @@
     },
     "ammo": {
       "caliber": ".45 ACP"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "380-acp",
@@ -42197,7 +42302,14 @@
     },
     "ammo": {
       "caliber": ".380 ACP"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "22-lr",
@@ -42214,7 +42326,14 @@
     },
     "ammo": {
       "caliber": ".22 LR"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "12ga-00-buckshot",
@@ -42230,7 +42349,14 @@
     },
     "ammo": {
       "caliber": "12 Gauge"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "12ga-rifled-slug",
@@ -42246,7 +42372,14 @@
     },
     "ammo": {
       "caliber": "12 Gauge"
-    }
+    },
+    "availability": {
+      "trader": false,
+      "worldSpawn": false
+    },
+    "notes": [
+      "Loose ammunition is produced by opening its boxed version; it is not a world-spawn loot item and cannot be bought from or sold to traders."
+    ]
   },
   {
     "id": "vehicle-key-vehicle-key",

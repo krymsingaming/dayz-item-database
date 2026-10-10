@@ -1,6 +1,10 @@
-# Noobs Only — DayZ Item Database Beta 1.0.3
+# Noobs Only — DayZ Item Database Beta 1.0.4
 
-Beta 1.0.3 is a data-quality cleanup release for the static DayZ item and trader database. It keeps the existing UI and data model, corrects hundreds of high-confidence OCR/name issues, repairs trader category/vendor references, and documents remaining ambiguous entries rather than guessing.
+Beta 1.0.4 is a maintenance patch on top of the Beta 1.0.3 data-quality cleanup for the static DayZ item and trader database. It keeps the existing UI and data model, corrects hundreds of high-confidence OCR/name issues, repairs trader category/vendor references, and documents remaining ambiguous entries rather than guessing.
+
+## Beta 1.0.4 maintenance changes
+- Fixed the desktop category sidebar clipping near the fixed report footer and corrected the top-right version badge.
+- Corrected availability and warning behavior for 19 loose-ammunition records whose boxed versions are the actual trader/worldspawn items.
 
 ## Beta 1.0.3 data changes
 - Corrected more than 260 item-name OCR, spelling, and punctuation issues, especially across vehicle variants and vehicle parts.
